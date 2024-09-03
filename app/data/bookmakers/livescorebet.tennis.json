@@ -1,0 +1,1592 @@
+{
+    "header": {
+        "requestId": "c7002aea-ee43-40f1-beb9-1bacf3eae612",
+        "versionApi": "2.35.0-714",
+        "serverTime": "2024-07-06 06:48:32",
+        "version": "20240706064832790",
+        "viewType": "EventView",
+        "sourceUid": "35a96aff-328d-4581-98f4-bde023236c13"
+    },
+    "event": {
+        "id": "SBTE_2_1021155070",
+        "originalId": "1021155070",
+        "ids": {
+            "LSM": "1281183"
+        },
+        "categoryId": "SBTC3_44300",
+        "sportId": "15",
+        "name": "Kalinskaya, Anna - Samsonova, Liudmila",
+        "shortName": "Kalinskaya, Anna - Samsonova, Liudmila",
+        "startTime": "2024-07-06 10:00:00",
+        "type": "HeadToHead",
+        "state": "NOTSTARTED",
+        "version": "20240705131518069",
+        "categories": [
+            {
+                "id": "SBTC3_44300",
+                "originalId": "1000096477",
+                "name": "Wimbledon Women",
+                "type": "Competition",
+                "sportName": "Tennis",
+                "countryCode": "GBR",
+                "countryName": "United Kingdom",
+                "childsCount": 0,
+                "eventGroups": [
+                    {
+                        "id": "6279016f8f4b7d497e064132",
+                        "name": "Outright",
+                        "type": "SINGLE_OUTRIGHT",
+                        "rank": 1
+                    },
+                    {
+                        "id": "62b866340d667c2a8800e61e",
+                        "name": "Specials",
+                        "type": "MULTIPLE_OUTRIGHTS",
+                        "rank": 7
+                    },
+                    {
+                        "id": "62b865223006f24cc2bddb07",
+                        "name": "Quarter Winners",
+                        "type": "MULTIPLE_OUTRIGHTS",
+                        "rank": 3
+                    },
+                    {
+                        "id": "0",
+                        "name": "Other",
+                        "rank": 100000
+                    }
+                ],
+                "eventGroupType": "H2H",
+                "iconUrl": "wimbledon.jpg"
+            },
+            {
+                "id": "SBTC1_6",
+                "originalId": "1000093193",
+                "name": "Tennis",
+                "type": "Sport",
+                "childsCount": 0,
+                "eventGroups": [],
+                "eventGroupType": "H2H"
+            }
+        ],
+        "participants": [
+            {
+                "id": "SBTP_2_1002336625",
+                "name": "Kalinskaya, Anna",
+                "venueRole": "Home"
+            },
+            {
+                "id": "SBTP_2_1002141855",
+                "name": "Samsonova, Liudmila",
+                "venueRole": "Away"
+            }
+        ],
+        "players": [],
+        "marketGroups": [
+            {
+                "id": -1,
+                "name": "A-Z",
+                "rank": -1,
+                "type": "AZ"
+            },
+            {
+                "id": 640,
+                "name": "Popular",
+                "rank": 1
+            },
+            {
+                "id": 642,
+                "name": "Games",
+                "rank": 3
+            },
+            {
+                "id": 649,
+                "name": "Sets",
+                "rank": 4
+            },
+            {
+                "id": 0,
+                "name": "Other",
+                "rank": 10000000,
+                "type": "OTHER"
+            }
+        ],
+        "tags": [
+            "OFFERED_LIVE"
+        ],
+        "groupRanks": [
+            {
+                "groupId": "0",
+                "rank": 100000
+            }
+        ],
+        "scoreboard": {
+            "eventId": "SBTE_2_1021155070",
+            "version": "20240704191133169",
+            "sportId": "15",
+            "period": {
+                "id": "PRE_GAME",
+                "name": "Not started",
+                "shortName": "Not started"
+            },
+            "timer": {
+                "stopped": true,
+                "countsDown": false,
+                "visible": false
+            }
+        },
+        "liveAlerts": {
+            "coverage": "FULL"
+        },
+        "media": [
+            {
+                "provider": "BET_RADAR",
+                "type": "MATCH_TRACKER",
+                "eventId": "51041835"
+            },
+            {
+                "provider": "BET_RADAR_STATS",
+                "type": "STATS",
+                "eventId": "51041835"
+            }
+        ],
+        "provider": "SB",
+        "markets": [
+            {
+                "id": "SBTM_2_1021155070_CMM15_1",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Game Handicap",
+                "marketKind": "TWO_WAY_HANDICAP",
+                "version": "20240705181555169",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300600
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100700
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 498,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575583",
+                        "name": "{HOME_TEAM} +4.5",
+                        "shortName": "{HOME_TEAM} +4.5",
+                        "kind": "REGULAR",
+                        "odds": 1.27,
+                        "displayOdds": {
+                            "decimal": "1.27",
+                            "fractional": "27/100"
+                        },
+                        "hcp": "4.5",
+                        "version": "20240705181554644",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575584",
+                        "name": "{AWAY_TEAM} -4.5",
+                        "shortName": "{AWAY_TEAM} -4.5",
+                        "kind": "REGULAR",
+                        "odds": 3.5,
+                        "displayOdds": {
+                            "decimal": "3.50",
+                            "fractional": "5/2"
+                        },
+                        "hcp": "-4.5",
+                        "version": "20240705181554644",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467579899",
+                        "name": "{HOME_TEAM} -1.5",
+                        "shortName": "{HOME_TEAM} -1.5",
+                        "kind": "REGULAR",
+                        "odds": 2.28,
+                        "displayOdds": {
+                            "decimal": "2.28",
+                            "fractional": "5/4"
+                        },
+                        "hcp": "-1.5",
+                        "version": "20240705181554889",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467579900",
+                        "name": "{AWAY_TEAM} +1.5",
+                        "shortName": "{AWAY_TEAM} +1.5",
+                        "kind": "REGULAR",
+                        "odds": 1.6,
+                        "displayOdds": {
+                            "decimal": "1.60",
+                            "fractional": "3/5"
+                        },
+                        "hcp": "1.5",
+                        "version": "20240705181554889",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467579901",
+                        "name": "{HOME_TEAM} -4.5",
+                        "shortName": "{HOME_TEAM} -4.5",
+                        "kind": "REGULAR",
+                        "odds": 4.3,
+                        "displayOdds": {
+                            "decimal": "4.30",
+                            "fractional": "33/10"
+                        },
+                        "hcp": "-4.5",
+                        "version": "20240705181554695",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467579902",
+                        "name": "{AWAY_TEAM} +4.5",
+                        "shortName": "{AWAY_TEAM} +4.5",
+                        "kind": "REGULAR",
+                        "odds": 1.2,
+                        "displayOdds": {
+                            "decimal": "1.20",
+                            "fractional": "1/5"
+                        },
+                        "hcp": "4.5",
+                        "version": "20240705181554695",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001427539"
+            },
+            {
+                "id": "SBTM_2_2445163287",
+                "eventId": "SBTE_2_1021155070",
+                "name": "{HOME_TEAM} to win at least one set",
+                "marketKind": "YES_NO",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 649,
+                        "rank": 401400
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575590",
+                        "name": "Yes",
+                        "shortName": "Yes",
+                        "kind": "REGULAR",
+                        "odds": 1.41,
+                        "displayOdds": {
+                            "decimal": "1.41",
+                            "fractional": "2/5"
+                        },
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "YES",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575592",
+                        "name": "No",
+                        "shortName": "No",
+                        "kind": "REGULAR",
+                        "odds": 2.88,
+                        "displayOdds": {
+                            "decimal": "2.88",
+                            "fractional": "15/8"
+                        },
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "NO",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "2100017183"
+            },
+            {
+                "id": "SBTM_2_2445089624",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Match Odds",
+                "marketKind": "THREE_WAY",
+                "version": "20240705181555169",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100000
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": true,
+                "layoutId": 536,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467290968",
+                        "name": "{HOME_TEAM}",
+                        "shortName": "{HOME_TEAM}",
+                        "kind": "REGULAR",
+                        "odds": 2.04,
+                        "displayOdds": {
+                            "decimal": "2.04",
+                            "fractional": "26/25"
+                        },
+                        "version": "20240705181554889",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467290971",
+                        "name": "{AWAY_TEAM}",
+                        "shortName": "{AWAY_TEAM}",
+                        "kind": "REGULAR",
+                        "odds": 1.78,
+                        "displayOdds": {
+                            "decimal": "1.78",
+                            "fractional": "10/13"
+                        },
+                        "version": "20240705181554889",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159551"
+            },
+            {
+                "id": "SBTM_2_2445163286",
+                "eventId": "SBTE_2_1021155070",
+                "name": "{AWAY_TEAM} to win at least one set",
+                "marketKind": "YES_NO",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 649,
+                        "rank": 401500
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575591",
+                        "name": "Yes",
+                        "shortName": "Yes",
+                        "kind": "REGULAR",
+                        "odds": 1.32,
+                        "displayOdds": {
+                            "decimal": "1.32",
+                            "fractional": "8/25"
+                        },
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "YES",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575593",
+                        "name": "No",
+                        "shortName": "No",
+                        "kind": "REGULAR",
+                        "odds": 3.4,
+                        "displayOdds": {
+                            "decimal": "3.40",
+                            "fractional": "12/5"
+                        },
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "NO",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "2100017184"
+            },
+            {
+                "id": "SBTM_2_2445163254",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Set 1",
+                "marketKind": "THREE_WAY",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 649,
+                        "rank": 400400
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 536,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575521",
+                        "name": "{HOME_TEAM}",
+                        "shortName": "{HOME_TEAM}",
+                        "kind": "REGULAR",
+                        "odds": 2,
+                        "displayOdds": {
+                            "decimal": "2.00",
+                            "fractional": "Evens"
+                        },
+                        "version": "20240705181554624",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575524",
+                        "name": "{AWAY_TEAM}",
+                        "shortName": "{AWAY_TEAM}",
+                        "kind": "REGULAR",
+                        "odds": 1.82,
+                        "displayOdds": {
+                            "decimal": "1.82",
+                            "fractional": "4/5"
+                        },
+                        "version": "20240705181554625",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159846"
+            },
+            {
+                "id": "SBTM_2_2445163256",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Set 2",
+                "marketKind": "THREE_WAY",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 649,
+                        "rank": 400400
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 536,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575526",
+                        "name": "{HOME_TEAM}",
+                        "shortName": "{HOME_TEAM}",
+                        "kind": "REGULAR",
+                        "odds": 2.02,
+                        "displayOdds": {
+                            "decimal": "2.02",
+                            "fractional": "Evens"
+                        },
+                        "version": "20240705181554644",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575528",
+                        "name": "{AWAY_TEAM}",
+                        "shortName": "{AWAY_TEAM}",
+                        "kind": "REGULAR",
+                        "odds": 1.8,
+                        "displayOdds": {
+                            "decimal": "1.80",
+                            "fractional": "4/5"
+                        },
+                        "version": "20240705181554644",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159846"
+            },
+            {
+                "id": "SBTM_2_2445089625",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Set Betting",
+                "marketKind": "CORRECT_SCORE",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 649,
+                        "rank": 400200
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 479,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467290970",
+                        "name": "2 - 0",
+                        "shortName": "2 - 0",
+                        "kind": "REGULAR",
+                        "odds": 3.25,
+                        "displayOdds": {
+                            "decimal": "3.25",
+                            "fractional": "9/4"
+                        },
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467290972",
+                        "name": "2 - 1",
+                        "shortName": "2 - 1",
+                        "kind": "REGULAR",
+                        "odds": 4.6,
+                        "displayOdds": {
+                            "decimal": "4.60",
+                            "fractional": "18/5"
+                        },
+                        "version": "20240705175749706",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467290973",
+                        "name": "1 - 2",
+                        "shortName": "1 - 2",
+                        "kind": "REGULAR",
+                        "odds": 4.2,
+                        "displayOdds": {
+                            "decimal": "4.20",
+                            "fractional": "16/5"
+                        },
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467290974",
+                        "name": "0 - 2",
+                        "shortName": "0 - 2",
+                        "kind": "REGULAR",
+                        "odds": 2.75,
+                        "displayOdds": {
+                            "decimal": "2.75",
+                            "fractional": "7/4"
+                        },
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001512920"
+            },
+            {
+                "id": "SBTM_2_1021155070_CMM15_2",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Set Handicap",
+                "marketKind": "TWO_WAY_HANDICAP",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100400
+                    },
+                    {
+                        "marketGroupId": 649,
+                        "rank": 400300
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 498,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575523",
+                        "name": "{HOME_TEAM} +1.5",
+                        "shortName": "{HOME_TEAM} +1.5",
+                        "kind": "REGULAR",
+                        "odds": 1.41,
+                        "displayOdds": {
+                            "decimal": "1.41",
+                            "fractional": "2/5"
+                        },
+                        "hcp": "1.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575525",
+                        "name": "{AWAY_TEAM} -1.5",
+                        "shortName": "{AWAY_TEAM} -1.5",
+                        "kind": "REGULAR",
+                        "odds": 2.88,
+                        "displayOdds": {
+                            "decimal": "2.88",
+                            "fractional": "15/8"
+                        },
+                        "hcp": "-1.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575553",
+                        "name": "{HOME_TEAM} -1.5",
+                        "shortName": "{HOME_TEAM} -1.5",
+                        "kind": "REGULAR",
+                        "odds": 3.4,
+                        "displayOdds": {
+                            "decimal": "3.40",
+                            "fractional": "12/5"
+                        },
+                        "hcp": "-1.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "HOME",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575554",
+                        "name": "{AWAY_TEAM} +1.5",
+                        "shortName": "{AWAY_TEAM} +1.5",
+                        "kind": "REGULAR",
+                        "odds": 1.32,
+                        "displayOdds": {
+                            "decimal": "1.32",
+                            "fractional": "8/25"
+                        },
+                        "hcp": "1.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "AWAY",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001419385"
+            },
+            {
+                "id": "SBTM_2_1021155070_CMM15_3",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total Games",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705181555169",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300000
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100500
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 517,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575547",
+                        "name": "Over 22.5",
+                        "shortName": "Over 22.5",
+                        "kind": "REGULAR",
+                        "odds": 1.95,
+                        "displayOdds": {
+                            "decimal": "1.95",
+                            "fractional": "19/20"
+                        },
+                        "hcp": "22.5",
+                        "version": "20240705181554889",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575548",
+                        "name": "Under 22.5",
+                        "shortName": "Under 22.5",
+                        "kind": "REGULAR",
+                        "odds": 1.83,
+                        "displayOdds": {
+                            "decimal": "1.83",
+                            "fractional": "41/50"
+                        },
+                        "hcp": "22.5",
+                        "version": "20240705181554889",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575551",
+                        "name": "Over 19.5",
+                        "shortName": "Over 19.5",
+                        "kind": "REGULAR",
+                        "odds": 1.35,
+                        "displayOdds": {
+                            "decimal": "1.35",
+                            "fractional": "7/20"
+                        },
+                        "hcp": "19.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575552",
+                        "name": "Under 19.5",
+                        "shortName": "Under 19.5",
+                        "kind": "REGULAR",
+                        "odds": 3,
+                        "displayOdds": {
+                            "decimal": "3.00",
+                            "fractional": "2/1"
+                        },
+                        "hcp": "19.5",
+                        "version": "20240705131244506",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575555",
+                        "name": "Over 20.5",
+                        "shortName": "Over 20.5",
+                        "kind": "REGULAR",
+                        "odds": 1.54,
+                        "displayOdds": {
+                            "decimal": "1.54",
+                            "fractional": "8/15"
+                        },
+                        "hcp": "20.5",
+                        "version": "20240705131244506",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575556",
+                        "name": "Under 20.5",
+                        "shortName": "Under 20.5",
+                        "kind": "REGULAR",
+                        "odds": 2.43,
+                        "displayOdds": {
+                            "decimal": "2.43",
+                            "fractional": "7/5"
+                        },
+                        "hcp": "20.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575557",
+                        "name": "Over 21.5",
+                        "shortName": "Over 21.5",
+                        "kind": "REGULAR",
+                        "odds": 1.7,
+                        "displayOdds": {
+                            "decimal": "1.70",
+                            "fractional": "7/10"
+                        },
+                        "hcp": "21.5",
+                        "version": "20240705131244506",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575558",
+                        "name": "Under 21.5",
+                        "shortName": "Under 21.5",
+                        "kind": "REGULAR",
+                        "odds": 2.12,
+                        "displayOdds": {
+                            "decimal": "2.12",
+                            "fractional": "11/10"
+                        },
+                        "hcp": "21.5",
+                        "version": "20240705131244506",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575559",
+                        "name": "Over 25.5",
+                        "shortName": "Over 25.5",
+                        "kind": "REGULAR",
+                        "odds": 2.48,
+                        "displayOdds": {
+                            "decimal": "2.48",
+                            "fractional": "29/20"
+                        },
+                        "hcp": "25.5",
+                        "version": "20240705131244506",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575560",
+                        "name": "Over 26.5",
+                        "shortName": "Over 26.5",
+                        "kind": "REGULAR",
+                        "odds": 2.75,
+                        "displayOdds": {
+                            "decimal": "2.75",
+                            "fractional": "7/4"
+                        },
+                        "hcp": "26.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575561",
+                        "name": "Under 26.5",
+                        "shortName": "Under 26.5",
+                        "kind": "REGULAR",
+                        "odds": 1.41,
+                        "displayOdds": {
+                            "decimal": "1.41",
+                            "fractional": "2/5"
+                        },
+                        "hcp": "26.5",
+                        "version": "20240705131244530",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575562",
+                        "name": "Under 25.5",
+                        "shortName": "Under 25.5",
+                        "kind": "REGULAR",
+                        "odds": 1.52,
+                        "displayOdds": {
+                            "decimal": "1.52",
+                            "fractional": "13/25"
+                        },
+                        "hcp": "25.5",
+                        "version": "20240705175713060",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575563",
+                        "name": "Over 23.5",
+                        "shortName": "Over 23.5",
+                        "kind": "REGULAR",
+                        "odds": 2.18,
+                        "displayOdds": {
+                            "decimal": "2.18",
+                            "fractional": "59/50"
+                        },
+                        "hcp": "23.5",
+                        "version": "20240705131244415",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575564",
+                        "name": "Under 23.5",
+                        "shortName": "Under 23.5",
+                        "kind": "REGULAR",
+                        "odds": 1.66,
+                        "displayOdds": {
+                            "decimal": "1.66",
+                            "fractional": "13/20"
+                        },
+                        "hcp": "23.5",
+                        "version": "20240705131244415",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575565",
+                        "name": "Over 24.5",
+                        "shortName": "Over 24.5",
+                        "kind": "REGULAR",
+                        "odds": 2.25,
+                        "displayOdds": {
+                            "decimal": "2.25",
+                            "fractional": "5/4"
+                        },
+                        "hcp": "24.5",
+                        "version": "20240705175712936",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575567",
+                        "name": "Over 27.5",
+                        "shortName": "Over 27.5",
+                        "kind": "REGULAR",
+                        "odds": 3.1,
+                        "displayOdds": {
+                            "decimal": "3.10",
+                            "fractional": "21/10"
+                        },
+                        "hcp": "27.5",
+                        "version": "20240705131244506",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575568",
+                        "name": "Under 24.5",
+                        "shortName": "Under 24.5",
+                        "kind": "REGULAR",
+                        "odds": 1.61,
+                        "displayOdds": {
+                            "decimal": "1.61",
+                            "fractional": "3/5"
+                        },
+                        "hcp": "24.5",
+                        "version": "20240705131244530",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575570",
+                        "name": "Under 27.5",
+                        "shortName": "Under 27.5",
+                        "kind": "REGULAR",
+                        "odds": 1.34,
+                        "displayOdds": {
+                            "decimal": "1.34",
+                            "fractional": "1/3"
+                        },
+                        "hcp": "27.5",
+                        "version": "20240705175712935",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159891"
+            },
+            {
+                "id": "SBTM_2_2445163259",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total Games - Set 1",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300200
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100600
+                    },
+                    {
+                        "marketGroupId": 649,
+                        "rank": 402800
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 517,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575529",
+                        "name": "Over 9.5",
+                        "shortName": "Over 9.5",
+                        "kind": "REGULAR",
+                        "odds": 1.89,
+                        "displayOdds": {
+                            "decimal": "1.89",
+                            "fractional": "22/25"
+                        },
+                        "hcp": "9.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575533",
+                        "name": "Under 9.5",
+                        "shortName": "Under 9.5",
+                        "kind": "REGULAR",
+                        "odds": 1.89,
+                        "displayOdds": {
+                            "decimal": "1.89",
+                            "fractional": "22/25"
+                        },
+                        "hcp": "9.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159979"
+            },
+            {
+                "id": "SBTM_2_2445163277",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total Games - Set 1",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705132823569",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300200
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100600
+                    },
+                    {
+                        "marketGroupId": 649,
+                        "rank": 402800
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 517,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575571",
+                        "name": "Over 8.5",
+                        "shortName": "Over 8.5",
+                        "kind": "REGULAR",
+                        "odds": 1.29,
+                        "displayOdds": {
+                            "decimal": "1.29",
+                            "fractional": "2/7"
+                        },
+                        "hcp": "8.5",
+                        "version": "20240705132823394",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575572",
+                        "name": "Under 8.5",
+                        "shortName": "Under 8.5",
+                        "kind": "REGULAR",
+                        "odds": 3.4,
+                        "displayOdds": {
+                            "decimal": "3.40",
+                            "fractional": "12/5"
+                        },
+                        "hcp": "8.5",
+                        "version": "20240705132823394",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159979"
+            },
+            {
+                "id": "SBTM_2_2445163279",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total Games - Set 1",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300200
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100600
+                    },
+                    {
+                        "marketGroupId": 649,
+                        "rank": 402800
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 517,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575576",
+                        "name": "Over 10.5",
+                        "shortName": "Over 10.5",
+                        "kind": "REGULAR",
+                        "odds": 3.5,
+                        "displayOdds": {
+                            "decimal": "3.50",
+                            "fractional": "5/2"
+                        },
+                        "hcp": "10.5",
+                        "version": "20240705131244507",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575577",
+                        "name": "Under 10.5",
+                        "shortName": "Under 10.5",
+                        "kind": "REGULAR",
+                        "odds": 1.28,
+                        "displayOdds": {
+                            "decimal": "1.28",
+                            "fractional": "7/25"
+                        },
+                        "hcp": "10.5",
+                        "version": "20240705181554640",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159979"
+            },
+            {
+                "id": "SBTM_2_2445163280",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total Games - Set 1",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300200
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100600
+                    },
+                    {
+                        "marketGroupId": 649,
+                        "rank": 402800
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 517,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575578",
+                        "name": "Over 12.5",
+                        "shortName": "Over 12.5",
+                        "kind": "REGULAR",
+                        "odds": 5.3,
+                        "displayOdds": {
+                            "decimal": "5.30",
+                            "fractional": "17/4"
+                        },
+                        "hcp": "12.5",
+                        "version": "20240705181554644",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575579",
+                        "name": "Under 12.5",
+                        "shortName": "Under 12.5",
+                        "kind": "REGULAR",
+                        "odds": 1.14,
+                        "displayOdds": {
+                            "decimal": "1.14",
+                            "fractional": "2/15"
+                        },
+                        "hcp": "12.5",
+                        "version": "20240705131244507",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159979"
+            },
+            {
+                "id": "SBTM_2_2445163282",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total games won by {HOME_TEAM}",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705181555169",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300400
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 101500
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 542,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575582",
+                        "name": "Over 12.5",
+                        "shortName": "Over 12.5",
+                        "kind": "REGULAR",
+                        "odds": 2.08,
+                        "displayOdds": {
+                            "decimal": "2.08",
+                            "fractional": "27/25"
+                        },
+                        "hcp": "12.5",
+                        "version": "20240705181554859",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575586",
+                        "name": "Under 12.5",
+                        "shortName": "Under 12.5",
+                        "kind": "REGULAR",
+                        "odds": 1.74,
+                        "displayOdds": {
+                            "decimal": "1.74",
+                            "fractional": "8/11"
+                        },
+                        "hcp": "12.5",
+                        "version": "20240705181554859",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "2100017181"
+            },
+            {
+                "id": "SBTM_2_2445163285",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total games won by {AWAY_TEAM}",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 642,
+                        "rank": 300500
+                    },
+                    {
+                        "marketGroupId": 640,
+                        "rank": 101600
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 542,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575588",
+                        "name": "Over 12.5",
+                        "shortName": "Over 12.5",
+                        "kind": "REGULAR",
+                        "odds": 1.96,
+                        "displayOdds": {
+                            "decimal": "1.96",
+                            "fractional": "19/20"
+                        },
+                        "hcp": "12.5",
+                        "version": "20240705181554644",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575589",
+                        "name": "Under 12.5",
+                        "shortName": "Under 12.5",
+                        "kind": "REGULAR",
+                        "odds": 1.83,
+                        "displayOdds": {
+                            "decimal": "1.83",
+                            "fractional": "41/50"
+                        },
+                        "hcp": "12.5",
+                        "version": "20240705181554644",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "2100017182"
+            },
+            {
+                "id": "SBTM_2_2445163281",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total Number of Tiebreaks",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705181554869",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 640,
+                        "rank": 101700
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 542,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575580",
+                        "name": "Over 0.5",
+                        "shortName": "Over 0.5",
+                        "kind": "REGULAR",
+                        "odds": 2.63,
+                        "displayOdds": {
+                            "decimal": "2.63",
+                            "fractional": "13/8"
+                        },
+                        "hcp": "0.5",
+                        "version": "20240705181554695",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575581",
+                        "name": "Under 0.5",
+                        "shortName": "Under 0.5",
+                        "kind": "REGULAR",
+                        "odds": 1.47,
+                        "displayOdds": {
+                            "decimal": "1.47",
+                            "fractional": "4/9"
+                        },
+                        "hcp": "0.5",
+                        "version": "20240705175749860",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001229618"
+            },
+            {
+                "id": "SBTM_2_1021155070_CMM15_5",
+                "eventId": "SBTE_2_1021155070",
+                "name": "Total Sets",
+                "marketKind": "OVER_UNDER",
+                "version": "20240705130714270",
+                "groupRanks": [
+                    {
+                        "marketGroupId": 640,
+                        "rank": 100200
+                    },
+                    {
+                        "marketGroupId": 649,
+                        "rank": 403100
+                    },
+                    {
+                        "marketGroupId": -1,
+                        "rank": -1
+                    }
+                ],
+                "top": false,
+                "layoutId": 517,
+                "tags": [],
+                "selections": [
+                    {
+                        "id": "SBTS_2_3467575549",
+                        "name": "Over 2.5",
+                        "shortName": "Over 2.5",
+                        "kind": "REGULAR",
+                        "odds": 2.33,
+                        "displayOdds": {
+                            "decimal": "2.33",
+                            "fractional": "13/10"
+                        },
+                        "hcp": "2.5",
+                        "version": "20240705130714041",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "OVER",
+                        "suspended": false
+                    },
+                    {
+                        "id": "SBTS_2_3467575550",
+                        "name": "Under 2.5",
+                        "shortName": "Under 2.5",
+                        "kind": "REGULAR",
+                        "odds": 1.58,
+                        "displayOdds": {
+                            "decimal": "1.58",
+                            "fractional": "4/7"
+                        },
+                        "hcp": "2.5",
+                        "version": "20240705130714041",
+                        "decimalOddHistory": [],
+                        "fractionalOddHistory": [],
+                        "outcomeType": "UNDER",
+                        "suspended": false
+                    }
+                ],
+                "suspended": false,
+                "type": "1001159758"
+            }
+        ],
+        "suspended": false
+    }
+}

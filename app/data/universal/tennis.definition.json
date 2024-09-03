@@ -1,0 +1,1336 @@
+{
+    "_id": {
+      "$oid": "66742bd71914478b4a56389f"
+    },
+    "name": "market_definition_tennis",
+    "data": {
+      "fm_winner": {
+        "name": "Match winner",
+        "desc": ""
+      },
+      "fm_t_sets_num": {
+        "name": "Total Sets in match.",
+        "desc": "Total Sets in match. 2&3 for best of 3. 3-5 for best of 5 in Grand Slam. So take remove the ones that are not filled."
+      },
+      "fm_t_sets_ou_25": {
+        "name": "Total Sets over/under 2.5",
+        "desc": ""
+      },
+      "fm_t_sets_ou_35": {
+        "name": "Total Sets over/under 3.5",
+        "desc": ""
+      },
+      "fm_t_sets_ou_45": {
+        "name": "Total Sets over/under 4.5",
+        "desc": ""
+      },
+      "fm_t_sets_ou_55": {
+        "name": "Total Sets over/under 5.5",
+        "desc": ""
+      },
+      "fm_any_set_end_6_0": {
+        "name": "Any set will end in 6:0 or 0:6",
+        "desc": ""
+      },
+      "fm_tiebreak": {
+        "name": "Any set will have a tie break",
+        "desc": ""
+      },
+      "fm_win_from_behind": {
+        "name": "Any player lose 1st set but come back and win",
+        "desc": ""
+      },
+      "fm_highest_scoring_set": {
+        "name": "Highest scoring set",
+        "desc": ""
+      },
+      "fm_hss_ou_105": {
+        "name": "Highest scoring set will have over 10.5 games",
+        "desc": ""
+      },
+      "fm_lss_ou_85": {
+        "name": "Lowest scoring set will have over 8.5 games",
+        "desc": ""
+      },
+      "both_wins_a_set": {
+        "name": "Both player wins at least 1 set",
+        "desc": ""
+      },
+      "p1_wins_a_set": {
+        "name": "Player 1 Wins at least 1 set",
+        "desc": ""
+      },
+      "p2_wins_a_set": {
+        "name": "Player 2 Wins at least 1 set",
+        "desc": ""
+      },
+      "p1_wins_exact_1_set": {
+        "name": "Player 1 wins exactly 1 set",
+        "desc": ""
+      },
+      "p2_wins_exact_1_set": {
+        "name": "Player 2 wins exactly 1 set",
+        "desc": ""
+      },
+      "fm_games_oe": {
+        "name": "Total games even or odd",
+        "desc": ""
+      },
+      "fm_first_serve": {
+        "name": "Player to serve first",
+        "desc": ""
+      },
+      "fm_s_ah_m35": {
+        "name": "Full match sets winner AH P1(-3.5)/P2(+3.5)",
+        "desc": ""
+      },
+      "fm_s_ah_m25": {
+        "name": "Full match sets winner AH P1(-2.5)/P2(+2.5)",
+        "desc": ""
+      },
+      "fm_s_ah_m15": {
+        "name": "Full match sets winner AH P1(-1.5)/P2(+1.5)",
+        "desc": ""
+      },
+      "fm_s_ah_m05": {
+        "name": "Full match sets winner AH P1(-0.5)/P2(+0.5)",
+        "desc": ""
+      },
+      "fm_s_ah_p05": {
+        "name": "Full match sets winner AH P1(+0.5)/P2(-0.5)",
+        "desc": ""
+      },
+      "fm_s_ah_p15": {
+        "name": "Full match sets winner AH P1(+1.5)/P2(-1.5)",
+        "desc": ""
+      },
+      "fm_s_ah_p25": {
+        "name": "Full match sets winner AH P1(+2.5)/P2(-2.5)",
+        "desc": ""
+      },
+      "fm_s_ah_p35": {
+        "name": "Full match sets winner AH P1(+3.5)/P2(-3.5)",
+        "desc": ""
+      },
+      "fm_g_ah_m65": {
+        "name": "Full match games AH P1(-6.5)/P2(+6.5)",
+        "desc": ""
+      },
+      "fm_g_ah_m55": {
+        "name": "Full match games AH P1(-5.5)/P2(+5.5)",
+        "desc": ""
+      },
+      "fm_g_ah_m45": {
+        "name": "Full match games AH P1(-4.5)/P2(+4.5)",
+        "desc": ""
+      },
+      "fm_g_ah_m35": {
+        "name": "Full match games AH P1(-3.5)/P2(+3.5)",
+        "desc": ""
+      },
+      "fm_g_ah_m25": {
+        "name": "Full match games AH P1(-2.5)/P2(+2.5)",
+        "desc": ""
+      },
+      "fm_g_ah_m15": {
+        "name": "Full match games AH P1(-1.5)/P2(+1.5)",
+        "desc": ""
+      },
+      "fm_g_ah_m05": {
+        "name": "Full match games AH P1(-0.5)/P2(+0.5)",
+        "desc": ""
+      },
+      "fm_g_ah_p05": {
+        "name": "Full match games AH P1(+0.5)/P2(-0.5)",
+        "desc": ""
+      },
+      "fm_g_ah_p15": {
+        "name": "Full match games AH P1(+1.5)/P2(-1.5)",
+        "desc": ""
+      },
+      "fm_g_ah_p25": {
+        "name": "Full match games AH P1(+2.5)/P2(-2.5)",
+        "desc": ""
+      },
+      "fm_g_ah_p35": {
+        "name": "Full match games AH P1(+3.5)/P2(-3.5)",
+        "desc": ""
+      },
+      "fm_g_ah_p45": {
+        "name": "Full match games AH P1(+4.5)/P2(-4.5)",
+        "desc": ""
+      },
+      "fm_g_ah_p55": {
+        "name": "Full match games AH P1(+5.5)/P2(-5.5)",
+        "desc": ""
+      },
+      "fm_g_ah_p65": {
+        "name": "Full match games AH P1(+6.5)/P2(-6.5)",
+        "desc": ""
+      },
+      "fm_g_ou_135": {
+        "name": "Full match games Over/Under 13.5",
+        "desc": ""
+      },
+      "fm_g_ou_145": {
+        "name": "Full match games Over/Under 14.5",
+        "desc": ""
+      },
+      "fm_g_ou_155": {
+        "name": "Full match games Over/Under 15.5",
+        "desc": ""
+      },
+      "fm_g_ou_165": {
+        "name": "Full match games Over/Under 16.5",
+        "desc": ""
+      },
+      "fm_g_ou_175": {
+        "name": "Full match games Over/Under 17.5",
+        "desc": ""
+      },
+      "fm_g_ou_185": {
+        "name": "Full match games Over/Under 18.5",
+        "desc": ""
+      },
+      "fm_g_ou_195": {
+        "name": "Full match games Over/Under 19.5",
+        "desc": ""
+      },
+      "fm_g_ou_205": {
+        "name": "Full match games Over/Under 20.5",
+        "desc": ""
+      },
+      "fm_g_ou_215": {
+        "name": "Full match games Over/Under 21.5",
+        "desc": ""
+      },
+      "fm_g_ou_225": {
+        "name": "Full match games Over/Under 22.5",
+        "desc": ""
+      },
+      "fm_g_ou_235": {
+        "name": "Full match games Over/Under 23.5",
+        "desc": ""
+      },
+      "fm_g_ou_245": {
+        "name": "Full match games Over/Under 24.5",
+        "desc": ""
+      },
+      "fm_g_ou_255": {
+        "name": "Full match games Over/Under 25.5",
+        "desc": ""
+      },
+      "fm_g_ou_265": {
+        "name": "Full match games Over/Under 26.5",
+        "desc": ""
+      },
+      "fm_g_ou_275": {
+        "name": "Full match games Over/Under 27.5",
+        "desc": ""
+      },
+      "fm_g_ou_285": {
+        "name": "Full match games Over/Under 28.5",
+        "desc": ""
+      },
+      "fm_g_ou_295": {
+        "name": "Full match games Over/Under 29.5",
+        "desc": ""
+      },
+      "fm_g_ou_305": {
+        "name": "Full match games Over/Under 30.5",
+        "desc": ""
+      },
+      "fm_g_ou_315": {
+        "name": "Full match games Over/Under 31.5",
+        "desc": ""
+      },
+      "fm_g_ou_325": {
+        "name": "Full match games Over/Under 32.5",
+        "desc": ""
+      },
+      "fm_g_ou_335": {
+        "name": "Full match games Over/Under 33.5",
+        "desc": ""
+      },
+      "fm_g_ou_345": {
+        "name": "Full match games Over/Under 34.5",
+        "desc": ""
+      },
+      "fm_g_ou_355": {
+        "name": "Full match games Over/Under 35.5",
+        "desc": ""
+      },
+      "fm_g_ou_365": {
+        "name": "Full match games Over/Under 36.5",
+        "desc": ""
+      },
+      "fm_g_ou_375": {
+        "name": "Full match games Over/Under 37.5",
+        "desc": ""
+      },
+      "fm_g_ou_385": {
+        "name": "Full match games Over/Under 38.5",
+        "desc": ""
+      },
+      "fm_g_ou_395": {
+        "name": "Full match games Over/Under 39.5",
+        "desc": ""
+      },
+      "fm_g_ou_405": {
+        "name": "Full match games Over/Under 40.5",
+        "desc": ""
+      },
+      "fm_g_ou_415": {
+        "name": "Full match games Over/Under 41.5",
+        "desc": ""
+      },
+      "fm_g_ou_425": {
+        "name": "Full match games Over/Under 42.5",
+        "desc": ""
+      },
+      "fm_g_ou_435": {
+        "name": "Full match games Over/Under 43.5",
+        "desc": ""
+      },
+      "fm_g_ou_445": {
+        "name": "Full match games Over/Under 44.5",
+        "desc": ""
+      },
+      "fm_g_ou_455": {
+        "name": "Full match games Over/Under 45.5",
+        "desc": ""
+      },
+      "fm_g_ou_465": {
+        "name": "Full match games Over/Under 46.5",
+        "desc": ""
+      },
+      "fm_g_ou_475": {
+        "name": "Full match games Over/Under 47.5",
+        "desc": ""
+      },
+      "fm_g_ou_485": {
+        "name": "Full match games Over/Under 48.5",
+        "desc": ""
+      },
+      "fm_g_ou_495": {
+        "name": "Full match games Over/Under 49.5",
+        "desc": ""
+      },
+      "fm_g_ou_505": {
+        "name": "Full match games Over/Under 50.5",
+        "desc": ""
+      },
+      "fm_g_ou_515": {
+        "name": "Full match games Over/Under 51.5",
+        "desc": ""
+      },
+      "fm_g_ou_525": {
+        "name": "Full match games Over/Under 52.5",
+        "desc": ""
+      },
+      "fm_g_ou_535": {
+        "name": "Full match games Over/Under 53.5",
+        "desc": ""
+      },
+      "fm_g_ou_545": {
+        "name": "Full match games Over/Under 54.5",
+        "desc": ""
+      },
+      "fm_g_ou_555": {
+        "name": "Full match games Over/Under 55.5",
+        "desc": ""
+      },
+      "fm_g_ou_565": {
+        "name": "Full match games Over/Under 56.5",
+        "desc": ""
+      },
+      "fm_g_ou_575": {
+        "name": "Full match games Over/Under 57.5",
+        "desc": ""
+      },
+      "fm_g_ou_585": {
+        "name": "Full match games Over/Under 58.5",
+        "desc": ""
+      },
+      "fm_g_ou_595": {
+        "name": "Full match games Over/Under 59.5",
+        "desc": ""
+      },
+      "fm_g_ou_605": {
+        "name": "Full match games Over/Under 60.5",
+        "desc": ""
+      },
+      "fm_g_ou_615": {
+        "name": "Full match games Over/Under 61.5",
+        "desc": ""
+      },
+      "fm_g_ou_625": {
+        "name": "Full match games Over/Under 62.5",
+        "desc": ""
+      },
+      "fm_g_ou_635": {
+        "name": "Full match games Over/Under 63.5",
+        "desc": ""
+      },
+      "fm_g_ou_645": {
+        "name": "Full match games Over/Under 64.5",
+        "desc": ""
+      },
+      "fm_g_ou_655": {
+        "name": "Full match games Over/Under 65.5",
+        "desc": ""
+      },
+      "fm_g_euh_m5": {
+        "name": "European handicap Player 1(-5)",
+        "desc": ""
+      },
+      "fm_g_euh_m4": {
+        "name": "European handicap Player 1(-4)",
+        "desc": ""
+      },
+      "fm_g_euh_m3": {
+        "name": "European handicap Player 1(-3)",
+        "desc": ""
+      },
+      "fm_g_euh_m2": {
+        "name": "European handicap Player 1(-2)",
+        "desc": ""
+      },
+      "fm_g_euh_m1": {
+        "name": "European handicap Player 1(-1)",
+        "desc": ""
+      },
+      "fm_g_euh_p1": {
+        "name": "European handicap Player 1(+1)",
+        "desc": ""
+      },
+      "fm_g_euh_p2": {
+        "name": "European handicap Player 1(+2)",
+        "desc": ""
+      },
+      "fm_g_euh_p3": {
+        "name": "European handicap Player 1(+3)",
+        "desc": ""
+      },
+      "fm_g_euh_p4": {
+        "name": "European handicap Player 1(+4)",
+        "desc": ""
+      },
+      "fm_g_euh_p5": {
+        "name": "European handicap Player 1(+5)",
+        "desc": ""
+      },
+      "fm_g_3w_19": {
+        "name": "Total games over, exact & under 19",
+        "desc": ""
+      },
+      "fm_g_3w_20": {
+        "name": "Total games over, exact & under 20",
+        "desc": ""
+      },
+      "fm_g_3w_21": {
+        "name": "Total games over, exact & under 21",
+        "desc": ""
+      },
+      "fm_g_3w_22": {
+        "name": "Total games over, exact & under 22",
+        "desc": ""
+      },
+      "fm_g_3w_23": {
+        "name": "Total games over, exact & under 23",
+        "desc": ""
+      },
+      "fm_g_3w_24": {
+        "name": "Total games over, exact & under 24",
+        "desc": ""
+      },
+      "fm_df_winner": {
+        "name": "Player with most double faults",
+        "desc": ""
+      },
+      "fm_df_dc": {
+        "name": "Player double faults double chance",
+        "desc": ""
+      },
+      "fm_df_p1_ou_25": {
+        "name": "Player 1 double fault over/under 2.5",
+        "desc": ""
+      },
+      "fm_df_p1_ou_35": {
+        "name": "Player 1 double fault over/under 3.5",
+        "desc": ""
+      },
+      "fm_df_p2_ou_25": {
+        "name": "Player 2 double fault over/under 2.5",
+        "desc": ""
+      },
+      "fm_df_p2_ou_35": {
+        "name": "Player 2 double fault over/under 3.5",
+        "desc": ""
+      },
+      "fm_p1_ou_65": {
+        "name": "Full match player 1 games Over/Under 6.5",
+        "desc": ""
+      },
+      "fm_p1_ou_75": {
+        "name": "Full match player 1 games Over/Under 7.5",
+        "desc": ""
+      },
+      "fm_p1_ou_85": {
+        "name": "Full match player 1 games Over/Under 8.5",
+        "desc": ""
+      },
+      "fm_p1_ou_95": {
+        "name": "Full match player 1 games Over/Under 9.5",
+        "desc": ""
+      },
+      "fm_p1_ou_105": {
+        "name": "Full match player 1 games Over/Under 10.5",
+        "desc": ""
+      },
+      "fm_p1_ou_115": {
+        "name": "Full match player 1 games Over/Under 11.5",
+        "desc": ""
+      },
+      "fm_p1_ou_125": {
+        "name": "Full match player 1 games Over/Under 12.5",
+        "desc": ""
+      },
+      "fm_p1_ou_135": {
+        "name": "Full match player 1 games Over/Under 13.5",
+        "desc": ""
+      },
+      "fm_p1_ou_145": {
+        "name": "Full match player 1 games Over/Under 14.5",
+        "desc": ""
+      },
+      "fm_p1_ou_155": {
+        "name": "Full match player 1 games Over/Under 15.5",
+        "desc": ""
+      },
+      "fm_p1_ou_165": {
+        "name": "Full match player 1 games Over/Under 16.5",
+        "desc": ""
+      },
+      "fm_p1_ou_175": {
+        "name": "Full match player 1 games Over/Under 17.5",
+        "desc": ""
+      },
+      "fm_p1_ou_185": {
+        "name": "Full match player 1 games Over/Under 18.5",
+        "desc": ""
+      },
+      "fm_p2_ou_65": {
+        "name": "Full match player 2 games Over/Under 6.5",
+        "desc": ""
+      },
+      "fm_p2_ou_75": {
+        "name": "Full match player 2 games Over/Under 7.5",
+        "desc": ""
+      },
+      "fm_p2_ou_85": {
+        "name": "Full match player 2 games Over/Under 8.5",
+        "desc": ""
+      },
+      "fm_p2_ou_95": {
+        "name": "Full match player 2 games Over/Under 9.5",
+        "desc": ""
+      },
+      "fm_p2_ou_105": {
+        "name": "Full match player 2 games Over/Under 10.5",
+        "desc": ""
+      },
+      "fm_p2_ou_115": {
+        "name": "Full match player 2 games Over/Under 11.5",
+        "desc": ""
+      },
+      "fm_p2_ou_125": {
+        "name": "Full match player 2 games Over/Under 12.5",
+        "desc": ""
+      },
+      "fm_p2_ou_135": {
+        "name": "Full match player 2 games Over/Under 13.5",
+        "desc": ""
+      },
+      "fm_p2_ou_145": {
+        "name": "Full match player 2 games Over/Under 14.5",
+        "desc": ""
+      },
+      "fm_p2_ou_155": {
+        "name": "Full match player 2 games Over/Under 15.5",
+        "desc": ""
+      },
+      "fm_p2_ou_165": {
+        "name": "Full match player 2 games Over/Under 16.5",
+        "desc": ""
+      },
+      "fm_p2_ou_175": {
+        "name": "Full match player 2 games Over/Under 17.5",
+        "desc": ""
+      },
+      "fm_p2_ou_185": {
+        "name": "Full match player 2 games Over/Under 18.5",
+        "desc": ""
+      },
+      "s_s1_winner": {
+        "name": "Set 1 winner",
+        "desc": ""
+      },
+      "s_s1_tiebreak": {
+        "name": "Set 1 will have a tie break",
+        "desc": ""
+      },
+      "s_s1_games_oe": {
+        "name": "Set 1 Games odd/even",
+        "desc": ""
+      },
+      "s_s1_set_end_6_0": {
+        "name": "Set 1 will end in 6:0 or 0:6",
+        "desc": ""
+      },
+      "s_s1_g_ou_65": {
+        "name": "Set 1 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s1_g_ou_75": {
+        "name": "Set 1 games Over/Under 7.5",
+        "desc": ""
+      },
+      "s_s1_g_ou_85": {
+        "name": "Set 1 games Over/Under 8.5",
+        "desc": ""
+      },
+      "s_s1_g_ou_95": {
+        "name": "Set 1 games Over/Under 9.5",
+        "desc": ""
+      },
+      "s_s1_g_ou_105": {
+        "name": "Set 1 games Over/Under 10.5",
+        "desc": ""
+      },
+      "s_s1_g_ou_115": {
+        "name": "Set 1 games Over/Under 11.5",
+        "desc": ""
+      },
+      "s_s1_g_ou_125": {
+        "name": "Set 1 games Over/Under 12.5",
+        "desc": ""
+      },
+      "s_s1_g_ou_135": {
+        "name": "Set 1 games Over/Under 13.5",
+        "desc": ""
+      },
+      "s_s1_g_ah_m55": {
+        "name": "Set 1 games AH P1(-5.5)/P2(+5.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_m45": {
+        "name": "Set 1 games AH P1(-4.5)/P2(+4.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_m35": {
+        "name": "Set 1 games AH P1(-3.5)/P2(+3.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_m25": {
+        "name": "Set 1 games AH P1(-2.5)/P2(+2.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_m15": {
+        "name": "Set 1 games AH P1(-1.5)/P2(+1.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_m05": {
+        "name": "Set 1 games AH P1(-0.5)/P2(+0.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_p05": {
+        "name": "Set 1 games AH P1(+0.5)/P2(-0.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_p15": {
+        "name": "Set 1 games AH P1(+1.5)/P2(-1.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_p25": {
+        "name": "Set 1 games AH P1(+2.5)/P2(-2.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_p35": {
+        "name": "Set 1 games AH P1(+3.5)/P2(-3.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_p45": {
+        "name": "Set 1 games AH P1(+4.5)/P2(-4.5)",
+        "desc": ""
+      },
+      "s_s1_g_ah_p55": {
+        "name": "Set 1 games AH P1(+5.5)/P2(-5.5)",
+        "desc": ""
+      },
+      "s_s1_p1_ou_05": {
+        "name": "Set 1 player 1 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s1_p1_ou_15": {
+        "name": "Set 1 player 1 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s1_p1_ou_25": {
+        "name": "Set 1 player 1 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s1_p1_ou_35": {
+        "name": "Set 1 player 1 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s1_p1_ou_45": {
+        "name": "Set 1 player 1 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s1_p1_ou_55": {
+        "name": "Set 1 player 1 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s1_p1_ou_65": {
+        "name": "Set 1 player 1 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s1_p2_ou_05": {
+        "name": "Set 1 player 2 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s1_p2_ou_15": {
+        "name": "Set 1 player 2 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s1_p2_ou_25": {
+        "name": "Set 1 player 2 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s1_p2_ou_35": {
+        "name": "Set 1 player 2 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s1_p2_ou_45": {
+        "name": "Set 1 player 2 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s1_p2_ou_55": {
+        "name": "Set 1 player 2 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s1_p2_ou_65": {
+        "name": "Set 1 player 2 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s2_winner": {
+        "name": "Set 2 winner",
+        "desc": ""
+      },
+      "s_s2_tiebreak": {
+        "name": "Set 2 will have a tie break",
+        "desc": ""
+      },
+      "s_s2_games_oe": {
+        "name": "Set 2 Games odd/even",
+        "desc": ""
+      },
+      "s_s2_set_end_6_0": {
+        "name": "Set 2 will end in 6:0 or 0:6",
+        "desc": ""
+      },
+      "s_s2_g_ou_65": {
+        "name": "Set 2 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s2_g_ou_75": {
+        "name": "Set 2 games Over/Under 7.5",
+        "desc": ""
+      },
+      "s_s2_g_ou_85": {
+        "name": "Set 2 games Over/Under 8.5",
+        "desc": ""
+      },
+      "s_s2_g_ou_95": {
+        "name": "Set 2 games Over/Under 9.5",
+        "desc": ""
+      },
+      "s_s2_g_ou_105": {
+        "name": "Set 2 games Over/Under 10.5",
+        "desc": ""
+      },
+      "s_s2_g_ou_115": {
+        "name": "Set 2 games Over/Under 11.5",
+        "desc": ""
+      },
+      "s_s2_g_ou_125": {
+        "name": "Set 2 games Over/Under 12.5",
+        "desc": ""
+      },
+      "s_s2_g_ou_135": {
+        "name": "Set 2 games Over/Under 13.5",
+        "desc": ""
+      },
+      "s_s2_g_ah_m55": {
+        "name": "Set 2 games AH P1(-5.5)/P2(+5.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_m45": {
+        "name": "Set 2 games AH P1(-4.5)/P2(+4.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_m35": {
+        "name": "Set 2 games AH P1(-3.5)/P2(+3.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_m25": {
+        "name": "Set 2 games AH P1(-2.5)/P2(+2.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_m15": {
+        "name": "Set 2 games AH P1(-1.5)/P2(+1.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_m05": {
+        "name": "Set 2 games AH P1(-0.5)/P2(+0.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_p05": {
+        "name": "Set 2 games AH P1(+0.5)/P2(-0.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_p15": {
+        "name": "Set 2 games AH P1(+1.5)/P2(-1.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_p25": {
+        "name": "Set 2 games AH P1(+2.5)/P2(-2.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_p35": {
+        "name": "Set 2 games AH P1(+3.5)/P2(-3.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_p45": {
+        "name": "Set 2 games AH P1(+4.5)/P2(-4.5)",
+        "desc": ""
+      },
+      "s_s2_g_ah_p55": {
+        "name": "Set 2 games AH P1(+5.5)/P2(-5.5)",
+        "desc": ""
+      },
+      "s_s2_p1_ou_05": {
+        "name": "Set 2 player 1 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s2_p1_ou_15": {
+        "name": "Set 2 player 1 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s2_p1_ou_25": {
+        "name": "Set 2 player 1 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s2_p1_ou_35": {
+        "name": "Set 2 player 1 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s2_p1_ou_45": {
+        "name": "Set 2 player 1 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s2_p1_ou_55": {
+        "name": "Set 2 player 1 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s2_p1_ou_65": {
+        "name": "Set 2 player 1 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s2_p2_ou_05": {
+        "name": "Set 2 player 2 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s2_p2_ou_15": {
+        "name": "Set 2 player 2 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s2_p2_ou_25": {
+        "name": "Set 2 player 2 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s2_p2_ou_35": {
+        "name": "Set 2 player 2 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s2_p2_ou_45": {
+        "name": "Set 2 player 2 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s2_p2_ou_55": {
+        "name": "Set 2 player 2 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s2_p2_ou_65": {
+        "name": "Set 2 player 2 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s3_winner": {
+        "name": "Set 3 winner",
+        "desc": ""
+      },
+      "s_s3_tiebreak": {
+        "name": "Set 3 will have a tie break",
+        "desc": ""
+      },
+      "s_s3_games_oe": {
+        "name": "Set 3 Games odd/even",
+        "desc": ""
+      },
+      "s_s3_set_end_6_0": {
+        "name": "Set 3 will end in 6:0 or 0:6",
+        "desc": ""
+      },
+      "s_s3_g_ou_65": {
+        "name": "Set 3 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s3_g_ou_75": {
+        "name": "Set 3 games Over/Under 7.5",
+        "desc": ""
+      },
+      "s_s3_g_ou_85": {
+        "name": "Set 3 games Over/Under 8.5",
+        "desc": ""
+      },
+      "s_s3_g_ou_95": {
+        "name": "Set 3 games Over/Under 9.5",
+        "desc": ""
+      },
+      "s_s3_g_ou_105": {
+        "name": "Set 3 games Over/Under 10.5",
+        "desc": ""
+      },
+      "s_s3_g_ou_115": {
+        "name": "Set 3 games Over/Under 11.5",
+        "desc": ""
+      },
+      "s_s3_g_ou_125": {
+        "name": "Set 3 games Over/Under 12.5",
+        "desc": ""
+      },
+      "s_s3_g_ou_135": {
+        "name": "Set 3 games Over/Under 13.5",
+        "desc": ""
+      },
+      "s_s3_g_ah_m55": {
+        "name": "Set 3 games AH P1(-5.5)/P2(+5.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_m45": {
+        "name": "Set 3 games AH P1(-4.5)/P2(+4.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_m35": {
+        "name": "Set 3 games AH P1(-3.5)/P2(+3.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_m25": {
+        "name": "Set 3 games AH P1(-2.5)/P2(+2.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_m15": {
+        "name": "Set 3 games AH P1(-1.5)/P2(+1.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_m05": {
+        "name": "Set 3 games AH P1(-0.5)/P2(+0.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_p05": {
+        "name": "Set 3 games AH P1(+0.5)/P2(-0.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_p15": {
+        "name": "Set 3 games AH P1(+1.5)/P2(-1.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_p25": {
+        "name": "Set 3 games AH P1(+2.5)/P2(-2.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_p35": {
+        "name": "Set 3 games AH P1(+3.5)/P2(-3.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_p45": {
+        "name": "Set 3 games AH P1(+4.5)/P2(-4.5)",
+        "desc": ""
+      },
+      "s_s3_g_ah_p55": {
+        "name": "Set 3 games AH P1(+5.5)/P2(-5.5)",
+        "desc": ""
+      },
+      "s_s3_p1_ou_05": {
+        "name": "Set 3 player 1 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s3_p1_ou_15": {
+        "name": "Set 3 player 1 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s3_p1_ou_25": {
+        "name": "Set 3 player 1 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s3_p1_ou_35": {
+        "name": "Set 3 player 1 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s3_p1_ou_45": {
+        "name": "Set 3 player 1 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s3_p1_ou_55": {
+        "name": "Set 3 player 1 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s3_p1_ou_65": {
+        "name": "Set 3 player 1 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s3_p2_ou_05": {
+        "name": "Set 3 player 2 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s3_p2_ou_15": {
+        "name": "Set 3 player 2 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s3_p2_ou_25": {
+        "name": "Set 3 player 2 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s3_p2_ou_35": {
+        "name": "Set 3 player 2 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s3_p2_ou_45": {
+        "name": "Set 3 player 2 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s3_p2_ou_55": {
+        "name": "Set 3 player 2 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s3_p2_ou_65": {
+        "name": "Set 3 player 2 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s4_winner": {
+        "name": "Set 4 winner",
+        "desc": ""
+      },
+      "s_s4_tiebreak": {
+        "name": "Set 4 will have a tie break",
+        "desc": ""
+      },
+      "s_s4_games_oe": {
+        "name": "Set 4 Games odd/even",
+        "desc": ""
+      },
+      "s_s4_set_end_6_0": {
+        "name": "Set 4 will end in 6:0 or 0:6",
+        "desc": ""
+      },
+      "s_s4_g_ou_65": {
+        "name": "Set 4 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s4_g_ou_75": {
+        "name": "Set 4 games Over/Under 7.5",
+        "desc": ""
+      },
+      "s_s4_g_ou_85": {
+        "name": "Set 4 games Over/Under 8.5",
+        "desc": ""
+      },
+      "s_s4_g_ou_95": {
+        "name": "Set 4 games Over/Under 9.5",
+        "desc": ""
+      },
+      "s_s4_g_ou_105": {
+        "name": "Set 4 games Over/Under 10.5",
+        "desc": ""
+      },
+      "s_s4_g_ou_115": {
+        "name": "Set 4 games Over/Under 11.5",
+        "desc": ""
+      },
+      "s_s4_g_ou_125": {
+        "name": "Set 4 games Over/Under 12.5",
+        "desc": ""
+      },
+      "s_s4_g_ou_135": {
+        "name": "Set 4 games Over/Under 13.5",
+        "desc": ""
+      },
+      "s_s4_g_ah_m55": {
+        "name": "Set 4 games AH P1(-5.5)/P2(+5.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_m45": {
+        "name": "Set 4 games AH P1(-4.5)/P2(+4.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_m35": {
+        "name": "Set 4 games AH P1(-3.5)/P2(+3.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_m25": {
+        "name": "Set 4 games AH P1(-2.5)/P2(+2.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_m15": {
+        "name": "Set 4 games AH P1(-1.5)/P2(+1.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_m05": {
+        "name": "Set 4 games AH P1(-0.5)/P2(+0.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_p05": {
+        "name": "Set 4 games AH P1(+0.5)/P2(-0.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_p15": {
+        "name": "Set 4 games AH P1(+1.5)/P2(-1.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_p25": {
+        "name": "Set 4 games AH P1(+2.5)/P2(-2.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_p35": {
+        "name": "Set 4 games AH P1(+3.5)/P2(-3.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_p45": {
+        "name": "Set 4 games AH P1(+4.5)/P2(-4.5)",
+        "desc": ""
+      },
+      "s_s4_g_ah_p55": {
+        "name": "Set 4 games AH P1(+5.5)/P2(-5.5)",
+        "desc": ""
+      },
+      "s_s4_p1_ou_05": {
+        "name": "Set 4 player 1 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s4_p1_ou_15": {
+        "name": "Set 4 player 1 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s4_p1_ou_25": {
+        "name": "Set 4 player 1 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s4_p1_ou_35": {
+        "name": "Set 4 player 1 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s4_p1_ou_45": {
+        "name": "Set 4 player 1 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s4_p1_ou_55": {
+        "name": "Set 4 player 1 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s4_p1_ou_65": {
+        "name": "Set 4 player 1 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s4_p2_ou_05": {
+        "name": "Set 4 player 2 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s4_p2_ou_15": {
+        "name": "Set 4 player 2 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s4_p2_ou_25": {
+        "name": "Set 4 player 2 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s4_p2_ou_35": {
+        "name": "Set 4 player 2 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s4_p2_ou_45": {
+        "name": "Set 4 player 2 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s4_p2_ou_55": {
+        "name": "Set 4 player 2 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s4_p2_ou_65": {
+        "name": "Set 4 player 2 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s5_winner": {
+        "name": "Set 5 winner",
+        "desc": ""
+      },
+      "s_s5_tiebreak": {
+        "name": "Set 5 will have a tie break",
+        "desc": ""
+      },
+      "s_s5_games_oe": {
+        "name": "Set 5 Games odd/even",
+        "desc": ""
+      },
+      "s_s5_set_end_6_0": {
+        "name": "Set 5 will end in 6:0 or 0:6",
+        "desc": ""
+      },
+      "s_s5_g_ou_65": {
+        "name": "Set 5 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s5_g_ou_75": {
+        "name": "Set 5 games Over/Under 7.5",
+        "desc": ""
+      },
+      "s_s5_g_ou_85": {
+        "name": "Set 5 games Over/Under 8.5",
+        "desc": ""
+      },
+      "s_s5_g_ou_95": {
+        "name": "Set 5 games Over/Under 9.5",
+        "desc": ""
+      },
+      "s_s5_g_ou_105": {
+        "name": "Set 5 games Over/Under 10.5",
+        "desc": ""
+      },
+      "s_s5_g_ou_115": {
+        "name": "Set 5 games Over/Under 11.5",
+        "desc": ""
+      },
+      "s_s5_g_ou_125": {
+        "name": "Set 5 games Over/Under 12.5",
+        "desc": ""
+      },
+      "s_s5_g_ou_135": {
+        "name": "Set 5 games Over/Under 13.5",
+        "desc": ""
+      },
+      "s_s5_g_ah_m55": {
+        "name": "Set 5 games AH P1(-5.5)/P2(+5.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_m45": {
+        "name": "Set 5 games AH P1(-4.5)/P2(+4.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_m35": {
+        "name": "Set 5 games AH P1(-3.5)/P2(+3.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_m25": {
+        "name": "Set 5 games AH P1(-2.5)/P2(+2.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_m15": {
+        "name": "Set 5 games AH P1(-1.5)/P2(+1.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_m05": {
+        "name": "Set 5 games AH P1(-0.5)/P2(+0.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_p05": {
+        "name": "Set 5 games AH P1(+0.5)/P2(-0.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_p15": {
+        "name": "Set 5 games AH P1(+1.5)/P2(-1.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_p25": {
+        "name": "Set 5 games AH P1(+2.5)/P2(-2.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_p35": {
+        "name": "Set 5 games AH P1(+3.5)/P2(-3.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_p45": {
+        "name": "Set 5 games AH P1(+4.5)/P2(-4.5)",
+        "desc": ""
+      },
+      "s_s5_g_ah_p55": {
+        "name": "Set 5 games AH P1(+5.5)/P2(-5.5)",
+        "desc": ""
+      },
+      "s_s5_p1_ou_05": {
+        "name": "Set 5 player 1 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s5_p1_ou_15": {
+        "name": "Set 5 player 1 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s5_p1_ou_25": {
+        "name": "Set 5 player 1 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s5_p1_ou_35": {
+        "name": "Set 5 player 1 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s5_p1_ou_45": {
+        "name": "Set 5 player 1 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s5_p1_ou_55": {
+        "name": "Set 5 player 1 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s5_p1_ou_65": {
+        "name": "Set 5 player 1 games Over/Under 6.5",
+        "desc": ""
+      },
+      "s_s5_p2_ou_05": {
+        "name": "Set 5 player 2 games Over/Under 0.5",
+        "desc": ""
+      },
+      "s_s5_p2_ou_15": {
+        "name": "Set 5 player 2 games Over/Under 1.5",
+        "desc": ""
+      },
+      "s_s5_p2_ou_25": {
+        "name": "Set 5 player 2 games Over/Under 2.5",
+        "desc": ""
+      },
+      "s_s5_p2_ou_35": {
+        "name": "Set 5 player 2 games Over/Under 3.5",
+        "desc": ""
+      },
+      "s_s5_p2_ou_45": {
+        "name": "Set 5 player 2 games Over/Under 4.5",
+        "desc": ""
+      },
+      "s_s5_p2_ou_55": {
+        "name": "Set 5 player 2 games Over/Under 5.5",
+        "desc": ""
+      },
+      "s_s5_p2_ou_65": {
+        "name": "Set 5 player 2 games Over/Under 6.5",
+        "desc": ""
+      }
+    }
+  }

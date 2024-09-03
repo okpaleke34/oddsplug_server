@@ -1,0 +1,93 @@
+syntax = "proto3";
+
+package oddsplug;
+
+service OddsplugService {
+  rpc CreateScanHistory (ScanHistory) returns (OperationStatus);
+  rpc ReadScanHistory (ScanId) returns (ScanHistory);
+  rpc ReadAllScanHistory (ScanHistoryQuery) returns (ScanHistoryList);
+  rpc UpdateScanHistory (ScanHistory) returns (OperationStatus);
+  rpc DeleteScanHistory (ScanId) returns (OperationStatus);
+  
+  rpc CreateRevalidatorHistory (RevalidatorHistory) returns (OperationStatus);
+  rpc ReadRevalidatorHistory (ScanId) returns (RevalidatorHistory);
+  rpc ReadAllRevalidatorHistory (RevalidatorHistoryQuery) returns (RevalidatorHistoryList);
+  rpc UpdateRevalidatorHistory (RevalidatorHistory) returns (OperationStatus);
+  rpc DeleteRevalidatorHistory (ScanId) returns (OperationStatus);
+}
+
+
+message ScanHistoryQuery {
+  Sort sort = 1;
+  Pagination pagination = 2;
+  ScanHistory query = 3;
+}
+
+
+message RevalidatorHistoryQuery {
+  Sort sort = 1;
+  Pagination pagination = 2;
+  RevalidatorHistory query = 3;
+}
+
+message Sort {
+  string by = 1;
+  int32 type = 2;
+}
+
+message Pagination {
+  int32 page = 1;
+  int32 limit = 2;
+}
+
+message ScanId {
+  string id = 1;
+}
+
+message ScanHistory {
+  string scanId = 1;
+  string sport = 2;
+  string eventType = 3;
+  string status = 4;
+  repeated Bookmaker bookmakers = 5;
+  double fixturesCostTime = 6;
+  double matchDetailsCostTime = 7;
+  string startedAt = 8;
+  string finishedAt = 9;
+  int32 totalMatches = 10;
+  string scanType = 11;
+}
+
+message Bookmaker {
+  string name = 1;
+  int32 matches = 2;
+}
+
+message ScanHistoryList {
+  repeated ScanHistory scanHistories = 1;
+}
+
+message RevalidatorHistory {
+  string scan_id = 1;
+  string sport = 2;
+  string game_type = 3;
+  repeated ArbData data = 4;
+  double time_taken = 5;
+  string date = 6;
+}
+
+message RevalidatorHistoryList {
+  repeated RevalidatorHistory revalidatorHistories = 1;
+}
+
+message ArbData {
+  repeated string previous_arb_ids = 1;
+  repeated string current_arb_ids = 2;
+  repeated string expired_arb_ids = 3;
+  double time_taken = 4;
+}
+
+message OperationStatus {
+  bool success = 1;
+  string message = 2;
+}

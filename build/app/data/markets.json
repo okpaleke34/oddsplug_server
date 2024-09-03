@@ -1,0 +1,3454 @@
+{
+    "Home - DC_X2": {
+        "name": "Home win and away double chance(X2)",
+        "desc": ""
+    },
+    "Away - DC_1X": {
+        "name": "Away win and home double chance(1X)",
+        "desc": ""
+    },
+    "Draw - DC_12": {
+        "name": "Draw and home/away win(12)",
+        "desc": ""
+    },
+    "ft_1x2": {
+        "name": "Full time winner(1X2)",
+        "desc": ""
+    },
+    "ft_dc": {
+        "name": "Full time double chance",
+        "desc": ""
+    },
+    "ft_dnb": {
+        "name": "Full time draw no bet(DNB)",
+        "desc": ""
+    },
+    "ft_draw_in_one_half": {
+        "name": "Draw in atleast one half",
+        "desc": ""
+    },
+    "ft_goal_in_both_half": {
+        "name": "Goal in both half",
+        "desc": ""
+    },
+    "ft_home_no_bet": {
+        "name": "Full time home no bet",
+        "desc": ""
+    },
+    "ft_away_no_bet": {
+        "name": "Full time away no bet",
+        "desc": ""
+    },
+    "ft_home_win_to_nil": {
+        "name": "Full time home win to nil",
+        "desc": ""
+    },
+    "ft_away_win_to_nil": {
+        "name": "Full time away win to nil",
+        "desc": ""
+    },
+    "ft_home_win_both_half": {
+        "name": "Full time home win both half",
+        "desc": ""
+    },
+    "ft_away_win_both_half": {
+        "name": "Full time away win both half",
+        "desc": ""
+    },
+    "ft_home_win_either_half": {
+        "name": "Full time home win either half",
+        "desc": ""
+    },
+    "ft_away_win_either_half": {
+        "name": "Full time away win either half",
+        "desc": ""
+    },
+    "ft_penalty": {
+        "name": "Full time penalty",
+        "desc": ""
+    },
+    "ft_cs_home": {
+        "name": "Full time clean sheet home",
+        "desc": ""
+    },
+    "ft_cs_away": {
+        "name": "Full time clean sheet away",
+        "desc": ""
+    },
+    "ou_05": {
+        "name": "Full time over/under 0.5",
+        "desc": ""
+    },
+    "ou_1": {
+        "name": "Full time over/under 1",
+        "desc": ""
+    },
+    "ou_15": {
+        "name": "Full time over/under 1.5",
+        "desc": ""
+    },
+    "ou_2": {
+        "name": "Full time over/under 2",
+        "desc": ""
+    },
+    "ou_25": {
+        "name": "Full time over/under 2.5",
+        "desc": ""
+    },
+    "ou_3": {
+        "name": "Full time over/under 3",
+        "desc": ""
+    },
+    "ou_35": {
+        "name": "Full time over/under 3.5",
+        "desc": ""
+    },
+    "ou_4": {
+        "name": "Full time over/under 4",
+        "desc": ""
+    },
+    "ou_45": {
+        "name": "Full time over/under 4.5",
+        "desc": ""
+    },
+    "ou_5": {
+        "name": "Full time over/under 5",
+        "desc": ""
+    },
+    "ou_55": {
+        "name": "Full time over/under 5.5",
+        "desc": ""
+    },
+    "ou_65": {
+        "name": "Full time over/under 6.5",
+        "desc": ""
+    },
+    "ou_75": {
+        "name": "Full time over/under 7.5",
+        "desc": ""
+    },
+    "ou_h_05": {
+        "name": "Full time home over/under 0.5",
+        "desc": ""
+    },
+    "ou_h_1": {
+        "name": "Full time home over/under 1",
+        "desc": ""
+    },
+    "ou_h_15": {
+        "name": "Full time home over/under 1.5",
+        "desc": ""
+    },
+    "ou_h_2": {
+        "name": "Full time home over/under 2",
+        "desc": ""
+    },
+    "ou_h_25": {
+        "name": "Full time home over/under 2.5",
+        "desc": ""
+    },
+    "ou_h_3": {
+        "name": "Full time home over/under 3",
+        "desc": ""
+    },
+    "ou_h_35": {
+        "name": "Full time home over/under 3.5",
+        "desc": ""
+    },
+    "ou_h_4": {
+        "name": "Full time home over/under 4",
+        "desc": ""
+    },
+    "ou_h_45": {
+        "name": "Full time home over/under 4.5",
+        "desc": ""
+    },
+    "ou_h_5": {
+        "name": "Full time home over/under 5",
+        "desc": ""
+    },
+    "ou_h_55": {
+        "name": "Full time home over/under 5.5",
+        "desc": ""
+    },
+    "ou_a_05": {
+        "name": "Full time away over/under 0.5",
+        "desc": ""
+    },
+    "ou_a_1": {
+        "name": "Full time away over/under 1",
+        "desc": ""
+    },
+    "ou_a_15": {
+        "name": "Full time away over/under 1.5",
+        "desc": ""
+    },
+    "ou_a_2": {
+        "name": "Full time away over/under 2",
+        "desc": ""
+    },
+    "ou_a_25": {
+        "name": "Full time away over/under 2.5",
+        "desc": ""
+    },
+    "ou_a_3": {
+        "name": "Full time away over/under 3",
+        "desc": ""
+    },
+    "ou_a_35": {
+        "name": "Full time away over/under 3.5",
+        "desc": ""
+    },
+    "ou_a_4": {
+        "name": "Full time away over/under 4",
+        "desc": ""
+    },
+    "ou_a_45": {
+        "name": "Full time away over/under 4.5",
+        "desc": ""
+    },
+    "ou_a_5": {
+        "name": "Full time away over/under 5",
+        "desc": ""
+    },
+    "ou_a_55": {
+        "name": "Full time away over/under 5.5",
+        "desc": ""
+    },
+    "g_first_goal": {
+        "name": "First team to score",
+        "desc": ""
+    },
+    "g_last_goal": {
+        "name": "Last team to score",
+        "desc": ""
+    },
+    "g_ggng": {
+        "name": "Goal Goal/No Goal",
+        "desc": ""
+    },
+    "g_oe": {
+        "name": "Goal odd/even",
+        "desc": ""
+    },
+    "g_home_oe": {
+        "name": "Home goal odd/even",
+        "desc": ""
+    },
+    "g_away_oe": {
+        "name": "Away goal odd/even",
+        "desc": ""
+    },
+    "g_highest_score_half": {
+        "name": "Highest scoring half",
+        "desc": ""
+    },
+    "g_home_highest_score_half": {
+        "name": "Home highest scoring half",
+        "desc": ""
+    },
+    "g_away_highest_score_half": {
+        "name": "Away highest scoring half",
+        "desc": ""
+    },
+    "g_half_first_goal_home": {
+        "name": "Half first goal home",
+        "desc": "Which of the halves will home team score their first goal"
+    },
+    "g_half_first_goal_away": {
+        "name": "Half first goal away",
+        "desc": ""
+    },
+    "g_home_score": {
+        "name": "Home to score/Home over 0.5/Away clean sheet",
+        "desc": ""
+    },
+    "g_away_score": {
+        "name": "Away to score/Away over 0.5/home clean sheet",
+        "desc": ""
+    },
+    "g_home_score_both_half": {
+        "name": "Home score both halves",
+        "desc": ""
+    },
+    "g_away_score_both_half": {
+        "name": "Away score both halves",
+        "desc": ""
+    },
+    "g_5min": {
+        "name": "Goal in 5 minutes",
+        "desc": ""
+    },
+    "g_10min": {
+        "name": "Goal in 10 mins",
+        "desc": ""
+    },
+    "g_15min": {
+        "name": "Goal in 15 mins",
+        "desc": ""
+    },
+    "g_20min": {
+        "name": "Goal in 20 mins",
+        "desc": ""
+    },
+    "g_25min": {
+        "name": "Goal in 25 mins",
+        "desc": ""
+    },
+    "g_30min": {
+        "name": "Goal in 30 mins",
+        "desc": ""
+    },
+    "c_1x2": {
+        "name": "Corner winner(1X2)",
+        "desc": ""
+    },
+    "c_first": {
+        "name": "First corner",
+        "desc": ""
+    },
+    "c_last": {
+        "name": "Last corner",
+        "desc": ""
+    },
+    "c_most_corner": {
+        "name": "Team with most corner",
+        "desc": ""
+    },
+    "c_oe": {
+        "name": "corner even/odd",
+        "desc": ""
+    },
+    "c_ou_55": {
+        "name": "Full time corner over/under 5.5",
+        "desc": ""
+    },
+    "c_ou_65": {
+        "name": "Full time corner over/under 6.5",
+        "desc": ""
+    },
+    "c_ou_75": {
+        "name": "Full time corner over/under 7.5",
+        "desc": ""
+    },
+    "c_ou_85": {
+        "name": "Full time corner over/under 8.5",
+        "desc": ""
+    },
+    "c_ou_95": {
+        "name": "Full time corner over/under 9.5",
+        "desc": ""
+    },
+    "c_ou_105": {
+        "name": "Full time corner over/under 10.5",
+        "desc": ""
+    },
+    "c_ou_115": {
+        "name": "Full time corner over/under 11.5",
+        "desc": ""
+    },
+    "c_ou_125": {
+        "name": "Full time corner over/under 12.5",
+        "desc": ""
+    },
+    "c_h_35": {
+        "name": "Full time home corner over/under 3.5",
+        "desc": ""
+    },
+    "c_h_45": {
+        "name": "Full time home corner over/under 4.5",
+        "desc": ""
+    },
+    "c_h_55": {
+        "name": "Full time home corner over/under 5.5",
+        "desc": ""
+    },
+    "c_h_65": {
+        "name": "Full time home corner over/under 6.5",
+        "desc": ""
+    },
+    "c_h_75": {
+        "name": "Full time home corner over/under 7.5",
+        "desc": ""
+    },
+    "c_h_85": {
+        "name": "Full time home corner over/under 8.5",
+        "desc": ""
+    },
+    "c_a_35": {
+        "name": "Full time away corner over/under 3.5",
+        "desc": ""
+    },
+    "c_a_45": {
+        "name": "Full time away corner over/under 4.5",
+        "desc": ""
+    },
+    "c_a_55": {
+        "name": "Full time away corner over/under 5.5",
+        "desc": ""
+    },
+    "c_a_65": {
+        "name": "Full time away corner over/under 6.5",
+        "desc": ""
+    },
+    "c_a_75": {
+        "name": "Full time away corner over/under 7.5",
+        "desc": ""
+    },
+    "c_a_85": {
+        "name": "Full time away corner over/under 8.5",
+        "desc": ""
+    },
+    "bk_red_card": {
+        "name": "Red card",
+        "desc": ""
+    },
+    "bk_most_booking_half": {
+        "name": "Most booking half",
+        "desc": ""
+    },
+    "bk_1x2": {
+        "name": "Most booked team",
+        "desc": ""
+    },
+    "bk_dnb": {
+        "name": "Booking Draw no bet",
+        "desc": ""
+    },
+    "bk_dc": {
+        "name": "Booking double chance",
+        "desc": ""
+    },
+    "bk_eh_hp1": {
+        "name": "Booking European Handicap Home(+1)",
+        "desc": ""
+    },
+    "bk_eh_hp2": {
+        "name": "Booking European Handicap Home(+2)",
+        "desc": ""
+    },
+    "bk_eh_hp3": {
+        "name": "Booking European Handicap Home(+3)",
+        "desc": ""
+    },
+    "bk_eh_hp4": {
+        "name": "Booking European Handicap Home(+4)",
+        "desc": ""
+    },
+    "bk_eh_hm1": {
+        "name": "Booking European Handicap Home(-1)",
+        "desc": ""
+    },
+    "bk_eh_hm2": {
+        "name": "Booking European Handicap Home(-2)",
+        "desc": ""
+    },
+    "bk_eh_hm3": {
+        "name": "Booking European Handicap Home(-3)",
+        "desc": ""
+    },
+    "bk_eh_hm4": {
+        "name": "Booking European Handicap Home(-4)",
+        "desc": ""
+    },
+    "bk_total_home": {
+        "name": "Total home bookings",
+        "desc": ""
+    },
+    "bk_ou_15": {
+        "name": "Bookings over/under 1.5",
+        "desc": ""
+    },
+    "bk_ou_25": {
+        "name": "Bookings over/under 2.5",
+        "desc": ""
+    },
+    "bk_ou_35": {
+        "name": "Bookings over/under 3.5",
+        "desc": ""
+    },
+    "bk_ou_45": {
+        "name": "Bookings over/under 4.5",
+        "desc": ""
+    },
+    "bk_ou_55": {
+        "name": "Bookings over/under 5.5",
+        "desc": ""
+    },
+    "bk_ou_65": {
+        "name": "Bookings over/under 6.5",
+        "desc": ""
+    },
+    "bk_h_05": {
+        "name": "Bookings home over/under 0.5",
+        "desc": ""
+    },
+    "bk_h_15": {
+        "name": "Bookings home over/under 1.5",
+        "desc": ""
+    },
+    "bk_h_25": {
+        "name": "Bookings home over/under 2.5",
+        "desc": ""
+    },
+    "bk_h_35": {
+        "name": "Bookings home over/under 3.5",
+        "desc": ""
+    },
+    "bk_h_45": {
+        "name": "Bookings home over/under 4.5",
+        "desc": ""
+    },
+    "bk_a_05": {
+        "name": "Bookings away over/under 0.5",
+        "desc": ""
+    },
+    "bk_a_15": {
+        "name": "Bookings away over/under 1.5",
+        "desc": ""
+    },
+    "bk_a_25": {
+        "name": "Bookings away over/under 2.5",
+        "desc": ""
+    },
+    "bk_a_35": {
+        "name": "Bookings away over/under 3.5",
+        "desc": ""
+    },
+    "bk_a_45": {
+        "name": "Bookings away over/under 4.5",
+        "desc": ""
+    },
+    "bk_y_oe": {
+        "name": "Full time Yellow Card Even/Odd",
+        "desc": ""
+    },
+    "bk_y_1x2": {
+        "name": "Most yellow card",
+        "desc": ""
+    },
+    "bk_y_dc": {
+        "name": "Full time Yellow Card double chance",
+        "desc": ""
+    },
+    "bk_y_ou_15": {
+        "name": "Full time Yellow Card over/under 1.5",
+        "desc": ""
+    },
+    "bk_y_ou_25": {
+        "name": "Full time Yellow Card over/under 2.5",
+        "desc": ""
+    },
+    "bk_y_ou_3": {
+        "name": "Full time Yellow Card over/under 3",
+        "desc": ""
+    },
+    "bk_y_ou_35": {
+        "name": "Full time Yellow Card over/under 3.5",
+        "desc": ""
+    },
+    "bk_y_ou_4": {
+        "name": "Full time Yellow Card over/under 4",
+        "desc": ""
+    },
+    "bk_y_ou_45": {
+        "name": "Full time Yellow Card over/under 4.5",
+        "desc": ""
+    },
+    "bk_y_ou_5": {
+        "name": "Full time Yellow Card over/under 5",
+        "desc": ""
+    },
+    "bk_y_ou_55": {
+        "name": "Full time Yellow Card over/under 5.5",
+        "desc": ""
+    },
+    "bk_y_ou_6": {
+        "name": "Full time Yellow Card over/under 6",
+        "desc": ""
+    },
+    "bk_y_ou_65": {
+        "name": "Full time Yellow Card over/under 6.5",
+        "desc": ""
+    },
+    "bk_y_at_225": {
+        "name": "Full time Yellow Card Asian Total 2.25",
+        "desc": ""
+    },
+    "bk_y_at_275": {
+        "name": "Full time Yellow Card Asian Total 2.75",
+        "desc": ""
+    },
+    "bk_y_at_325": {
+        "name": "Full time Yellow Card Asian Total 3.25",
+        "desc": ""
+    },
+    "bk_y_at_375": {
+        "name": "Full time Yellow Card Asian Total 3.75",
+        "desc": ""
+    },
+    "bk_y_at_425": {
+        "name": "Full time Yellow Card Asian Total 4.25",
+        "desc": ""
+    },
+    "bk_y_at_475": {
+        "name": "Full time Yellow Card Asian Total 4.75",
+        "desc": ""
+    },
+    "bk_y_at_525": {
+        "name": "Full time Yellow Card Asian Total 5.25",
+        "desc": ""
+    },
+    "bk_y_at_575": {
+        "name": "Full time Yellow Card Asian Total 5.75",
+        "desc": ""
+    },
+    "bk_y_at_625": {
+        "name": "Full time Yellow Card Asian Total 6.25",
+        "desc": ""
+    },
+    "bk_y_at_675": {
+        "name": "Full time Yellow Card Asian Total 6.75",
+        "desc": ""
+    },
+    "bk_y_ah_h_m45": {
+        "name": "Full time Yellow Card AH Home(-4.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m4": {
+        "name": "Full time Yellow Card AH Home(-4)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m35": {
+        "name": "Full time Yellow Card AH Home(-3.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m3": {
+        "name": "Full time Yellow Card AH Home(-3)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m25": {
+        "name": "Full time Yellow Card AH Home(-2.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m2": {
+        "name": "Full time Yellow Card AH Home(-2)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m15": {
+        "name": "Full time Yellow Card AH Home(-1.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m1": {
+        "name": "Full time Yellow Card AH Home(-1)",
+        "desc": ""
+    },
+    "bk_y_ah_h_m05": {
+        "name": "Full time Yellow Card AH Home(-0.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_0": {
+        "name": "Full time Yellow Card AH Home(0)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p05": {
+        "name": "Full time Yellow Card AH Home(+0.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p1": {
+        "name": "Full time Yellow Card AH Home(+1)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p15": {
+        "name": "Full time Yellow Card AH Home(+1.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p2": {
+        "name": "Full time Yellow Card AH Home(+2)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p25": {
+        "name": "Full time Yellow Card AH Home(+2.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p3": {
+        "name": "Full time Yellow Card AH Home(+3)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p35": {
+        "name": "Full time Yellow Card AH Home(+3.5)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p4": {
+        "name": "Full time Yellow Card AH Home(+4)",
+        "desc": ""
+    },
+    "bk_y_ah_h_p45": {
+        "name": "Full time Yellow Card AH Home(+4.5)",
+        "desc": ""
+    },
+    "bk_y_eh_hp1": {
+        "name": "Full time Yellow Card EU Handicap Home(+1)",
+        "desc": ""
+    },
+    "bk_y_eh_hp2": {
+        "name": "Full time Yellow Card EU Handicap Home(+2)",
+        "desc": ""
+    },
+    "bk_y_eh_hp3": {
+        "name": "Full time Yellow Card EU Handicap Home(+3)",
+        "desc": ""
+    },
+    "bk_y_eh_hp4": {
+        "name": "Full time Yellow Card EU Handicap Home(+4)",
+        "desc": ""
+    },
+    "bk_y_eh_hm1": {
+        "name": "Full time Yellow Card EU Handicap Home(-1)",
+        "desc": ""
+    },
+    "bk_y_eh_hm2": {
+        "name": "Full time Yellow Card EU Handicap Home(-2)",
+        "desc": ""
+    },
+    "bk_y_eh_hm3": {
+        "name": "Full time Yellow Card EU Handicap Home(-3)",
+        "desc": ""
+    },
+    "bk_y_eh_hm4": {
+        "name": "Full time Yellow Card EU Handicap Home(-4)",
+        "desc": ""
+    },
+    "bk_y_h_15": {
+        "name": "Full time Yellow Card Home Over/Under 1.5",
+        "desc": ""
+    },
+    "bk_y_h_25": {
+        "name": "Full time Yellow Card Home Over/Under 2.5",
+        "desc": ""
+    },
+    "bk_y_h_35": {
+        "name": "Full time Yellow Card Home Over/Under 3.5",
+        "desc": ""
+    },
+    "bk_y_h_45": {
+        "name": "Full time Yellow Card Home Over/Under 4.5",
+        "desc": ""
+    },
+    "bk_y_a_15": {
+        "name": "Full time Yellow Card Away Over/Under 1.5",
+        "desc": ""
+    },
+    "bk_y_a_25": {
+        "name": "Full time Yellow Card Away Over/Under 2.5",
+        "desc": ""
+    },
+    "bk_y_a_35": {
+        "name": "Full time Yellow Card Away Over/Under 3.5",
+        "desc": ""
+    },
+    "bk_y_a_45": {
+        "name": "Full time Yellow Card Away Over/Under 4.5",
+        "desc": ""
+    },
+    "ft_c_1x2": {
+        "name": "Full time corner winner",
+        "desc": ""
+    },
+    "ft_c_dc": {
+        "name": "Full time corner double chance",
+        "desc": ""
+    },
+    "ft_c_first": {
+        "name": "Full time first corner",
+        "desc": ""
+    },
+    "ft_c_last": {
+        "name": "Full time last corner",
+        "desc": ""
+    },
+    "ft_c_most_corner": {
+        "name": "Full time most corner",
+        "desc": ""
+    },
+    "ft_c_oe": {
+        "name": "Full time Corner odd/even",
+        "desc": ""
+    },
+    "ft_c_ou_45": {
+        "name": "Full time Corner Over/Under 4.5",
+        "desc": ""
+    },
+    "ft_c_ou_55": {
+        "name": "Full time Corner Over/Under 5.5",
+        "desc": ""
+    },
+    "ft_c_ou_6": {
+        "name": "Full time Corner Over/Under 6",
+        "desc": ""
+    },
+    "ft_c_ou_65": {
+        "name": "Full time Corner Over/Under 6.5",
+        "desc": ""
+    },
+    "ft_c_ou_7": {
+        "name": "Full time Corner Over/Under 7",
+        "desc": ""
+    },
+    "ft_c_ou_75": {
+        "name": "Full time Corner Over/Under 7.5",
+        "desc": ""
+    },
+    "ft_c_ou_8": {
+        "name": "Full time Corner Over/Under 8",
+        "desc": ""
+    },
+    "ft_c_ou_85": {
+        "name": "Full time Corner Over/Under 8.5",
+        "desc": ""
+    },
+    "ft_c_ou_9": {
+        "name": "Full time Corner Over/Under 9",
+        "desc": ""
+    },
+    "ft_c_ou_95": {
+        "name": "Full time Corner Over/Under 9.5",
+        "desc": ""
+    },
+    "ft_c_ou_10": {
+        "name": "Full time Corner Over/Under 10",
+        "desc": ""
+    },
+    "ft_c_ou_105": {
+        "name": "Full time Corner Over/Under 10.5",
+        "desc": ""
+    },
+    "ft_c_ou_11": {
+        "name": "Full time Corner Over/Under 11",
+        "desc": ""
+    },
+    "ft_c_ou_115": {
+        "name": "Full time Corner Over/Under 11.5",
+        "desc": ""
+    },
+    "ft_c_ou_12": {
+        "name": "Full time Corner Over/Under 12",
+        "desc": ""
+    },
+    "ft_c_ou_125": {
+        "name": "Full time Corner Over/Under 12.5",
+        "desc": ""
+    },
+    "ft_c_ou_135": {
+        "name": "Full time Corner Over/Under 13.5",
+        "desc": ""
+    },
+    "ft_c_ou_145": {
+        "name": "Full time Corner Over/Under 14.5",
+        "desc": ""
+    },
+    "ft_c_ou_155": {
+        "name": "Full time Corner Over/Under 15.5",
+        "desc": ""
+    },
+    "ft_c_ou_165": {
+        "name": "Full time Corner Over/Under 16.5",
+        "desc": ""
+    },
+    "ft_c_at_625": {
+        "name": "Full time Corner Asian Total Over/Under 6.25",
+        "desc": ""
+    },
+    "ft_c_at_675": {
+        "name": "Full time Corner Asian Total Over/Under 6.75",
+        "desc": ""
+    },
+    "ft_c_at_725": {
+        "name": "Full time Corner Asian Total Over/Under 7.25",
+        "desc": ""
+    },
+    "ft_c_at_775": {
+        "name": "Full time Corner Asian Total Over/Under 7.75",
+        "desc": ""
+    },
+    "ft_c_at_825": {
+        "name": "Full time Corner Asian Total Over/Under 8.25",
+        "desc": ""
+    },
+    "ft_c_at_875": {
+        "name": "Full time Corner Asian Total Over/Under 8.75",
+        "desc": ""
+    },
+    "ft_c_at_925": {
+        "name": "Full time Corner Asian Total Over/Under 9.25",
+        "desc": ""
+    },
+    "ft_c_at_975": {
+        "name": "Full time Corner Asian Total Over/Under 9.75",
+        "desc": ""
+    },
+    "ft_c_at_1025": {
+        "name": "Full time Corner Asian Total Over/Under 10.25",
+        "desc": ""
+    },
+    "ft_c_at_1075": {
+        "name": "Full time Corner Asian Total Over/Under 10.75",
+        "desc": ""
+    },
+    "ft_c_at_1125": {
+        "name": "Full time Corner Asian Total Over/Under 11.25",
+        "desc": ""
+    },
+    "ft_c_at_1175": {
+        "name": "Full time Corner Asian Total Over/Under 11.75",
+        "desc": ""
+    },
+    "ft_c_at_1225": {
+        "name": "Full time Corner Asian Total Over/Under 12.25",
+        "desc": ""
+    },
+    "ft_c_at_1275": {
+        "name": "Full time Corner Asian Total Over/Under 12.75",
+        "desc": ""
+    },
+    "ft_c_at_1325": {
+        "name": "Full time Corner Asian Total Over/Under 13.25",
+        "desc": ""
+    },
+    "ft_c_at_1375": {
+        "name": "Full time Corner Asian Total Over/Under 13.75",
+        "desc": ""
+    },
+    "ft_c_at_1425": {
+        "name": "Full time Corner Asian Total Over/Under 14.25",
+        "desc": ""
+    },
+    "ft_c_at_1475": {
+        "name": "Full time Corner Asian Total Over/Under 14.75",
+        "desc": ""
+    },
+    "ft_c_at_1525": {
+        "name": "Full time Corner Asian Total Over/Under 15.25",
+        "desc": ""
+    },
+    "ft_c_at_1575": {
+        "name": "Full time Corner Asian Total Over/Under 15.75",
+        "desc": ""
+    },
+    "ft_c_ah_h_m8": {
+        "name": "Full time Corner AH Home(-8)/Away(+8)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m75": {
+        "name": "Full time Corner AH Home(-7.5)/Away(+7.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m7": {
+        "name": "Full time Corner AH Home(-7)/Away(+7)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m65": {
+        "name": "Full time Corner AH Home(-6.5)/Away(+6.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m6": {
+        "name": "Full time Corner AH Home(-6)/Away(+6)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m55": {
+        "name": "Full time Corner AH Home(-5.5)/Away(+5.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m5": {
+        "name": "Full time Corner AH Home(-5)/Away(+5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m45": {
+        "name": "Full time Corner AH Home(-4.5)/Away(+4.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m4": {
+        "name": "Full time Corner AH Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m35": {
+        "name": "Full time Corner AH Home(-3.5)/Away(+3.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m3": {
+        "name": "Full time Corner AH Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m25": {
+        "name": "Full time Corner AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m2": {
+        "name": "Full time Corner AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m15": {
+        "name": "Full time Corner AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m1": {
+        "name": "Full time Corner AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "ft_c_ah_h_m05": {
+        "name": "Full time Corner AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_0": {
+        "name": "Full time Corner AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p05": {
+        "name": "Full time Corner AH Home(+0.5)/Away(-0.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p1": {
+        "name": "Full time Corner AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p15": {
+        "name": "Full time Corner AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p2": {
+        "name": "Full time Corner AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p25": {
+        "name": "Full time Corner AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p3": {
+        "name": "Full time Corner AH Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p35": {
+        "name": "Full time Corner AH Home(+3.5)/Away(-3.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p4": {
+        "name": "Full time Corner AH Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p45": {
+        "name": "Full time Corner AH Home(+4.5)/Away(-4.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p5": {
+        "name": "Full time Corner AH Home(+5)/Away(-5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p55": {
+        "name": "Full time Corner AH Home(+5.5)/Away(-5.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p6": {
+        "name": "Full time Corner AH Home(+6)/Away(-6)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p65": {
+        "name": "Full time Corner AH Home(+6.5)/Away(-6.5)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p7": {
+        "name": "Full time Corner AH Home(+7)/Away(-7)",
+        "desc": ""
+    },
+    "ft_c_ah_h_p75": {
+        "name": "Full time Corner AH Home(+7.5)/Away(-7.5)",
+        "desc": ""
+    },
+    "ft_c_eh_hp1": {
+        "name": "Full time Corner Europe Handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "ft_c_eh_hp2": {
+        "name": "Full time Corner Europe Handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "ft_c_eh_hp3": {
+        "name": "Full time Corner Europe Handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "ft_c_eh_hp4": {
+        "name": "Full time Corner Europe Handicap Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "ft_c_eh_hp5": {
+        "name": "Full time Corner Europe Handicap Home(+5)/Away(-5)",
+        "desc": ""
+    },
+    "ft_c_eh_hp6": {
+        "name": "Full time Corner Europe Handicap Home(+6)/Away(-6)",
+        "desc": ""
+    },
+    "ft_c_eh_hp7": {
+        "name": "Full time Corner Europe Handicap Home(+7)/Away(-7)",
+        "desc": ""
+    },
+    "ft_c_eh_hp8": {
+        "name": "Full time Corner Europe Handicap Home(+8)/Away(-8)",
+        "desc": ""
+    },
+    "ft_c_eh_hm1": {
+        "name": "Full time Corner Europe Handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "ft_c_eh_hm2": {
+        "name": "Full time Corner Europe Handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "ft_c_eh_hm3": {
+        "name": "Full time Corner Europe Handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "ft_c_eh_hm4": {
+        "name": "Full time Corner Europe Handicap Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "ft_c_eh_hm5": {
+        "name": "Full time Corner Europe Handicap Home(-5)/Away(+5)",
+        "desc": ""
+    },
+    "ft_c_eh_hm6": {
+        "name": "Full time Corner Europe Handicap Home(-6)/Away(+6)",
+        "desc": ""
+    },
+    "ft_c_eh_hm7": {
+        "name": "Full time Corner Europe Handicap Home(-7)/Away(+7)",
+        "desc": ""
+    },
+    "ft_c_eh_hm8": {
+        "name": "Full time Corner Europe Handicap Home(-8)/Away(+8)",
+        "desc": ""
+    },
+    "ft_c_h_35": {
+        "name": "Full time Corner Home Over/Under 3.5",
+        "desc": ""
+    },
+    "ft_c_h_45": {
+        "name": "Full time Corner Home Over/Under 4.5",
+        "desc": ""
+    },
+    "ft_c_h_55": {
+        "name": "Full time Corner Home Over/Under 5.5",
+        "desc": ""
+    },
+    "ft_c_h_65": {
+        "name": "Full time Corner Home Over/Under 6.5",
+        "desc": ""
+    },
+    "ft_c_h_75": {
+        "name": "Full time Corner Home Over/Under 7.5",
+        "desc": ""
+    },
+    "ft_c_h_85": {
+        "name": "Full time Corner Home Over/Under 8.5",
+        "desc": ""
+    },
+    "ft_c_a_35": {
+        "name": "Full time Corner Away Over/Under 3.5",
+        "desc": ""
+    },
+    "ft_c_a_45": {
+        "name": "Full time Corner Away Over/Under 4.5",
+        "desc": ""
+    },
+    "ft_c_a_55": {
+        "name": "Full time Corner Away Over/Under 5.5",
+        "desc": ""
+    },
+    "ft_c_a_65": {
+        "name": "Full time Corner Away Over/Under 6.5",
+        "desc": ""
+    },
+    "ft_c_a_75": {
+        "name": "Full time Corner Away Over/Under 7.5",
+        "desc": ""
+    },
+    "ft_c_a_85": {
+        "name": "Full time Corner Away Over/Under 8.5",
+        "desc": ""
+    },
+    "ft_euh_hm6": {
+        "name": "Full time European Handicap Home(-6)",
+        "desc": ""
+    },
+    "ft_euh_hm5": {
+        "name": "Full time European Handicap Home(-5)",
+        "desc": ""
+    },
+    "ft_euh_hm4": {
+        "name": "Full time European Handicap Home(-4)",
+        "desc": ""
+    },
+    "ft_euh_hm3": {
+        "name": "Full time European Handicap Home(-3)",
+        "desc": ""
+    },
+    "ft_euh_hm2": {
+        "name": "Full time European Handicap Home(-2)",
+        "desc": ""
+    },
+    "ft_euh_hm1": {
+        "name": "Full time European Handicap Home(-1)",
+        "desc": ""
+    },
+    "ft_euh_hp1": {
+        "name": "Full time European Handicap Home(+1)",
+        "desc": ""
+    },
+    "ft_euh_hp2": {
+        "name": "Full time European Handicap Home(+2)",
+        "desc": ""
+    },
+    "ft_euh_hp3": {
+        "name": "Full time European Handicap Home(+3)",
+        "desc": ""
+    },
+    "ft_euh_hp4": {
+        "name": "Full time European Handicap Home(+4)",
+        "desc": ""
+    },
+    "ft_euh_hp5": {
+        "name": "Full time European Handicap Home(+5)",
+        "desc": ""
+    },
+    "ft_euh_hp6": {
+        "name": "Full time European Handicap Home(+6)",
+        "desc": ""
+    },
+    "ft_at_ou_0": {
+        "name": "Full time Asian Total 0",
+        "desc": ""
+    },
+    "ft_at_ou_025": {
+        "name": "Full time Asian Total 0.25",
+        "desc": ""
+    },
+    "ft_at_ou_075": {
+        "name": "Full time Asian Total 0.75",
+        "desc": ""
+    },
+    "ft_at_ou_1": {
+        "name": "Full time Asian Total 1",
+        "desc": ""
+    },
+    "ft_at_ou_125": {
+        "name": "Full time Asian Total 1.25",
+        "desc": ""
+    },
+    "ft_at_ou_175": {
+        "name": "Full time Asian Total 1.75",
+        "desc": ""
+    },
+    "ft_at_ou_2": {
+        "name": "Full time Asian Total 2",
+        "desc": ""
+    },
+    "ft_at_ou_225": {
+        "name": "Full time Asian Total 2.25",
+        "desc": ""
+    },
+    "ft_at_ou_275": {
+        "name": "Full time Asian Total 2.75",
+        "desc": ""
+    },
+    "ft_at_ou_3": {
+        "name": "Full time Asian Total 3",
+        "desc": ""
+    },
+    "ft_at_ou_325": {
+        "name": "Full time Asian Total 3.25",
+        "desc": ""
+    },
+    "ft_at_ou_375": {
+        "name": "Full time Asian Total 3.75",
+        "desc": ""
+    },
+    "ft_at_ou_4": {
+        "name": "Full time Asian Total 4",
+        "desc": ""
+    },
+    "ft_at_ou_425": {
+        "name": "Full time Asian Total 4.25",
+        "desc": ""
+    },
+    "ft_at_ou_475": {
+        "name": "Full time Asian Total 4.75",
+        "desc": ""
+    },
+    "ft_at_ou_5": {
+        "name": "Full time Asian Total 5",
+        "desc": ""
+    },
+    "ft_at_ou_525": {
+        "name": "Full time Asian Total 5.25",
+        "desc": ""
+    },
+    "ft_at_ou_575": {
+        "name": "Full time Asian Total 5.75",
+        "desc": ""
+    },
+    "ft_at_ou_6": {
+        "name": "Full time Asian Total 6",
+        "desc": ""
+    },
+    "ft_at_ou_625": {
+        "name": "Full time Asian Total 6.25",
+        "desc": ""
+    },
+    "ft_at_ou_675": {
+        "name": "Full time Asian Total 6.75",
+        "desc": ""
+    },
+    "ft_at_ou_7": {
+        "name": "Full time Asian Total 7",
+        "desc": ""
+    },
+    "ft_at_ou_725": {
+        "name": "Full time Asian Total 7.25",
+        "desc": ""
+    },
+    "ft_at_ou_775": {
+        "name": "Full time Asian Total 7.75",
+        "desc": ""
+    },
+    "ft_at_h_ou_0": {
+        "name": "Full time Home Asian Total 0",
+        "desc": ""
+    },
+    "ft_at_h_ou_025": {
+        "name": "Full time Home Asian Total 0.25",
+        "desc": ""
+    },
+    "ft_at_h_ou_075": {
+        "name": "Full time Home Asian Total 0.75",
+        "desc": ""
+    },
+    "ft_at_h_ou_1": {
+        "name": "Full time Home Asian Total 1",
+        "desc": ""
+    },
+    "ft_at_h_ou_125": {
+        "name": "Full time Home Asian Total 1.25",
+        "desc": ""
+    },
+    "ft_at_h_ou_175": {
+        "name": "Full time Home Asian Total 1.75",
+        "desc": ""
+    },
+    "ft_at_h_ou_2": {
+        "name": "Full time Home Asian Total 2",
+        "desc": ""
+    },
+    "ft_at_h_ou_225": {
+        "name": "Full time Home Asian Total 2.25",
+        "desc": ""
+    },
+    "ft_at_h_ou_275": {
+        "name": "Full time Home Asian Total 2.75",
+        "desc": ""
+    },
+    "ft_at_h_ou_3": {
+        "name": "Full time Home Asian Total 3",
+        "desc": ""
+    },
+    "ft_at_h_ou_325": {
+        "name": "Full time Home Asian Total 3.25",
+        "desc": ""
+    },
+    "ft_at_h_ou_375": {
+        "name": "Full time Home Asian Total 3.75",
+        "desc": ""
+    },
+    "ft_at_a_ou_0": {
+        "name": "Full time Away Asian Total 0",
+        "desc": ""
+    },
+    "ft_at_a_ou_025": {
+        "name": "Full time Away Asian Total 0.25",
+        "desc": ""
+    },
+    "ft_at_a_ou_075": {
+        "name": "Full time Away Asian Total 0.75",
+        "desc": ""
+    },
+    "ft_at_a_ou_1": {
+        "name": "Full time Away Asian Total 1",
+        "desc": ""
+    },
+    "ft_at_a_ou_125": {
+        "name": "Full time Away Asian Total 1.25",
+        "desc": ""
+    },
+    "ft_at_a_ou_175": {
+        "name": "Full time Away Asian Total 1.75",
+        "desc": ""
+    },
+    "ft_at_a_ou_2": {
+        "name": "Full time Away Asian Total 2",
+        "desc": ""
+    },
+    "ft_at_a_ou_225": {
+        "name": "Full time Away Asian Total 2.25",
+        "desc": ""
+    },
+    "ft_at_a_ou_275": {
+        "name": "Full time Away Asian Total 2.75",
+        "desc": ""
+    },
+    "ft_at_a_ou_3": {
+        "name": "Full time Away Asian Total 3",
+        "desc": ""
+    },
+    "ft_at_a_ou_325": {
+        "name": "Full time Away Asian Total 3.25",
+        "desc": ""
+    },
+    "ft_at_a_ou_375": {
+        "name": "Full time Away Asian Total 3.75",
+        "desc": ""
+    },
+    "ft_ah_h_m4": {
+        "name": "Full time AH Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "ft_ah_h_m375": {
+        "name": "Full time AH Home(-3.75)/Away(+3.75)",
+        "desc": ""
+    },
+    "ft_ah_h_m35": {
+        "name": "Full time AH Home(-3.5)/Away(+3.5)",
+        "desc": ""
+    },
+    "ft_ah_h_m325": {
+        "name": "Full time AH Home(-3.25)/Away(+3.25)",
+        "desc": ""
+    },
+    "ft_ah_h_m3": {
+        "name": "Full time AH Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "ft_ah_h_m275": {
+        "name": "Full time AH Home(-2.75)/Away(+2.75)",
+        "desc": ""
+    },
+    "ft_ah_h_m25": {
+        "name": "Full time AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "ft_ah_h_m225": {
+        "name": "Full time AH Home(-2.25)/Away(+2.25)",
+        "desc": ""
+    },
+    "ft_ah_h_m2": {
+        "name": "Full time AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "ft_ah_h_m175": {
+        "name": "Full time AH Home(-1.75)/Away(+1.75)",
+        "desc": ""
+    },
+    "ft_ah_h_m15": {
+        "name": "Full time AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "ft_ah_h_m125": {
+        "name": "Full time AH Home(-1.25)/Away(+1.25)",
+        "desc": ""
+    },
+    "ft_ah_h_m1": {
+        "name": "Full time AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "ft_ah_h_m075": {
+        "name": "Full time AH Home(-0.75)/Away(+0.75)",
+        "desc": ""
+    },
+    "ft_ah_h_m05": {
+        "name": "Full time AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "ft_ah_h_m025": {
+        "name": "Full time AH Home(-0.25)/Away(+0.25)",
+        "desc": ""
+    },
+    "ft_ah_h_0": {
+        "name": "Full time AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "ft_ah_h_p025": {
+        "name": "Full time AH Home(+0.25)/Away(-0.25)",
+        "desc": ""
+    },
+    "ft_ah_h_p05": {
+        "name": "Full time AH Home(+0.5)/Away(-0.5)",
+        "desc": ""
+    },
+    "ft_ah_h_p075": {
+        "name": "Full time AH Home(+0.75)/Away(-0.75)",
+        "desc": ""
+    },
+    "ft_ah_h_p1": {
+        "name": "Full time AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "ft_ah_h_p125": {
+        "name": "Full time AH Home(+1.25)/Away(-1.25)",
+        "desc": ""
+    },
+    "ft_ah_h_p15": {
+        "name": "Full time AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "ft_ah_h_p175": {
+        "name": "Full time AH Home(+1.75)/Away(-1.75)",
+        "desc": ""
+    },
+    "ft_ah_h_p2": {
+        "name": "Full time AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "ft_ah_h_p225": {
+        "name": "Full time AH Home(+2.25)/Away(-2.25)",
+        "desc": ""
+    },
+    "ft_ah_h_p25": {
+        "name": "Full time AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "ft_ah_h_p275": {
+        "name": "Full time AH Home(+2.75)/Away(-2.75)",
+        "desc": ""
+    },
+    "ft_ah_h_p3": {
+        "name": "Full time AH Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "ft_ah_h_p325": {
+        "name": "Full time AH Home(+3.25)/Away(-3.25)",
+        "desc": ""
+    },
+    "ft_ah_h_p35": {
+        "name": "Full time AH Home(+3.5)/Away(-3.5)",
+        "desc": ""
+    },
+    "ft_ah_h_p375": {
+        "name": "Full time AH Home(+3.75)/Away(-3.75)",
+        "desc": ""
+    },
+    "ft_ah_h_p4": {
+        "name": "Full time AH Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "l_1x2_5": {
+        "name": "Leading in 5 mins",
+        "desc": ""
+    },
+    "l_1x2_10": {
+        "name": "Leading in 10 mins",
+        "desc": ""
+    },
+    "l_1x2_15": {
+        "name": "Leading in 15 mins",
+        "desc": ""
+    },
+    "l_1x2_20": {
+        "name": "Leading in 20 mins",
+        "desc": ""
+    },
+    "l_1x2_25": {
+        "name": "Leading in 25 mins",
+        "desc": ""
+    },
+    "l_1x2_30": {
+        "name": "Leading in 30 mins",
+        "desc": ""
+    },
+    "l_1x2_60": {
+        "name": "Leading in 60 mins",
+        "desc": ""
+    },
+    "p_anytime_scorers": {
+        "name": "Player Anytime Scorer yes/no",
+        "desc": ""
+    },
+    "p_anytime_assits": {
+        "name": "Player Anytime Assit yes/no",
+        "desc": ""
+    },
+    "p_booking": {
+        "name": "Player Bookings yes/no",
+        "desc": ""
+    },
+    "p_goals": {
+        "name": "Player goals over/under",
+        "desc": ""
+    },
+    "p_total_shots": {
+        "name": "Player total shots over/under",
+        "desc": ""
+    },
+    "p_shots_ot": {
+        "name": "Player shots on target over/under",
+        "desc": ""
+    },
+    "p_tackles": {
+        "name": "Player tackle over/under",
+        "desc": ""
+    },
+    "fh_1x2": {
+        "name": "First half winner(1X2)",
+        "desc": ""
+    },
+    "fh_dnb": {
+        "name": "First half draw no bet",
+        "desc": ""
+    },
+    "fh_dc": {
+        "name": "First half double chance",
+        "desc": ""
+    },
+    "fh_ou_05": {
+        "name": "First half over/under 0.5",
+        "desc": ""
+    },
+    "fh_ou_1": {
+        "name": "First half over/under 1",
+        "desc": ""
+    },
+    "fh_ou_15": {
+        "name": "First half over/under 1.5",
+        "desc": ""
+    },
+    "fh_ou_2": {
+        "name": "First half over/under 2",
+        "desc": ""
+    },
+    "fh_ou_25": {
+        "name": "First half over/under 2.5",
+        "desc": ""
+    },
+    "fh_ou_3": {
+        "name": "First half over/under 3",
+        "desc": ""
+    },
+    "fh_ou_35": {
+        "name": "First half over/under 3.5",
+        "desc": ""
+    },
+    "fh_ou_h_05": {
+        "name": "First half home over/under 0.5",
+        "desc": ""
+    },
+    "fh_ou_h_1": {
+        "name": "First half home over/under 1",
+        "desc": ""
+    },
+    "fh_ou_h_15": {
+        "name": "First half home over/under 1.5",
+        "desc": ""
+    },
+    "fh_ou_h_2": {
+        "name": "First half home over/under 2",
+        "desc": ""
+    },
+    "fh_ou_h_25": {
+        "name": "First half home over/under 2.5",
+        "desc": ""
+    },
+    "fh_ou_h_3": {
+        "name": "First half home over/under 3",
+        "desc": ""
+    },
+    "fh_ou_h_35": {
+        "name": "First half home over/under 3.5",
+        "desc": ""
+    },
+    "fh_ou_a_05": {
+        "name": "First half away over/under 0.5",
+        "desc": ""
+    },
+    "fh_ou_a_1": {
+        "name": "First half away over/under 1",
+        "desc": ""
+    },
+    "fh_ou_a_15": {
+        "name": "First half away over/under 1.5",
+        "desc": ""
+    },
+    "fh_ou_a_2": {
+        "name": "First half away over/under 2",
+        "desc": ""
+    },
+    "fh_ou_a_25": {
+        "name": "First half away over/under 2.5",
+        "desc": ""
+    },
+    "fh_ou_a_3": {
+        "name": "First half away over/under 2",
+        "desc": ""
+    },
+    "fh_ou_a_35": {
+        "name": "First half away over/under 2.5",
+        "desc": ""
+    },
+    "fh_cs_home": {
+        "name": "First half home clean sheet",
+        "desc": ""
+    },
+    "fh_cs_away": {
+        "name": "First half away clean sheet",
+        "desc": ""
+    },
+    "fh_g_ggng": {
+        "name": "First half goal/goal no goal",
+        "desc": ""
+    },
+    "fh_g_oe": {
+        "name": "First half goal odd/even",
+        "desc": ""
+    },
+    "fh_g_home_oe": {
+        "name": "First half home goal odd/even",
+        "desc": ""
+    },
+    "fh_g_away_oe": {
+        "name": "First half away goal odd/even",
+        "desc": ""
+    },
+    "fh_g_home_score": {
+        "name": "First half home to score",
+        "desc": ""
+    },
+    "fh_g_away_score": {
+        "name": "First half away to score",
+        "desc": ""
+    },
+    "fh_g_first_goal": {
+        "name": "First half first goal",
+        "desc": ""
+    },
+    "fh_g_last_goal": {
+        "name": "First half last goal",
+        "desc": ""
+    },
+    "fh_c_1x2": {
+        "name": "First half corner winner(1X2)",
+        "desc": ""
+    },
+    "fh_c_dc": {
+        "name": "First half corner Double Chance",
+        "desc": ""
+    },
+    "fh_c_first": {
+        "name": "First half first corner",
+        "desc": ""
+    },
+    "fh_c_last": {
+        "name": "First half last corner",
+        "desc": ""
+    },
+    "fh_c_oe": {
+        "name": "First half corners odd/even",
+        "desc": ""
+    },
+    "fh_c_ou_25": {
+        "name": "First half corners over/under 2.5",
+        "desc": ""
+    },
+    "fh_c_ou_35": {
+        "name": "First half corners over/under 3.5",
+        "desc": ""
+    },
+    "fh_c_ou_45": {
+        "name": "First half corners over/under 4.5",
+        "desc": ""
+    },
+    "fh_c_ou_55": {
+        "name": "First half corners over/under 5.5",
+        "desc": ""
+    },
+    "fh_c_ou_65": {
+        "name": "First half corners over/under 6.5",
+        "desc": ""
+    },
+    "fh_c_at_225": {
+        "name": "First Half Corner Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "fh_c_at_275": {
+        "name": "First Half Corner Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "fh_c_at_325": {
+        "name": "First Half Corner Asian Total Over/Under 3.25",
+        "desc": ""
+    },
+    "fh_c_at_375": {
+        "name": "First Half Corner Asian Total Over/Under 3.75",
+        "desc": ""
+    },
+    "fh_c_at_425": {
+        "name": "First Half Corner Asian Total Over/Under 4.25",
+        "desc": ""
+    },
+    "fh_c_at_475": {
+        "name": "First Half Corner Asian Total Over/Under 4.75",
+        "desc": ""
+    },
+    "fh_c_at_525": {
+        "name": "First Half Corner Asian Total Over/Under 5.25",
+        "desc": ""
+    },
+    "fh_c_at_575": {
+        "name": "First Half Corner Asian Total Over/Under 5.75",
+        "desc": ""
+    },
+    "fh_c_at_625": {
+        "name": "First Half Corner Asian Total Over/Under 6.25",
+        "desc": ""
+    },
+    "fh_c_at_675": {
+        "name": "First Half Corner Asian Total Over/Under 6.75",
+        "desc": ""
+    },
+    "fh_c_ah_h_m45": {
+        "name": "First Half Corner AH Home(-4.5)/Away(+4.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m4": {
+        "name": "First Half Corner AH Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m35": {
+        "name": "First Half Corner AH Home(-3.5)/Away(+3.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m3": {
+        "name": "First Half Corner AH Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m25": {
+        "name": "First Half Corner AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m2": {
+        "name": "First Half Corner AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m15": {
+        "name": "First Half Corner AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m1": {
+        "name": "First Half Corner AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "fh_c_ah_h_m05": {
+        "name": "First Half Corner AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_0": {
+        "name": "First Half Corner AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p05": {
+        "name": "First Half Corner AH Home(+0.5)/Away(-0.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p1": {
+        "name": "First Half Corner AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p15": {
+        "name": "First Half Corner AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p2": {
+        "name": "First Half Corner AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p25": {
+        "name": "First Half Corner AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p3": {
+        "name": "First Half Corner AH Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p35": {
+        "name": "First Half Corner AH Home(+3.5)/Away(-3.5)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p4": {
+        "name": "First Half Corner AH Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "fh_c_ah_h_p45": {
+        "name": "First Half Corner AH Home(+4.5)/Away(-4.5)",
+        "desc": ""
+    },
+    "fh_c_eh_hp1": {
+        "name": "First Half Corner European Handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "fh_c_eh_hp2": {
+        "name": "First Half Corner European Handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "fh_c_eh_hp3": {
+        "name": "First Half Corner European Handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "fh_c_eh_hp4": {
+        "name": "First Half Corner European Handicap Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "fh_c_eh_hm1": {
+        "name": "First Half Corner European Handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "fh_c_eh_hm2": {
+        "name": "First Half Corner European Handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "fh_c_eh_hm3": {
+        "name": "First Half Corner European Handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "fh_c_eh_hm4": {
+        "name": "First Half Corner European Handicap Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "fh_c_h_05": {
+        "name": "First Half Corner Home Over/Under 0.5",
+        "desc": ""
+    },
+    "fh_c_h_15": {
+        "name": "First Half Corner Home Over/Under 1.5",
+        "desc": ""
+    },
+    "fh_c_h_25": {
+        "name": "First Half Corner Home Over/Under 2.5",
+        "desc": ""
+    },
+    "fh_c_h_35": {
+        "name": "First Half Corner Home Over/Under 3.5",
+        "desc": ""
+    },
+    "fh_c_h_45": {
+        "name": "First Half Corner Home Over/Under 4.5",
+        "desc": ""
+    },
+    "fh_c_a_05": {
+        "name": "First Half Corner Away Over/Under 0.5",
+        "desc": ""
+    },
+    "fh_c_a_15": {
+        "name": "First Half Corner Away Over/Under 1.5",
+        "desc": ""
+    },
+    "fh_c_a_25": {
+        "name": "First Half Corner Away Over/Under 2.5",
+        "desc": ""
+    },
+    "fh_c_a_35": {
+        "name": "First Half Corner Away Over/Under 3.5",
+        "desc": ""
+    },
+    "fh_c_a_45": {
+        "name": "First Half Corner Away Over/Under 4.5",
+        "desc": ""
+    },
+    "fh_at_ou_0": {
+        "name": "First Half Asian Total Over/Under 0",
+        "desc": ""
+    },
+    "fh_at_ou_025": {
+        "name": "First Half Asian Total Over/Under 0.25",
+        "desc": ""
+    },
+    "fh_at_ou_075": {
+        "name": "First Half Asian Total Over/Under 0.75",
+        "desc": ""
+    },
+    "fh_at_ou_1": {
+        "name": "First Half Asian Total Over/Under 1",
+        "desc": ""
+    },
+    "fh_at_ou_125": {
+        "name": "First Half Asian Total Over/Under 1.25",
+        "desc": ""
+    },
+    "fh_at_ou_175": {
+        "name": "First Half Asian Total Over/Under 1.75",
+        "desc": ""
+    },
+    "fh_at_ou_2": {
+        "name": "First Half Asian Total Over/Under 2",
+        "desc": ""
+    },
+    "fh_at_ou_225": {
+        "name": "First Half Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "fh_at_ou_275": {
+        "name": "First Half Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "fh_at_ou_3": {
+        "name": "First Half Asian Total Over/Under 3",
+        "desc": ""
+    },
+    "fh_at_ou_325": {
+        "name": "First Half Asian Total Over/Under 3.25",
+        "desc": ""
+    },
+    "fh_at_ou_375": {
+        "name": "First Half Asian Total Over/Under 3.75",
+        "desc": ""
+    },
+    "fh_at_ou_4": {
+        "name": "First Half Asian Total Over/Under 4",
+        "desc": ""
+    },
+    "fh_at_ou_425": {
+        "name": "First Half Asian Total Over/Under 4.25",
+        "desc": ""
+    },
+    "fh_at_ou_475": {
+        "name": "First Half Asian Total Over/Under 4.75",
+        "desc": ""
+    },
+    "fh_at_a_ou_0": {
+        "name": "First Half Away Asian Total Over/Under 0",
+        "desc": ""
+    },
+    "fh_at_a_ou_025": {
+        "name": "First Half Away Asian Total Over/Under 0.25",
+        "desc": ""
+    },
+    "fh_at_a_ou_075": {
+        "name": "First Half Away Asian Total Over/Under 0.75",
+        "desc": ""
+    },
+    "fh_at_a_ou_1": {
+        "name": "First Half Away Asian Total Over/Under 1",
+        "desc": ""
+    },
+    "fh_at_a_ou_125": {
+        "name": "First Half Away Asian Total Over/Under 1.25",
+        "desc": ""
+    },
+    "fh_at_a_ou_175": {
+        "name": "First Half Away Asian Total Over/Under 1.75",
+        "desc": ""
+    },
+    "fh_at_a_ou_2": {
+        "name": "First Half Away Asian Total Over/Under 2",
+        "desc": ""
+    },
+    "fh_at_a_ou_225": {
+        "name": "First Half Away Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "fh_at_a_ou_275": {
+        "name": "First Half Away Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "fh_at_h_ou_0": {
+        "name": "First HalfHome Asian Total Over/Under 0",
+        "desc": ""
+    },
+    "fh_at_h_ou_025": {
+        "name": "First HalfHome Asian Total Over/Under 0.25",
+        "desc": ""
+    },
+    "fh_at_h_ou_075": {
+        "name": "First HalfHome Asian Total Over/Under 0.75",
+        "desc": ""
+    },
+    "fh_at_h_ou_1": {
+        "name": "First HalfHome Asian Total Over/Under 1",
+        "desc": ""
+    },
+    "fh_at_h_ou_125": {
+        "name": "First HalfHome Asian Total Over/Under 1.25",
+        "desc": ""
+    },
+    "fh_at_h_ou_175": {
+        "name": "First HalfHome Asian Total Over/Under 1.75",
+        "desc": ""
+    },
+    "fh_at_h_ou_2": {
+        "name": "First HalfHome Asian Total Over/Under 2",
+        "desc": ""
+    },
+    "fh_at_h_ou_225": {
+        "name": "First HalfHome Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "fh_at_h_ou_275": {
+        "name": "First HalfHome Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "fh_ah_h_m275": {
+        "name": "First Half AH Home(-2.75)/Away(+2.75)",
+        "desc": ""
+    },
+    "fh_ah_h_m25": {
+        "name": "First Half AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "fh_ah_h_m225": {
+        "name": "First Half AH Home(-2.25)/Away(+2.25)",
+        "desc": ""
+    },
+    "fh_ah_h_m2": {
+        "name": "First Half AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "fh_ah_h_m175": {
+        "name": "First Half AH Home(-1.75)/Away(+1.75)",
+        "desc": ""
+    },
+    "fh_ah_h_m15": {
+        "name": "First Half AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "fh_ah_h_m125": {
+        "name": "First Half AH Home(-1.25)/Away(+1.25)",
+        "desc": ""
+    },
+    "fh_ah_h_m1": {
+        "name": "First Half AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "fh_ah_h_m075": {
+        "name": "First Half AH Home(-0.75)/Away(+0.75)",
+        "desc": ""
+    },
+    "fh_ah_h_m05": {
+        "name": "First Half AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "fh_ah_h_m025": {
+        "name": "First Half AH Home(-0.25)/Away(+0.25)",
+        "desc": ""
+    },
+    "fh_ah_h_0": {
+        "name": "First Half AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "fh_ah_h_p025": {
+        "name": "First Half AH Home(+0.25)/Away(-0.25)",
+        "desc": ""
+    },
+    "fh_ah_h_p05": {
+        "name": "First Half AH Home(+0.5)/Away(-0.5)",
+        "desc": ""
+    },
+    "fh_ah_h_p075": {
+        "name": "First Half AH Home(+0.75)/Away(-0.75)",
+        "desc": ""
+    },
+    "fh_ah_h_p1": {
+        "name": "First Half AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "fh_ah_h_p125": {
+        "name": "First Half AH Home(+1.25)/Away(-1.25)",
+        "desc": ""
+    },
+    "fh_ah_h_p15": {
+        "name": "First Half AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "fh_ah_h_p175": {
+        "name": "First Half AH Home(+1.75)/Away(-1.75)",
+        "desc": ""
+    },
+    "fh_ah_h_p2": {
+        "name": "First Half AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "fh_ah_h_p225": {
+        "name": "First Half AH Home(+2.25)/Away(-2.25)",
+        "desc": ""
+    },
+    "fh_ah_h_p25": {
+        "name": "First Half AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "fh_ah_h_p275": {
+        "name": "First Half AH Home(+2.75)/Away(-2.75)",
+        "desc": ""
+    },
+    "fh_euh_hm1": {
+        "name": "First Half European Handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "fh_euh_hm2": {
+        "name": "First Half European Handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "fh_euh_hm3": {
+        "name": "First Half European Handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "fh_euh_hp1": {
+        "name": "First Half European Handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "fh_euh_hp2": {
+        "name": "First Half European Handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "fh_euh_hp3": {
+        "name": "First Half European Handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "fh_bk_red_card": {
+        "name": "First half red card",
+        "desc": ""
+    },
+    "fh_bk_1x2": {
+        "name": "First half most booking",
+        "desc": ""
+    },
+    "fh_bk_ou_15": {
+        "name": "First half bookings over/under 1.5",
+        "desc": ""
+    },
+    "fh_bk_ou_25": {
+        "name": "First half bookings over/under 2.5",
+        "desc": ""
+    },
+    "fh_bk_ou_35": {
+        "name": "First half bookings over/under 3.5",
+        "desc": ""
+    },
+    "fh_bk_ou_45": {
+        "name": "First half bookings over/under 4.5",
+        "desc": ""
+    },
+    "fh_bk_h_05": {
+        "name": "First half home bookings over/under 5.5",
+        "desc": ""
+    },
+    "fh_bk_h_15": {
+        "name": "First half home bookings over/under 1.5",
+        "desc": ""
+    },
+    "fh_bk_h_25": {
+        "name": "First half home bookings over/under 2.5",
+        "desc": ""
+    },
+    "fh_bk_h_35": {
+        "name": "First half home bookings over/under 3.5",
+        "desc": ""
+    },
+    "fh_bk_a_05": {
+        "name": "First half away bookings over/under 0.5",
+        "desc": ""
+    },
+    "fh_bk_a_15": {
+        "name": "First half away bookings over/under 1.5",
+        "desc": ""
+    },
+    "fh_bk_a_25": {
+        "name": "First half away bookings over/under 2.5",
+        "desc": ""
+    },
+    "fh_bk_a_35": {
+        "name": "First half away bookings over/under 3.5",
+        "desc": ""
+    },
+    "fh_bk_eh_hp1": {
+        "name": "First half booking European handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "fh_bk_eh_hp2": {
+        "name": "First half booking European handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "fh_bk_eh_hp3": {
+        "name": "First half booking European handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "fh_bk_eh_hp4": {
+        "name": "First half booking European handicap Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "fh_bk_eh_hm1": {
+        "name": "First half booking European handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "fh_bk_eh_hm2": {
+        "name": "First half booking European handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "fh_bk_eh_hm3": {
+        "name": "First half booking European handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "fh_bk_eh_hm4": {
+        "name": "First half booking European handicap Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "fh_bk_y_oe": {
+        "name": "First Half Yellow Card Odd/Even",
+        "desc": ""
+    },
+    "fh_bk_y_1x2": {
+        "name": "First Half Yellow Card Winner",
+        "desc": ""
+    },
+    "fh_bk_y_dc": {
+        "name": "First half Yellow Card Double chance",
+        "desc": ""
+    },
+    "fh_bk_y_ou_05": {
+        "name": "First Half Yellow Card Over/Under 0.5",
+        "desc": ""
+    },
+    "fh_bk_y_ou_15": {
+        "name": "First Half Yellow Card Over/Under 1.5",
+        "desc": ""
+    },
+    "fh_bk_y_ou_25": {
+        "name": "First Half Yellow Card Over/Under 2.5",
+        "desc": ""
+    },
+    "fh_bk_y_ou_3": {
+        "name": "First Half Yellow Card Over/Under 3",
+        "desc": ""
+    },
+    "fh_bk_y_ou_35": {
+        "name": "First Half Yellow Card Over/Under 3.5",
+        "desc": ""
+    },
+    "fh_bk_y_ou_4": {
+        "name": "First Half Yellow Card Over/Under 4",
+        "desc": ""
+    },
+    "fh_bk_y_ou_45": {
+        "name": "First Half Yellow Card Over/Under 4.5",
+        "desc": ""
+    },
+    "fh_bk_y_ou_5": {
+        "name": "First Half Yellow Card Over/Under 5",
+        "desc": ""
+    },
+    "fh_bk_y_ou_55": {
+        "name": "First Half Yellow Card Over/Under 5.5",
+        "desc": ""
+    },
+    "fh_bk_y_ou_6": {
+        "name": "First Half Yellow Card Over/Under 6",
+        "desc": ""
+    },
+    "fh_bk_y_ou_65": {
+        "name": "First Half Yellow Card Over/Under 6.5",
+        "desc": ""
+    },
+    "fh_bk_y_at_225": {
+        "name": "First Half Yellow Card Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "fh_bk_y_at_275": {
+        "name": "First Half Yellow Card Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "fh_bk_y_at_325": {
+        "name": "First Half Yellow Card Asian Total Over/Under 3.25",
+        "desc": ""
+    },
+    "fh_bk_y_at_375": {
+        "name": "First Half Yellow Card Asian Total Over/Under 3.75",
+        "desc": ""
+    },
+    "fh_bk_y_at_425": {
+        "name": "First Half Yellow Card Asian Total Over/Under 4.25",
+        "desc": ""
+    },
+    "fh_bk_y_at_475": {
+        "name": "First Half Yellow Card Asian Total Over/Under 4.75",
+        "desc": ""
+    },
+    "fh_bk_y_at_525": {
+        "name": "First Half Yellow Card Asian Total Over/Under 5.25",
+        "desc": ""
+    },
+    "fh_bk_y_at_575": {
+        "name": "First Half Yellow Card Asian Total Over/Under 5.75",
+        "desc": ""
+    },
+    "fh_bk_y_at_625": {
+        "name": "First Half Yellow Card Asian Total Over/Under 6.25",
+        "desc": ""
+    },
+    "fh_bk_y_at_675": {
+        "name": "First Half Yellow Card Asian Total Over/Under 6.75",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m45": {
+        "name": "First Half Yellow Card AH Home(-4.5)/Away(+4.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m4": {
+        "name": "First Half Yellow Card AH Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m35": {
+        "name": "First Half Yellow Card AH Home(-3.5)/Away(+3.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m3": {
+        "name": "First Half Yellow Card AH Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m25": {
+        "name": "First Half Yellow Card AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m2": {
+        "name": "First Half Yellow Card AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m15": {
+        "name": "First Half Yellow Card AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m1": {
+        "name": "First Half Yellow Card AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_m05": {
+        "name": "First Half Yellow Card AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_0": {
+        "name": "First Half Yellow Card AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p05": {
+        "name": "First Half Yellow Card AH Home(+0.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p1": {
+        "name": "First Half Yellow Card AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p15": {
+        "name": "First Half Yellow Card AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p2": {
+        "name": "First Half Yellow Card AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p25": {
+        "name": "First Half Yellow Card AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p3": {
+        "name": "First Half Yellow Card AH Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p35": {
+        "name": "First Half Yellow Card AH Home(+3.5)/Away(-3.5)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p4": {
+        "name": "First Half Yellow Card AH Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "fh_bk_y_ah_h_p45": {
+        "name": "First Half Yellow Card AH Home(+4.5)/Away(-4.5)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hp1": {
+        "name": "First Half Yellow Card European Handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hp2": {
+        "name": "First Half Yellow Card European Handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hp3": {
+        "name": "First Half Yellow Card European Handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hp4": {
+        "name": "First Half Yellow Card European Handicap Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hm1": {
+        "name": "First Half Yellow Card European Handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hm2": {
+        "name": "First Half Yellow Card European Handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hm3": {
+        "name": "First Half Yellow Card European Handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "fh_bk_y_eh_hm4": {
+        "name": "First Half Yellow Card European Handicap Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "fh_bk_y_h_15": {
+        "name": "First Half Yellow Card Home Over 1.5",
+        "desc": ""
+    },
+    "fh_bk_y_h_25": {
+        "name": "First Half Yellow Card Home Over 2.5",
+        "desc": ""
+    },
+    "fh_bk_y_h_35": {
+        "name": "First Half Yellow Card Home Over 3.5",
+        "desc": ""
+    },
+    "fh_bk_y_h_45": {
+        "name": "First Half Yellow Card Home Over 4.5",
+        "desc": ""
+    },
+    "fh_bk_y_a_15": {
+        "name": "First Half Yellow Card Away Over 1.5",
+        "desc": ""
+    },
+    "fh_bk_y_a_25": {
+        "name": "First Half Yellow Card Away Over 2.5",
+        "desc": ""
+    },
+    "fh_bk_y_a_35": {
+        "name": "First Half Yellow Card Away Over 3.5",
+        "desc": ""
+    },
+    "fh_bk_y_a_45": {
+        "name": "First Half Yellow Card Away Over 4.5",
+        "desc": ""
+    },
+    "sh_1x2": {
+        "name": "Second Half winner(1X2)",
+        "desc": ""
+    },
+    "sh_dnb": {
+        "name": "Second Half draw no bet",
+        "desc": ""
+    },
+    "sh_dc": {
+        "name": "Second Half double chance",
+        "desc": ""
+    },
+    "sh_ou_05": {
+        "name": "Second Half over/under 0.5",
+        "desc": ""
+    },
+    "sh_ou_1": {
+        "name": "Second Half over/under 1.5",
+        "desc": ""
+    },
+    "sh_ou_15": {
+        "name": "Second Half over/under 1.5",
+        "desc": ""
+    },
+    "sh_ou_2": {
+        "name": "Second Half over/under 2.5",
+        "desc": ""
+    },
+    "sh_ou_25": {
+        "name": "Second Half over/under 2.5",
+        "desc": ""
+    },
+    "sh_ou_3": {
+        "name": "Second Half over/under 3.5",
+        "desc": ""
+    },
+    "sh_ou_35": {
+        "name": "Second Half over/under 3.5",
+        "desc": ""
+    },
+    "sh_ou_h_05": {
+        "name": "Second Half home over/under 0.5",
+        "desc": ""
+    },
+    "sh_ou_h_15": {
+        "name": "Second Half home over/under 1.5",
+        "desc": ""
+    },
+    "sh_ou_h_25": {
+        "name": "Second Half home over/under 2.5",
+        "desc": ""
+    },
+    "sh_ou_h_35": {
+        "name": "Second Half home over/under 3.5",
+        "desc": ""
+    },
+    "sh_ou_a_05": {
+        "name": "Second Half away over/under 0.5",
+        "desc": ""
+    },
+    "sh_ou_a_15": {
+        "name": "Second Half away over/under 1.5",
+        "desc": ""
+    },
+    "sh_ou_a_25": {
+        "name": "Second Half away over/under 2.5",
+        "desc": ""
+    },
+    "sh_ou_a_35": {
+        "name": "Second Half away over/under 2.5",
+        "desc": ""
+    },
+    "sh_cs_home": {
+        "name": "Second Half home clean sheet",
+        "desc": ""
+    },
+    "sh_cs_away": {
+        "name": "Second Half away clean sheet",
+        "desc": ""
+    },
+    "sh_g_ggng": {
+        "name": "Second Half goal/goal no goal",
+        "desc": ""
+    },
+    "sh_g_oe": {
+        "name": "Second Half goal odd/even",
+        "desc": ""
+    },
+    "sh_g_home_oe": {
+        "name": "Second Half home goal odd/even",
+        "desc": ""
+    },
+    "sh_g_away_oe": {
+        "name": "Second Half away goal odd/even",
+        "desc": ""
+    },
+    "sh_g_home_score": {
+        "name": "Second Half home to score",
+        "desc": ""
+    },
+    "sh_g_away_score": {
+        "name": "Second Half away to score",
+        "desc": ""
+    },
+    "sh_g_first_goal": {
+        "name": "Second Half first goal",
+        "desc": ""
+    },
+    "sh_g_last_goal": {
+        "name": "Second Half last goal",
+        "desc": ""
+    },
+    "sh_c_1x2": {
+        "name": "Second Half corner winner(1X2)",
+        "desc": ""
+    },
+    "sh_c_dc": {
+        "name": "Second Half corner Double Chance",
+        "desc": ""
+    },
+    "sh_c_first": {
+        "name": "Second Half first corner",
+        "desc": ""
+    },
+    "sh_c_last": {
+        "name": "Second Half last corner",
+        "desc": ""
+    },
+    "sh_c_oe": {
+        "name": "Second Half corners odd/even",
+        "desc": ""
+    },
+    "sh_c_ou_25": {
+        "name": "Second Half corners over/under 2.5",
+        "desc": ""
+    },
+    "sh_c_ou_35": {
+        "name": "Second Half corners over/under 3.5",
+        "desc": ""
+    },
+    "sh_c_ou_45": {
+        "name": "Second Half corners over/under 4.5",
+        "desc": ""
+    },
+    "sh_c_ou_55": {
+        "name": "Second Half corners over/under 5.5",
+        "desc": ""
+    },
+    "sh_c_ou_65": {
+        "name": "Second Half corners over/under 6.5",
+        "desc": ""
+    },
+    "sh_c_at_225": {
+        "name": "Second Half Corner Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "sh_c_at_275": {
+        "name": "Second Half Corner Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "sh_c_at_325": {
+        "name": "Second Half Corner Asian Total Over/Under 3.25",
+        "desc": ""
+    },
+    "sh_c_at_375": {
+        "name": "Second Half Corner Asian Total Over/Under 3.75",
+        "desc": ""
+    },
+    "sh_c_at_425": {
+        "name": "Second Half Corner Asian Total Over/Under 4.25",
+        "desc": ""
+    },
+    "sh_c_at_475": {
+        "name": "Second Half Corner Asian Total Over/Under 4.75",
+        "desc": ""
+    },
+    "sh_c_at_525": {
+        "name": "Second Half Corner Asian Total Over/Under 5.25",
+        "desc": ""
+    },
+    "sh_c_at_575": {
+        "name": "Second Half Corner Asian Total Over/Under 5.75",
+        "desc": ""
+    },
+    "sh_c_at_625": {
+        "name": "Second Half Corner Asian Total Over/Under 6.25",
+        "desc": ""
+    },
+    "sh_c_at_675": {
+        "name": "Second Half Corner Asian Total Over/Under 6.75",
+        "desc": ""
+    },
+    "sh_c_ah_h_m45": {
+        "name": "Second Half Corner AH Home(-4.5)/Away(+4.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m4": {
+        "name": "Second Half Corner AH Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m35": {
+        "name": "Second Half Corner AH Home(-3.5)/Away(+3.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m3": {
+        "name": "Second Half Corner AH Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m25": {
+        "name": "Second Half Corner AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m2": {
+        "name": "Second Half Corner AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m15": {
+        "name": "Second Half Corner AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m1": {
+        "name": "Second Half Corner AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "sh_c_ah_h_m05": {
+        "name": "Second Half Corner AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_0": {
+        "name": "Second Half Corner AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p05": {
+        "name": "Second Half Corner AH Home(+0.5)/Away(-0.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p1": {
+        "name": "Second Half Corner AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p15": {
+        "name": "Second Half Corner AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p2": {
+        "name": "Second Half Corner AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p25": {
+        "name": "Second Half Corner AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p3": {
+        "name": "Second Half Corner AH Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p35": {
+        "name": "Second Half Corner AH Home(+3.5)/Away(-3.5)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p4": {
+        "name": "Second Half Corner AH Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "sh_c_ah_h_p45": {
+        "name": "Second Half Corner AH Home(+4.5)/Away(-4.5)",
+        "desc": ""
+    },
+    "sh_c_eh_hp1": {
+        "name": "Second Half Corner European Handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "sh_c_eh_hp2": {
+        "name": "Second Half Corner European Handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "sh_c_eh_hp3": {
+        "name": "Second Half Corner European Handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "sh_c_eh_hp4": {
+        "name": "Second Half Corner European Handicap Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "sh_c_eh_hm1": {
+        "name": "Second Half Corner European Handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "sh_c_eh_hm2": {
+        "name": "Second Half Corner European Handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "sh_c_eh_hm3": {
+        "name": "Second Half Corner European Handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "sh_c_eh_hm4": {
+        "name": "Second Half Corner European Handicap Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "sh_c_h_05": {
+        "name": "Second Half Corner Home Over/Under 0.5",
+        "desc": ""
+    },
+    "sh_c_h_15": {
+        "name": "Second Half Corner Home Over/Under 1.5",
+        "desc": ""
+    },
+    "sh_c_h_25": {
+        "name": "Second Half Corner Home Over/Under 2.5",
+        "desc": ""
+    },
+    "sh_c_h_35": {
+        "name": "Second Half Corner Home Over/Under 3.5",
+        "desc": ""
+    },
+    "sh_c_h_45": {
+        "name": "Second Half Corner Home Over/Under 4.5",
+        "desc": ""
+    },
+    "sh_c_a_05": {
+        "name": "Second Half Corner Away Over/Under 0.5",
+        "desc": ""
+    },
+    "sh_c_a_15": {
+        "name": "Second Half Corner Away Over/Under 1.5",
+        "desc": ""
+    },
+    "sh_c_a_25": {
+        "name": "Second Half Corner Away Over/Under 2.5",
+        "desc": ""
+    },
+    "sh_c_a_35": {
+        "name": "Second Half Corner Away Over/Under 3.5",
+        "desc": ""
+    },
+    "sh_c_a_45": {
+        "name": "Second Half Corner Away Over/Under 4.5",
+        "desc": ""
+    },
+    "sh_at_ou_0": {
+        "name": "Second Half Asian Total Over/Under 0",
+        "desc": ""
+    },
+    "sh_at_ou_025": {
+        "name": "Second Half Asian Total Over/Under 0.25",
+        "desc": ""
+    },
+    "sh_at_ou_075": {
+        "name": "Second Half Asian Total Over/Under 0.75",
+        "desc": ""
+    },
+    "sh_at_ou_1": {
+        "name": "Second Half Asian Total Over/Under 1",
+        "desc": ""
+    },
+    "sh_at_ou_125": {
+        "name": "Second Half Asian Total Over/Under 1.25",
+        "desc": ""
+    },
+    "sh_at_ou_175": {
+        "name": "Second Half Asian Total Over/Under 1.75",
+        "desc": ""
+    },
+    "sh_at_ou_2": {
+        "name": "Second Half Asian Total Over/Under 2",
+        "desc": ""
+    },
+    "sh_at_ou_225": {
+        "name": "Second Half Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "sh_at_ou_275": {
+        "name": "Second Half Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "sh_at_ou_3": {
+        "name": "Second Half Asian Total Over/Under 3",
+        "desc": ""
+    },
+    "sh_at_ou_325": {
+        "name": "Second Half Asian Total Over/Under 3.25",
+        "desc": ""
+    },
+    "sh_at_ou_375": {
+        "name": "Second Half Asian Total Over/Under 3.75",
+        "desc": ""
+    },
+    "sh_at_ou_4": {
+        "name": "Second Half Asian Total Over/Under 4",
+        "desc": ""
+    },
+    "sh_at_ou_425": {
+        "name": "Second Half Asian Total Over/Under 4.25",
+        "desc": ""
+    },
+    "sh_at_ou_475": {
+        "name": "Second Half Asian Total Over/Under 4.75",
+        "desc": ""
+    },
+    "sh_at_a_ou_0": {
+        "name": "Second Half Away Asian Total Over/Under 0",
+        "desc": ""
+    },
+    "sh_at_a_ou_025": {
+        "name": "Second Half Away Asian Total Over/Under 0.25",
+        "desc": ""
+    },
+    "sh_at_a_ou_075": {
+        "name": "Second Half Away Asian Total Over/Under 0.75",
+        "desc": ""
+    },
+    "sh_at_a_ou_1": {
+        "name": "Second Half Away Asian Total Over/Under 1",
+        "desc": ""
+    },
+    "sh_at_a_ou_125": {
+        "name": "Second Half Away Asian Total Over/Under 1.25",
+        "desc": ""
+    },
+    "sh_at_a_ou_175": {
+        "name": "Second Half Away Asian Total Over/Under 1.75",
+        "desc": ""
+    },
+    "sh_at_a_ou_2": {
+        "name": "Second Half Away Asian Total Over/Under 2",
+        "desc": ""
+    },
+    "sh_at_a_ou_225": {
+        "name": "Second Half Away Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "sh_at_a_ou_275": {
+        "name": "Second Half Away Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "sh_at_h_ou_0": {
+        "name": "Second HalfHome Asian Total Over/Under 0",
+        "desc": ""
+    },
+    "sh_at_h_ou_025": {
+        "name": "Second HalfHome Asian Total Over/Under 0.25",
+        "desc": ""
+    },
+    "sh_at_h_ou_075": {
+        "name": "Second HalfHome Asian Total Over/Under 0.75",
+        "desc": ""
+    },
+    "sh_at_h_ou_1": {
+        "name": "Second HalfHome Asian Total Over/Under 1",
+        "desc": ""
+    },
+    "sh_at_h_ou_125": {
+        "name": "Second HalfHome Asian Total Over/Under 1.25",
+        "desc": ""
+    },
+    "sh_at_h_ou_175": {
+        "name": "Second HalfHome Asian Total Over/Under 1.75",
+        "desc": ""
+    },
+    "sh_at_h_ou_2": {
+        "name": "Second HalfHome Asian Total Over/Under 2",
+        "desc": ""
+    },
+    "sh_at_h_ou_225": {
+        "name": "Second HalfHome Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "sh_at_h_ou_275": {
+        "name": "Second HalfHome Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "sh_ah_h_m275": {
+        "name": "Second Half AH Home(-2.75)/Away(+2.75)",
+        "desc": ""
+    },
+    "sh_ah_h_m25": {
+        "name": "Second Half AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "sh_ah_h_m225": {
+        "name": "Second Half AH Home(-2.25)/Away(+2.25)",
+        "desc": ""
+    },
+    "sh_ah_h_m2": {
+        "name": "Second Half AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "sh_ah_h_m175": {
+        "name": "Second Half AH Home(-1.75)/Away(+1.75)",
+        "desc": ""
+    },
+    "sh_ah_h_m15": {
+        "name": "Second Half AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "sh_ah_h_m125": {
+        "name": "Second Half AH Home(-1.25)/Away(+1.25)",
+        "desc": ""
+    },
+    "sh_ah_h_m1": {
+        "name": "Second Half AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "sh_ah_h_m075": {
+        "name": "Second Half AH Home(-0.75)/Away(+0.75)",
+        "desc": ""
+    },
+    "sh_ah_h_m05": {
+        "name": "Second Half AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "sh_ah_h_m025": {
+        "name": "Second Half AH Home(-0.25)/Away(+0.25)",
+        "desc": ""
+    },
+    "sh_ah_h_0": {
+        "name": "Second Half AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "sh_ah_h_p025": {
+        "name": "Second Half AH Home(+0.25)/Away(-0.25)",
+        "desc": ""
+    },
+    "sh_ah_h_p05": {
+        "name": "Second Half AH Home(+0.5)/Away(-0.5)",
+        "desc": ""
+    },
+    "sh_ah_h_p075": {
+        "name": "Second Half AH Home(+0.75)/Away(-0.75)",
+        "desc": ""
+    },
+    "sh_ah_h_p1": {
+        "name": "Second Half AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "sh_ah_h_p125": {
+        "name": "Second Half AH Home(+1.25)/Away(-1.25)",
+        "desc": ""
+    },
+    "sh_ah_h_p15": {
+        "name": "Second Half AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "sh_ah_h_p175": {
+        "name": "Second Half AH Home(+1.75)/Away(-1.75)",
+        "desc": ""
+    },
+    "sh_ah_h_p2": {
+        "name": "Second Half AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "sh_ah_h_p225": {
+        "name": "Second Half AH Home(+2.25)/Away(-2.25)",
+        "desc": ""
+    },
+    "sh_ah_h_p25": {
+        "name": "Second Half AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "sh_ah_h_p275": {
+        "name": "Second Half AH Home(+2.75)/Away(-2.75)",
+        "desc": ""
+    },
+    "sh_euh_hm1": {
+        "name": "Second Half European Handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "sh_euh_hm2": {
+        "name": "Second Half European Handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "sh_euh_hm3": {
+        "name": "Second Half European Handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "sh_euh_hp1": {
+        "name": "Second Half European Handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "sh_euh_hp2": {
+        "name": "Second Half European Handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "sh_euh_hp3": {
+        "name": "Second Half European Handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "sh_bk_red_card": {
+        "name": "Second Half red card",
+        "desc": ""
+    },
+    "sh_bk_1x2": {
+        "name": "Second Half most booking",
+        "desc": ""
+    },
+    "sh_bk_ou_15": {
+        "name": "Second Half bookings over/under 1.5",
+        "desc": ""
+    },
+    "sh_bk_ou_25": {
+        "name": "Second Half bookings over/under 2.5",
+        "desc": ""
+    },
+    "sh_bk_ou_35": {
+        "name": "Second Half bookings over/under 3.5",
+        "desc": ""
+    },
+    "sh_bk_ou_45": {
+        "name": "Second Half bookings over/under 4.5",
+        "desc": ""
+    },
+    "sh_bk_h_05": {
+        "name": "Second Half home bookings over/under 5.5",
+        "desc": ""
+    },
+    "sh_bk_h_15": {
+        "name": "Second Half home bookings over/under 1.5",
+        "desc": ""
+    },
+    "sh_bk_h_25": {
+        "name": "Second Half home bookings over/under 2.5",
+        "desc": ""
+    },
+    "sh_bk_h_35": {
+        "name": "Second Half home bookings over/under 3.5",
+        "desc": ""
+    },
+    "sh_bk_a_05": {
+        "name": "Second Half away bookings over/under 0.5",
+        "desc": ""
+    },
+    "sh_bk_a_15": {
+        "name": "Second Half away bookings over/under 1.5",
+        "desc": ""
+    },
+    "sh_bk_a_25": {
+        "name": "Second Half away bookings over/under 2.5",
+        "desc": ""
+    },
+    "sh_bk_a_35": {
+        "name": "Second Half away bookings over/under 3.5",
+        "desc": ""
+    },
+    "sh_bk_eh_hp1": {
+        "name": "Second Half booking European handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "sh_bk_eh_hp2": {
+        "name": "Second Half booking European handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "sh_bk_eh_hp3": {
+        "name": "Second Half booking European handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "sh_bk_eh_hp4": {
+        "name": "Second Half booking European handicap Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "sh_bk_eh_hm1": {
+        "name": "Second Half booking European handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "sh_bk_eh_hm2": {
+        "name": "Second Half booking European handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "sh_bk_eh_hm3": {
+        "name": "Second Half booking European handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "sh_bk_eh_hm4": {
+        "name": "Second Half booking European handicap Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "sh_bk_y_oe": {
+        "name": "Second Half Yellow Card Odd/Even",
+        "desc": ""
+    },
+    "sh_bk_y_1x2": {
+        "name": "Second Half Yellow Card Winner",
+        "desc": ""
+    },
+    "sh_bk_y_dc": {
+        "name": "Second Half Yellow Card Double chance",
+        "desc": ""
+    },
+    "sh_bk_y_ou_05": {
+        "name": "Second Half Yellow Card Over/Under 0.5",
+        "desc": ""
+    },
+    "sh_bk_y_ou_15": {
+        "name": "Second Half Yellow Card Over/Under 1.5",
+        "desc": ""
+    },
+    "sh_bk_y_ou_25": {
+        "name": "Second Half Yellow Card Over/Under 2.5",
+        "desc": ""
+    },
+    "sh_bk_y_ou_3": {
+        "name": "Second Half Yellow Card Over/Under 3",
+        "desc": ""
+    },
+    "sh_bk_y_ou_35": {
+        "name": "Second Half Yellow Card Over/Under 3.5",
+        "desc": ""
+    },
+    "sh_bk_y_ou_4": {
+        "name": "Second Half Yellow Card Over/Under 4",
+        "desc": ""
+    },
+    "sh_bk_y_ou_45": {
+        "name": "Second Half Yellow Card Over/Under 4.5",
+        "desc": ""
+    },
+    "sh_bk_y_ou_5": {
+        "name": "Second Half Yellow Card Over/Under 5",
+        "desc": ""
+    },
+    "sh_bk_y_ou_55": {
+        "name": "Second Half Yellow Card Over/Under 5.5",
+        "desc": ""
+    },
+    "sh_bk_y_ou_6": {
+        "name": "Second Half Yellow Card Over/Under 6",
+        "desc": ""
+    },
+    "sh_bk_y_ou_65": {
+        "name": "Second Half Yellow Card Over/Under 6.5",
+        "desc": ""
+    },
+    "sh_bk_y_at_225": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 2.25",
+        "desc": ""
+    },
+    "sh_bk_y_at_275": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 2.75",
+        "desc": ""
+    },
+    "sh_bk_y_at_325": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 3.25",
+        "desc": ""
+    },
+    "sh_bk_y_at_375": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 3.75",
+        "desc": ""
+    },
+    "sh_bk_y_at_425": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 4.25",
+        "desc": ""
+    },
+    "sh_bk_y_at_475": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 4.75",
+        "desc": ""
+    },
+    "sh_bk_y_at_525": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 5.25",
+        "desc": ""
+    },
+    "sh_bk_y_at_575": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 5.75",
+        "desc": ""
+    },
+    "sh_bk_y_at_625": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 6.25",
+        "desc": ""
+    },
+    "sh_bk_y_at_675": {
+        "name": "Second Half Yellow Card Asian Total Over/Under 6.75",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m45": {
+        "name": "Second Half Yellow Card AH Home(-4.5)/Away(+4.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m4": {
+        "name": "Second Half Yellow Card AH Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m35": {
+        "name": "Second Half Yellow Card AH Home(-3.5)/Away(+3.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m3": {
+        "name": "Second Half Yellow Card AH Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m25": {
+        "name": "Second Half Yellow Card AH Home(-2.5)/Away(+2.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m2": {
+        "name": "Second Half Yellow Card AH Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m15": {
+        "name": "Second Half Yellow Card AH Home(-1.5)/Away(+1.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m1": {
+        "name": "Second Half Yellow Card AH Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_m05": {
+        "name": "Second Half Yellow Card AH Home(-0.5)/Away(+0.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_0": {
+        "name": "Second Half Yellow Card AH Home(0)/Away(0)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p05": {
+        "name": "Second Half Yellow Card AH Home(+0.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p1": {
+        "name": "Second Half Yellow Card AH Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p15": {
+        "name": "Second Half Yellow Card AH Home(+1.5)/Away(-1.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p2": {
+        "name": "Second Half Yellow Card AH Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p25": {
+        "name": "Second Half Yellow Card AH Home(+2.5)/Away(-2.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p3": {
+        "name": "Second Half Yellow Card AH Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p35": {
+        "name": "Second Half Yellow Card AH Home(+3.5)/Away(-3.5)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p4": {
+        "name": "Second Half Yellow Card AH Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "sh_bk_y_ah_h_p45": {
+        "name": "Second Half Yellow Card AH Home(+4.5)/Away(-4.5)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hp1": {
+        "name": "Second Half Yellow Card European Handicap Home(+1)/Away(-1)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hp2": {
+        "name": "Second Half Yellow Card European Handicap Home(+2)/Away(-2)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hp3": {
+        "name": "Second Half Yellow Card European Handicap Home(+3)/Away(-3)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hp4": {
+        "name": "Second Half Yellow Card European Handicap Home(+4)/Away(-4)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hm1": {
+        "name": "Second Half Yellow Card European Handicap Home(-1)/Away(+1)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hm2": {
+        "name": "Second Half Yellow Card European Handicap Home(-2)/Away(+2)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hm3": {
+        "name": "Second Half Yellow Card European Handicap Home(-3)/Away(+3)",
+        "desc": ""
+    },
+    "sh_bk_y_eh_hm4": {
+        "name": "Second Half Yellow Card European Handicap Home(-4)/Away(+4)",
+        "desc": ""
+    },
+    "sh_bk_y_h_15": {
+        "name": "Second Half Yellow Card Home Over 1.5",
+        "desc": ""
+    },
+    "sh_bk_y_h_25": {
+        "name": "Second Half Yellow Card Home Over 2.5",
+        "desc": ""
+    },
+    "sh_bk_y_h_35": {
+        "name": "Second Half Yellow Card Home Over 3.5",
+        "desc": ""
+    },
+    "sh_bk_y_h_45": {
+        "name": "Second Half Yellow Card Home Over 4.5",
+        "desc": ""
+    },
+    "sh_bk_y_a_15": {
+        "name": "Second Half Yellow Card Away Over 1.5",
+        "desc": ""
+    },
+    "sh_bk_y_a_25": {
+        "name": "Second Half Yellow Card Away Over 2.5",
+        "desc": ""
+    },
+    "sh_bk_y_a_35": {
+        "name": "Second Half Yellow Card Away Over 3.5",
+        "desc": ""
+    },
+    "sh_bk_y_a_45": {
+        "name": "Second Half Yellow Card Away Over 4.5",
+        "desc": ""
+    }
+}

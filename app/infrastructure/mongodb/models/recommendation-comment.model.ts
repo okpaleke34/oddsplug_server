@@ -20,7 +20,7 @@ export interface IRecommendationComment extends Document {
 }
 
 const recommendationCommentSchema: Schema = new Schema({
-    authId: { type: mongoose.Types.ObjectId, ref: 'Auth', required: true },
+    authId: { type: mongoose.Types.ObjectId, ref: 'Authentication', required: true },
     recommendationId: { type: mongoose.Types.ObjectId, required: true },
     message: { type: String, required: true },
     replies: { type: Array, required: true, default:[] },
@@ -30,4 +30,4 @@ const recommendationCommentSchema: Schema = new Schema({
 { timestamps: true }
 );
 
-export default mongoose.model<IRecommendationComment>('RecommendationComment', recommendationCommentSchema);
+export default mongoose.model<IRecommendationComment>('recommendation_comment', recommendationCommentSchema);

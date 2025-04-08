@@ -1,25 +1,7 @@
 import { IArbitrageRepository } from '../../repositories/arbitrage.interface';
-import Arbitrage, { IArbitrage } from '../models/arbitrage.model';
+import Arbitrage, { IArbitrage, IArbitrageOptional } from '../models/arbitrage.model';
+import { FilterQuery } from 'mongoose';
 
-export interface IArbitrage2{
-  tournament: string;
-  marketCode: string;
-  arbPercentage: string;
-  arbId: string;
-  arbStorageId: string;
-  matchId: string;
-  hash: string;
-  scanId: string;
-  sport: string;
-  gameType: string;
-  firstScannedAt: string;
-  startAt: string;
-  lastScannedAt: string;
-  lastScanId: string;
-  won?: number;
-  result?: string;
-  status: number;
-}
 
 export class ArbitrageRepository implements IArbitrageRepository {
   
@@ -36,7 +18,7 @@ export class ArbitrageRepository implements IArbitrageRepository {
     return Arbitrage.find().exec();
   }
 
-  public async findSelection(filter:IArbitrage2): Promise<IArbitrage[]> {
+  public async findSelection(filter:IArbitrageOptional): Promise<IArbitrage[]> {
     // return Arbitrage.find(detail).exec();
     // console.log({detail})
     // const {sport,gameType} = detail;
@@ -49,22 +31,41 @@ export class ArbitrageRepository implements IArbitrageRepository {
       //   // delete filter["sport"]
       // }
       // console.log({filter})
-      return Arbitrage.find(filter).exec();
+      const filterQuery: FilterQuery<IArbitrage> = filter as FilterQuery<IArbitrage>;
+      // console.log({filterQuery})
+      // const results = await Arbitrage.find(filterQuery,{ history: 0 }).sort({ arbPercentage: -1 }).exec(); //The highest arb percentage first
+      // const results = await Arbitrage.find(filterQuery,{ history: 0 }).sort({ arbPercentage: -1 }).exec().limit(100); //The highest arb percentage first
+      const results = await Arbitrage.find(filterQuery,{ history: 0 }).sort({ startAt: 1 }).exec();//the  ones that will start early first
+      // const results = await Arbitrage.find(filterQuery,{ history: 0 }).sort({ lastScannedAt: -1 }).exec(); //The latest scanned ones first
+      // console.log(results.length)
+      return results
+
+
+
+      // const filterQuery: FilterQuery<IArbitrage> = filter as FilterQuery<IArbitrage>;
+      // console.log({filterQuery})
+      // return Arbitrage.find(filterQuery).exec();
       // return Arbitrage.find({sport,gameType}).exec();
       // return Arbitrage.find({sport,gameType:new RegExp(`^${gameType}$`, 'i') }).exec();
     }
     else
       return Arbitrage.find().exec();
   }
+  
+  public async findByAggregate(aggregate: any): Promise<any> {
+    return Arbitrage.aggregate(aggregate).exec();
+  }
 
-  public async update(filter:IArbitrage2, arbitrage: Partial<IArbitrage> | any): Promise<IArbitrage | null> {    
-    const updated = await Arbitrage.findOneAndUpdate(filter, arbitrage, { new: true }).exec();
+  public async update(filter:IArbitrageOptional, plan: IArbitrageOptional): Promise<IArbitrage | null> {   
+    const filterQuery: FilterQuery<IArbitrageOptional> = filter as FilterQuery<IArbitrageOptional>; 
+    const updated = await Arbitrage.findOneAndUpdate(filterQuery, plan, { new: true }).exec();
     return updated;
   }
 
-
-  public async updateMany(filter:IArbitrage2, arbitrage: Partial<IArbitrage> | any): Promise<number | null> {
-    const updated = await Arbitrage.updateMany(filter, arbitrage, { upsert: true }).exec();
+  public async updateMany(filter:IArbitrageOptional, arbitrage: IArbitrageOptional | any): Promise<number | null> {
+    const filterQuery: FilterQuery<IArbitrage> = filter as FilterQuery<IArbitrage>;
+    // const updated = await Arbitrage.updateMany(filterQuery, arbitrage, { upsert: true }).exec(); //This will create a new document if no document matches the filter
+    const updated = await Arbitrage.updateMany(filterQuery, arbitrage).exec();
     return updated.modifiedCount;
   }
 

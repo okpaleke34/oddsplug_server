@@ -7,9 +7,9 @@ import { AuthRequest } from '../types/express';
 import mongoose from 'mongoose';
 import RecommendationCommentService from '../services/recommendation-comment.service';
 import UserBetService from '../services/user-bet.service';
-import AuthService from '../services/auth.service';
+import AuthService from '../services/authentication.service';
 import bcrypt from 'bcryptjs';
-import UserService from '../services/user.service';
+import UserService from '../services/user-detail.service';
 import UtilityService from '../services/utility.service';
 import SubscriptionService from '../services/subscription.service';
 import UserSettingService from '../services/user-setting.service';
@@ -265,7 +265,7 @@ export const dashboardInit = async (req: AuthRequest, res: Response) => {
       subscription = subscriptions[0]
     }
     const userService = new UserService()
-    const users = await userService.getUser({authId:authId})
+    const users = await userService.getUserDetail({authId:authId})
     let profile = {}
     if(users.length == 1){
       profile = users[0]
@@ -300,7 +300,7 @@ export const getProfile = async (req: AuthRequest, res: Response) => {
   try {
     const auth = req.auth
     const userService = new UserService()
-    let user = await userService.getUserProfile({authId:auth._id})
+    let user = await userService.getUserDetailProfile({authId:auth._id})
     user = {...user,...user.auth,...user.address}
     if(user.devices.length > 0){
       for(let i=0; i<user.devices.length; i++){
@@ -358,11 +358,11 @@ export const updateProfile = async (req: AuthRequest, res: Response) => {
     }
     // Check if email and username are unique
     const authService = new AuthService()
-    const checkEmail = await authService.getAuth({email:user.email})
+    const checkEmail = await authService.getAuthentication({email:user.email})
     if(checkEmail.length > 0 && !auth._id.equals(checkEmail[0]._id)){
       return res.status(400).json({status:false, message: "Email already exists"});
     }
-    const checkUsername = await authService.getAuth({username:user.username})
+    const checkUsername = await authService.getAuthentication({username:user.username})
     if(checkUsername.length > 0 && !auth._id.equals(checkUsername[0]._id)){
       return res.status(400).json({status:false, message: "Username already exists"});
     }
@@ -373,7 +373,7 @@ export const updateProfile = async (req: AuthRequest, res: Response) => {
     const refreshToken = generateRefreshToken(authUser);
 
     // Update authentication
-    const updateAuth = await authService.updateAuth({_id:auth._id},{email:user.email,username:user.username,dialingCode:user.dialingCode,mobile:user.mobile,JWT:refreshToken})
+    const updateAuth = await authService.updateAuthentication({_id:auth._id},{email:user.email,username:user.username,dialingCode:user.dialingCode,mobile:user.mobile,JWT:refreshToken})
     if(!updateAuth){
       return res.status(500).json({"status":false,  message: "Error: Failed to update user" });  
     }
@@ -389,7 +389,7 @@ export const updateProfile = async (req: AuthRequest, res: Response) => {
 
     // Update user
     const userService = new UserService()
-    const updateUser = await userService.updateUser({authId:auth._id},{firstName:user.firstName,lastName:user.lastName,address})
+    const updateUser = await userService.updateUserDetail({authId:auth._id},{firstName:user.firstName,lastName:user.lastName,address})
     if(!updateUser){
       return res.status(500).json({"status":false,  message: "Error: Failed to update user" });  
     }

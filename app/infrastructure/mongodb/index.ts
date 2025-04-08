@@ -1,21 +1,24 @@
 import mongoose from 'mongoose';
 
 import { IDatabase } from '../IDatabase';
-import { UserRepository } from './repositories/user.repository';
+import { UserDetailRepository } from './repositories/user-detail.repository';
 import { SupportRepository } from './repositories/support.repository';
 import { UserSettingRepository } from './repositories/user-setting.repository';
-import { AdminRepository } from './repositories/admin.repository';
-import { AuthRepository } from './repositories/auth.repository';
+import { AdministratorRepository } from './repositories/administrator.repository';
+import { AuthenticationRepository } from './repositories/authentication.repository';
 import { PlanRepository } from './repositories/plan.repository';
 import { RecommendationRepository } from './repositories/recommendation.repository';
 import { RecommendationCommentRepository } from './repositories/recommendation-comment.repository';
 import { UserBetRepository } from './repositories/user-bet.repository';
+import { MatchedMarketRepository } from './repositories/matched-market.repository';
+import { ExclusionRuleRepository } from './repositories/exclusion-rule.repository';
 import { SubscriptionRepository } from './repositories/subscription.repository';
 import { UtilityRepository } from './repositories/utility.repository';
 import { ArbitrageRepository } from './repositories/arbitrage.repository';
+import config from '../../utils/config';
 
 export class MongoDB implements IDatabase {
-    user: UserRepository;
+    userDetail: UserDetailRepository;
 
     support: SupportRepository;
 
@@ -23,13 +26,17 @@ export class MongoDB implements IDatabase {
 
     userBet: UserBetRepository;
 
+    matchedMarket: MatchedMarketRepository;
+
     userSetting: UserSettingRepository;
 
-    admins: AdminRepository;
+    administrators: AdministratorRepository;
 
-    auth: AuthRepository;
+    authentication: AuthenticationRepository;
 
     plan: PlanRepository;
+
+    exclusionRule: ExclusionRuleRepository;
 
     recommendation: RecommendationRepository;
 
@@ -40,13 +47,15 @@ export class MongoDB implements IDatabase {
     arbitrage: ArbitrageRepository;
 
   constructor() {
-    this.user = new UserRepository();
+    this.userDetail = new UserDetailRepository();
     this.support = new SupportRepository();
     this.subscription = new SubscriptionRepository();
     this.userBet = new UserBetRepository();
     this.userSetting = new UserSettingRepository();
-    this.admins = new AdminRepository();
-    this.auth = new AuthRepository();
+    this.matchedMarket = new MatchedMarketRepository();
+    this.exclusionRule = new ExclusionRuleRepository();
+    this.administrators = new AdministratorRepository();
+    this.authentication = new AuthenticationRepository();
     this.plan = new PlanRepository();
     this.recommendation = new RecommendationRepository();
     this.recommendationComment = new RecommendationCommentRepository();
@@ -55,7 +64,7 @@ export class MongoDB implements IDatabase {
   }  
 
   async connect(): Promise<void> {
-    await mongoose.connect(process.env.MONGO_URI!, {
+    await mongoose.connect(config.db.connectionString, {
     //   useNewUrlParser: true,
     //   useUnifiedTopology: true,
     });

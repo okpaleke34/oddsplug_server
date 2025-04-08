@@ -32,7 +32,7 @@ export class UserSettingRepository implements IUserSettingRepository {
 
   public async updateMany(filter:IUserSettingOptional, userSetting: IUserSettingOptional): Promise<number | null> {
     const filterQuery: FilterQuery<IUserSetting> = filter as FilterQuery<IUserSetting>; 
-    const updated = await UserSetting.updateMany(filterQuery, userSetting, { upsert: true }).exec();
+    const updated = await UserSetting.updateMany(filterQuery, userSetting).exec();
     return updated.modifiedCount;
   }
 

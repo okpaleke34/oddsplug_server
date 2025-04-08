@@ -36,7 +36,7 @@ export class PlanRepository implements IPlanRepository {
 
   public async updateMany(filter:IPlanOptional, plan: IPlanOptional): Promise<number | null> {
     const filterQuery: FilterQuery<IPlan> = filter as FilterQuery<IPlan>; 
-    const updated = await Plan.updateMany(filterQuery, plan, { upsert: true }).exec();
+    const updated = await Plan.updateMany(filterQuery, plan).exec();
     return updated.modifiedCount;
   }
 

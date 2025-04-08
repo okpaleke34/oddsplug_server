@@ -1,0 +1,2439 @@
+{
+    "bizCode": 10000,
+    "data": {
+        "allScores": null,
+        "awayTeam": "Sydney Roosters",
+        "awayTeamIcon": "",
+        "awayTeamId": "sr:competitor:4264",
+        "bookingStatus": "Booked",
+        "category": "Rugby League",
+        "categoryId": "sr:category:83",
+        "eventId": "sr:match:45484436",
+        "hasLive": 0,
+        "hasLiveCoverage": 0,
+        "hasLiveWidget": 0,
+        "hasVoucher": 0,
+        "homeTeam": "South Sydney Rabbitohs",
+        "homeTeamIcon": "",
+        "homeTeamId": "sr:competitor:4263",
+        "howToPlay": null,
+        "markets": [
+            {
+                "betAssistWidget": null,
+                "description": "1x2",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">1x2</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict what will be the result at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time.</span></p>\n\t\t<p> The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins the match.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the match without winners.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins the match.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>",
+                "id": 1,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1x2",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "1",
+                        "isActive": 1,
+                        "odds": "3.80",
+                        "probability": "0.1894"
+                    },
+                    {
+                        "description": "Draw",
+                        "id": "2",
+                        "isActive": 1,
+                        "odds": "23.00",
+                        "probability": "0.0284"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "3",
+                        "isActive": 1,
+                        "odds": "1.18",
+                        "probability": "0.7822"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "1,X,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Double Chance",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Double chance</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>A Double Chance bet allows you to cover two of the three possible outcomes in the match with one bet.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">1X</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if the result is either home win or draw then bets on this option are winners.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">X2</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the result is either draw or away win then bets on this option are winners.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">12</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if the result is either home win or away win then bets on this option are winners.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 10,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Double chance",
+                "outcomes": [
+                    {
+                        "description": "1 X",
+                        "id": "9",
+                        "isActive": 1,
+                        "odds": "3.35",
+                        "probability": "0.2171"
+                    },
+                    {
+                        "description": "1 2",
+                        "id": "10",
+                        "isActive": 1,
+                        "odds": "1.02",
+                        "probability": "0.9723"
+                    },
+                    {
+                        "description": "X 2",
+                        "id": "11",
+                        "isActive": 1,
+                        "odds": "1.15",
+                        "probability": "0.8106"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "DNB",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">DNB</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict which team will win the match. If the teams draw, selection will be voided.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins the match.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins the match.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 11,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Draw no bet",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "4",
+                        "isActive": 1,
+                        "odds": "3.55",
+                        "probability": "0.1946"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "5",
+                        "isActive": 1,
+                        "odds": "1.15",
+                        "probability": "0.8054"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict the final result of the match taking in consideration the handicap in brackets.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> Handicap 1:0-Home team is getting advantage of 1 point</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any number of points, or the match ends without winner.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with exactly 1 point.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 2 points.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<p> Handicap 0:2-Away team is getting advantage of 2 points</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with 3 or more points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with exactly 2 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away teams wins the game, or loses with at most 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 14,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (14:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "1.77",
+                        "probability": "0.4977"
+                    },
+                    {
+                        "description": "Draw (14:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "18.00",
+                        "probability": "0.0438"
+                    },
+                    {
+                        "description": "Away (14:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "1.90",
+                        "probability": "0.4585"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=14:0",
+                "status": 0,
+                "title": "1,X,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict the final result of the match taking in consideration the handicap in brackets.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> Handicap 1:0-Home team is getting advantage of 1 point</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any number of points, or the match ends without winner.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with exactly 1 point.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 2 points.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<p> Handicap 0:2-Away team is getting advantage of 2 points</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with 3 or more points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with exactly 2 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away teams wins the game, or loses with at most 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 14,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (20:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "1.40",
+                        "probability": "0.6451"
+                    },
+                    {
+                        "description": "Draw (20:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "19.00",
+                        "probability": "0.0399"
+                    },
+                    {
+                        "description": "Away (20:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "2.60",
+                        "probability": "0.3149"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=20:0",
+                "status": 0,
+                "title": "1,X,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict the final result of the match taking in consideration the handicap in brackets.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> Handicap 1:0-Home team is getting advantage of 1 point</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any number of points, or the match ends without winner.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with exactly 1 point.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 2 points.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<p> Handicap 0:2-Away team is getting advantage of 2 points</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with 3 or more points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with exactly 2 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away teams wins the game, or loses with at most 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 14,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (26:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "1.20",
+                        "probability": "0.7730"
+                    },
+                    {
+                        "description": "Draw (26:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "21.00",
+                        "probability": "0.0316"
+                    },
+                    {
+                        "description": "Away (26:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "3.75",
+                        "probability": "0.1953"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=26:0",
+                "status": 0,
+                "title": "1,X,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict the final result of the match taking in consideration the handicap in brackets.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> Handicap 1:0-Home team is getting advantage of 1 point</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any number of points, or the match ends without winner.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with exactly 1 point.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 2 points.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<p> Handicap 0:2-Away team is getting advantage of 2 points</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with 3 or more points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with exactly 2 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away teams wins the game, or loses with at most 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 14,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (2:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "3.40",
+                        "probability": "0.2218"
+                    },
+                    {
+                        "description": "Draw (2:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "20.00",
+                        "probability": "0.0345"
+                    },
+                    {
+                        "description": "Away (2:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "1.24",
+                        "probability": "0.7437"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=2:0",
+                "status": 0,
+                "title": "1,X,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict the final result of the match taking in consideration the handicap in brackets.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> Handicap 1:0-Home team is getting advantage of 1 point</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any number of points, or the match ends without winner.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with exactly 1 point.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 2 points.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<p> Handicap 0:2-Away team is getting advantage of 2 points</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with 3 or more points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with exactly 2 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away teams wins the game, or loses with at most 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 14,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (8:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "2.38",
+                        "probability": "0.3501"
+                    },
+                    {
+                        "description": "Draw (8:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "18.00",
+                        "probability": "0.0417"
+                    },
+                    {
+                        "description": "Away (8:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "1.48",
+                        "probability": "0.6082"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=8:0",
+                "status": 0,
+                "title": "1,X,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Winning margin",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Winning margin</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict by how many points the winning team wins the match.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p> The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home by 11+</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home wins Away 11 or more points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home by 6-10</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home wins Away 6-10 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home by 1-5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home wins Away 1-5 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Draw</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if the teams draw.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away by 1-5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away wins Home 1-5 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away by 6-10</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away wins Home 6-10 points.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away by 11+</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away wins Home 11 or more points.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 15,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Winning margin",
+                "outcomes": [
+                    {
+                        "description": "Home by 15+",
+                        "id": "sr:winning_margin:15+:130",
+                        "isActive": 1,
+                        "odds": "21.00",
+                        "probability": "0.0390"
+                    },
+                    {
+                        "description": "Home by 8-14",
+                        "id": "sr:winning_margin:15+:131",
+                        "isActive": 1,
+                        "odds": "13.00",
+                        "probability": "0.0623"
+                    },
+                    {
+                        "description": "Home by 1-7",
+                        "id": "sr:winning_margin:15+:132",
+                        "isActive": 1,
+                        "odds": "9.60",
+                        "probability": "0.0878"
+                    },
+                    {
+                        "description": "Draw",
+                        "id": "sr:winning_margin:15+:133",
+                        "isActive": 1,
+                        "odds": "29.00",
+                        "probability": "0.0284"
+                    },
+                    {
+                        "description": "Away by 1-7",
+                        "id": "sr:winning_margin:15+:134",
+                        "isActive": 1,
+                        "odds": "6.40",
+                        "probability": "0.1326"
+                    },
+                    {
+                        "description": "Away by 8-14",
+                        "id": "sr:winning_margin:15+:135",
+                        "isActive": 1,
+                        "odds": "4.50",
+                        "probability": "0.1914"
+                    },
+                    {
+                        "description": "Away by 15+",
+                        "id": "sr:winning_margin:15+:136",
+                        "isActive": 1,
+                        "odds": "1.97",
+                        "probability": "0.4585"
+                    }
+                ],
+                "presentationType": 4,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "variant=sr:winning_margin:15+",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Asian Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict what will the result be after the allotted handicap is applied to the score at Fulltime.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Regular Time</span></p>\n\t\t<p>The following options are available(For example the allotted handicap is 0.5):</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home(+0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any points, or the match ends without winner at regular time.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away(-0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">regular time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 16,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (+11.5)",
+                        "id": "1714",
+                        "isActive": 1,
+                        "odds": "1.91",
+                        "probability": "0.4468"
+                    },
+                    {
+                        "description": "Away (-11.5)",
+                        "id": "1715",
+                        "isActive": 1,
+                        "odds": "1.59",
+                        "probability": "0.5532"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=11.5",
+                "status": 0,
+                "title": "1,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Asian Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict what will the result be after the allotted handicap is applied to the score at Fulltime.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Regular Time</span></p>\n\t\t<p>The following options are available(For example the allotted handicap is 0.5):</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home(+0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any points, or the match ends without winner at regular time.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away(-0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">regular time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 16,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (+13.5)",
+                        "id": "1714",
+                        "isActive": 1,
+                        "odds": "1.75",
+                        "probability": "0.4977"
+                    },
+                    {
+                        "description": "Away (-13.5)",
+                        "id": "1715",
+                        "isActive": 1,
+                        "odds": "1.73",
+                        "probability": "0.5023"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=13.5",
+                "status": 0,
+                "title": "1,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Asian Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict what will the result be after the allotted handicap is applied to the score at Fulltime.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Regular Time</span></p>\n\t\t<p>The following options are available(For example the allotted handicap is 0.5):</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home(+0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any points, or the match ends without winner at regular time.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away(-0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">regular time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 16,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (+15.5)",
+                        "id": "1714",
+                        "isActive": 1,
+                        "odds": "1.61",
+                        "probability": "0.5471"
+                    },
+                    {
+                        "description": "Away (-15.5)",
+                        "id": "1715",
+                        "isActive": 1,
+                        "odds": "1.89",
+                        "probability": "0.4529"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=15.5",
+                "status": 0,
+                "title": "1,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Asian Handicap",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Handicap</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict what will the result be after the allotted handicap is applied to the score at Fulltime.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Regular Time</span></p>\n\t\t<p>The following options are available(For example the allotted handicap is 0.5):</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Home(+0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team wins with any points, or the match ends without winner at regular time.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Away(-0.5)</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team wins with at least 1 point.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">regular time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 16,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Handicap",
+                "outcomes": [
+                    {
+                        "description": "Home (+9.5)",
+                        "id": "1714",
+                        "isActive": 1,
+                        "odds": "2.11",
+                        "probability": "0.3973"
+                    },
+                    {
+                        "description": "Away (-9.5)",
+                        "id": "1715",
+                        "isActive": 1,
+                        "odds": "1.48",
+                        "probability": "0.6027"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=9.5",
+                "status": 0,
+                "title": "1,2",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "O/U",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">O/U</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict will the match have more or less score than the allotted Total line at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time.</span></p>\n\t\t<p>This market has 2 possible outcomes at *Full Time (FT) i.e. Over x.5 or Under x.5. For example (Ov/Un 42.5)</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Over 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 43 or more points scored.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Under 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 42 or fewer points scored.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 18,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 49.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.47",
+                        "probability": "0.6082"
+                    },
+                    {
+                        "description": "Under 49.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "2.13",
+                        "probability": "0.3918"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=49.5",
+                "status": 0,
+                "title": "Points,Over,Under",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "O/U",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">O/U</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict will the match have more or less score than the allotted Total line at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time.</span></p>\n\t\t<p>This market has 2 possible outcomes at *Full Time (FT) i.e. Over x.5 or Under x.5. For example (Ov/Un 42.5)</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Over 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 43 or more points scored.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Under 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 42 or fewer points scored.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 18,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 51.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.59",
+                        "probability": "0.5538"
+                    },
+                    {
+                        "description": "Under 51.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.91",
+                        "probability": "0.4462"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=51.5",
+                "status": 0,
+                "title": "Points,Over,Under",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "O/U",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">O/U</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict will the match have more or less score than the allotted Total line at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time.</span></p>\n\t\t<p>This market has 2 possible outcomes at *Full Time (FT) i.e. Over x.5 or Under x.5. For example (Ov/Un 42.5)</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Over 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 43 or more points scored.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Under 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 42 or fewer points scored.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 18,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 53.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.4982"
+                    },
+                    {
+                        "description": "Under 53.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.73",
+                        "probability": "0.5018"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=53.5",
+                "status": 0,
+                "title": "Points,Over,Under",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "O/U",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">O/U</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict will the match have more or less score than the allotted Total line at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time.</span></p>\n\t\t<p>This market has 2 possible outcomes at *Full Time (FT) i.e. Over x.5 or Under x.5. For example (Ov/Un 42.5)</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Over 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 43 or more points scored.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Under 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 42 or fewer points scored.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 18,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 55.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.92",
+                        "probability": "0.4439"
+                    },
+                    {
+                        "description": "Under 55.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.59",
+                        "probability": "0.5561"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=55.5",
+                "status": 0,
+                "title": "Points,Over,Under",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "O/U",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">O/U</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict will the match have more or less score than the allotted Total line at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time.</span></p>\n\t\t<p>This market has 2 possible outcomes at *Full Time (FT) i.e. Over x.5 or Under x.5. For example (Ov/Un 42.5)</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Over 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 43 or more points scored.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Under 42.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if there are 42 or fewer points scored.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 18,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 57.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "2.13",
+                        "probability": "0.3913"
+                    },
+                    {
+                        "description": "Under 57.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.47",
+                        "probability": "0.6087"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=57.5",
+                "status": 0,
+                "title": "Points,Over,Under",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Home O/U",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Home O/U</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict will the home team have more or less scores than the allotted Total line at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p>This market has 2 possible outcomes at *Full Time (FT) i.e. Over x.5 or Under x.5. For example (Ov/Un 31.5)</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Over 31.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team scores 32 or more points at full time.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Under 31.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Home team scores 31 or less points at full time.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 19,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Home O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 19.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.72",
+                        "probability": "0.5057"
+                    },
+                    {
+                        "description": "Under 19.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.76",
+                        "probability": "0.4943"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=19.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Away O/U",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Away O/U</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict will the Away team have more or less scores than the allotted Total line at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Full Time</span></p>\n\t\t<p>This market has 2 possible outcomes at *Full Time (FT) i.e. Over x.5 or Under x.5. For example (Ov/Un 31.5)</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Over 31.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team scores 32 or more points at full time.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Under 31.5</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if Away team scores 31 or less points at full time.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 20,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Away O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 32.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.5003"
+                    },
+                    {
+                        "description": "Under 32.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.4997"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=32.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Odd/Even",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Odd/Even</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict odd or even total number of scores at <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*full time.</span></p>\n\t\t<p>The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Odd</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if the match ends with an odd number of total scores - 1,3,5,7...</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Even</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\"> bet wins if the match ends with an even number of total scores -0,2,4,6,8...</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>\n",
+                "id": 26,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Odd/Even",
+                "outcomes": [
+                    {
+                        "description": "Odd",
+                        "id": "70",
+                        "isActive": 1,
+                        "odds": "4.80",
+                        "probability": "0.1130"
+                    },
+                    {
+                        "description": "Even",
+                        "id": "72",
+                        "isActive": 1,
+                        "odds": "1.06",
+                        "probability": "0.8870"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "HT/FT Result",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">HT/FT Result</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict the result of a match both at the 1st half time and full time.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\"></span></p>\n\t\t<p> The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">1/1</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if Home team leads after the 1st half and also wins the match.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">1/X</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if Home team leads after the 1st half and match ends in draw.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">1/2</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if Home team leads after the 1st half and the Away team wins the match.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">X/1</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the 1st half ends in draw and the Home team wins the match.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">X/X</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the 1st half ends in draw and also the match ends in draw.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">X/2</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the 1st half ends in draw and Away team wins the match.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">2/1</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if Away team leads after the 1st half and Home team wins the match.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">2/X</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if Away team leads after the 1st half and match ends in draw.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">2/2</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if Away team leads after the 1st half and also wins the match.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">full time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>",
+                "id": 47,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Halftime/fulltime",
+                "outcomes": [
+                    {
+                        "description": "Home/Home",
+                        "id": "418",
+                        "isActive": 1,
+                        "odds": "5.80",
+                        "probability": "0.1389"
+                    },
+                    {
+                        "description": "Home/Draw",
+                        "id": "420",
+                        "isActive": 1,
+                        "odds": "60.00",
+                        "probability": "0.0130"
+                    },
+                    {
+                        "description": "Home/Away",
+                        "id": "422",
+                        "isActive": 1,
+                        "odds": "7.60",
+                        "probability": "0.1066"
+                    },
+                    {
+                        "description": "Draw/Home",
+                        "id": "424",
+                        "isActive": 1,
+                        "odds": "60.00",
+                        "probability": "0.0131"
+                    },
+                    {
+                        "description": "Draw/Draw",
+                        "id": "426",
+                        "isActive": 1,
+                        "odds": "101.00",
+                        "probability": "0.0031"
+                    },
+                    {
+                        "description": "Draw/Away",
+                        "id": "428",
+                        "isActive": 1,
+                        "odds": "17.00",
+                        "probability": "0.0471"
+                    },
+                    {
+                        "description": "Away/Home",
+                        "id": "430",
+                        "isActive": 1,
+                        "odds": "21.00",
+                        "probability": "0.0373"
+                    },
+                    {
+                        "description": "Away/Draw",
+                        "id": "432",
+                        "isActive": 1,
+                        "odds": "60.00",
+                        "probability": "0.0122"
+                    },
+                    {
+                        "description": "Away/Away",
+                        "id": "434",
+                        "isActive": 1,
+                        "odds": "1.46",
+                        "probability": "0.6287"
+                    }
+                ],
+                "presentationType": 3,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Highest scoring half",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Highest scoring half</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict which half will be the higher scoring half.<span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Half Time.</span></p>\n\t\t<p> The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">1st</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the two teams scored more in the first half than in the second.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">2nd</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the two teams scored less in the first half than in the second.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">Equal</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the two teams scored as many points in the first half as in the second.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">first half time & second half time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>",
+                "id": 52,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Highest scoring half",
+                "outcomes": [
+                    {
+                        "description": "1st half",
+                        "id": "436",
+                        "isActive": 1,
+                        "odds": "2.11",
+                        "probability": "0.4059"
+                    },
+                    {
+                        "description": "2nd half",
+                        "id": "438",
+                        "isActive": 1,
+                        "odds": "1.63",
+                        "probability": "0.5464"
+                    },
+                    {
+                        "description": "Equal",
+                        "id": "440",
+                        "isActive": 1,
+                        "odds": "16.00",
+                        "probability": "0.0477"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Point range",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "<meta name=\"viewport\" content=\"width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no\">\n<div style=\"font-size: 14px; color: #333333; line-height: 18px; margin:30px 20px 20px;\">\n\t<!-- title -->\n\t<div style=\"font-size: 18px; color: #333333; line-height: 22px;margin-bottom:14px;text-align:center\">Point range</div>\n\t<div style=\"overflow: auto;height: 278px;\">\n\t\t<!-- description -->\n\t\t<p>Predict where the number of total points will be in. <span style=\"color:#43BC9C;font-size: 14px; line-height: 18px;\">*Regular time</span></p>\n\t\t<p> The following options are available:</p>\n\t\t<!-- list -->\n\t\t<ul style=\"margin:0;padding-left:20px\">\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">0-27</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the number of total points is between 0-27.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">28-34</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the number of total points is between 28-34.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">35-41</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the number of total points is between 25-41.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">42-48</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the number of total points is between 42-48.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">49-55</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the number of total points is between 49-55.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">56-62</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the number of total points is between 56-62.</span>\n\t\t\t</li>\n\t\t\t<li style=\"color:#CCC;margin-top:10px\">\n\t\t\t\t<span style=\"\">&nbsp;</span><span style=\"color:#FF751A;\">63+</span> <span style=\"font-size: 14px; color: #151515; line-height: 18px;\">bet wins if the number of total points is 63 or more.</span>\n\t\t\t</li>\n\t\t</ul>\n\t\t<!-- append description -->\n\t\t<p style=\"font-size: 14px; color: #999999; line-height: 18px;font-style: italic;\">* Bets on this market are settled on the result of the match at the end of its <span style=\"color:#43BC9C;\">regualr time</span> including all injury and stoppage time.</p>\n\t</div>\n</div>",
+                "id": 298,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Point range",
+                "outcomes": [
+                    {
+                        "description": "0-27",
+                        "id": "sr:point_range:63+:150",
+                        "isActive": 1,
+                        "odds": "30.00",
+                        "probability": "0.0270"
+                    },
+                    {
+                        "description": "28-34",
+                        "id": "sr:point_range:63+:151",
+                        "isActive": 1,
+                        "odds": "12.00",
+                        "probability": "0.0684"
+                    },
+                    {
+                        "description": "35-41",
+                        "id": "sr:point_range:63+:152",
+                        "isActive": 1,
+                        "odds": "8.20",
+                        "probability": "0.1036"
+                    },
+                    {
+                        "description": "42-48",
+                        "id": "sr:point_range:63+:153",
+                        "isActive": 1,
+                        "odds": "4.70",
+                        "probability": "0.1869"
+                    },
+                    {
+                        "description": "49-55",
+                        "id": "sr:point_range:63+:154",
+                        "isActive": 1,
+                        "odds": "5.00",
+                        "probability": "0.1703"
+                    },
+                    {
+                        "description": "56-62",
+                        "id": "sr:point_range:63+:155",
+                        "isActive": 1,
+                        "odds": "4.60",
+                        "probability": "0.1900"
+                    },
+                    {
+                        "description": "63+",
+                        "id": "sr:point_range:63+:156",
+                        "isActive": 1,
+                        "odds": "3.45",
+                        "probability": "0.2539"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "variant=sr:point_range:63+",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st scoring play",
+                "expand": 1,
+                "group": "Main",
+                "guidance": "what is specific method to obtain the Nth point",
+                "id": 467,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "{!scorenr} scoring play",
+                "outcomes": [
+                    {
+                        "description": "Home with try",
+                        "id": "1640",
+                        "isActive": 1,
+                        "odds": "2.60",
+                        "probability": "0.3290"
+                    },
+                    {
+                        "description": "Home with penalty",
+                        "id": "1641",
+                        "isActive": 1,
+                        "odds": "17.00",
+                        "probability": "0.0467"
+                    },
+                    {
+                        "description": "Home with drop goal",
+                        "id": "1642",
+                        "isActive": 1,
+                        "odds": "101.00",
+                        "probability": "0.0078"
+                    },
+                    {
+                        "description": "Away with try",
+                        "id": "1643",
+                        "isActive": 1,
+                        "odds": "1.70",
+                        "probability": "0.5285"
+                    },
+                    {
+                        "description": "Away with penalty",
+                        "id": "1644",
+                        "isActive": 1,
+                        "odds": "10.00",
+                        "probability": "0.0802"
+                    },
+                    {
+                        "description": "Away with drop goal",
+                        "id": "1645",
+                        "isActive": 1,
+                        "odds": "101.00",
+                        "probability": "0.0078"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 100,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "scorenr=1",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - 1x2",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "1X2 at the 1st half",
+                "id": 60,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - 1x2",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "1",
+                        "isActive": 1,
+                        "odds": "3.10",
+                        "probability": "0.2583"
+                    },
+                    {
+                        "description": "Draw",
+                        "id": "2",
+                        "isActive": 1,
+                        "odds": "12.00",
+                        "probability": "0.0633"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "3",
+                        "isActive": 1,
+                        "odds": "1.35",
+                        "probability": "0.6784"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Double Chance",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Double chance at the 1st half",
+                "id": 63,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - Double chance",
+                "outcomes": [
+                    {
+                        "description": "1 X",
+                        "id": "9",
+                        "isActive": 1,
+                        "odds": "2.50",
+                        "probability": "0.3215"
+                    },
+                    {
+                        "description": "1 2",
+                        "id": "10",
+                        "isActive": 1,
+                        "odds": "1.05",
+                        "probability": "0.9373"
+                    },
+                    {
+                        "description": "X 2",
+                        "id": "11",
+                        "isActive": 1,
+                        "odds": "1.25",
+                        "probability": "0.7412"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - DNB",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Draw no bet at the 1st half",
+                "id": 64,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - Draw no bet",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "4",
+                        "isActive": 1,
+                        "odds": "2.80",
+                        "probability": "0.2759"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "5",
+                        "isActive": 1,
+                        "odds": "1.26",
+                        "probability": "0.7241"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Handicap 0:0",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "1X2 Handicap at the 1st half",
+                "id": 65,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - handicap {hcp}",
+                "outcomes": [
+                    {
+                        "description": "Home (0:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "3.10",
+                        "probability": "0.2585"
+                    },
+                    {
+                        "description": "Draw (0:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "12.00",
+                        "probability": "0.0633"
+                    },
+                    {
+                        "description": "Away (0:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "1.35",
+                        "probability": "0.6781"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=0:0",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Handicap 12:0",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "1X2 Handicap at the 1st half",
+                "id": 65,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - handicap {hcp}",
+                "outcomes": [
+                    {
+                        "description": "Home (12:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "1.39",
+                        "probability": "0.6558"
+                    },
+                    {
+                        "description": "Draw (12:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "11.00",
+                        "probability": "0.0682"
+                    },
+                    {
+                        "description": "Away (12:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "2.95",
+                        "probability": "0.2760"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=12:0",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Handicap 6:0",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "1X2 Handicap at the 1st half",
+                "id": 65,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - handicap {hcp}",
+                "outcomes": [
+                    {
+                        "description": "Home (6:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "1.95",
+                        "probability": "0.4479"
+                    },
+                    {
+                        "description": "Draw (6:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "10.00",
+                        "probability": "0.0782"
+                    },
+                    {
+                        "description": "Away (6:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "1.86",
+                        "probability": "0.4739"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=6:0",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - O/U",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Total at the 1st half",
+                "id": 68,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 19.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.23",
+                        "probability": "0.7452"
+                    },
+                    {
+                        "description": "Under 19.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "2.95",
+                        "probability": "0.2548"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=19.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - O/U",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Total at the 1st half",
+                "id": 68,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 25.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.5011"
+                    },
+                    {
+                        "description": "Under 25.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.4989"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=25.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - O/U",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Total at the 1st half",
+                "id": 68,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 31.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "2.90",
+                        "probability": "0.2634"
+                    },
+                    {
+                        "description": "Under 31.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.24",
+                        "probability": "0.7366"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=31.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Home O/U",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Home team total at the 1st half",
+                "id": 69,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - Home O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 9.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.70",
+                        "probability": "0.5137"
+                    },
+                    {
+                        "description": "Under 9.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.78",
+                        "probability": "0.4863"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=9.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Away O/U",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Away team total at the 1st half",
+                "id": 70,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - Away O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 15.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.63",
+                        "probability": "0.5385"
+                    },
+                    {
+                        "description": "Under 15.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.86",
+                        "probability": "0.4615"
+                    }
+                ],
+                "presentationType": 1,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=15.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Odd/Even",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "Odd or even total number of scores at the 1st half",
+                "id": 74,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - Odd/Even",
+                "outcomes": [
+                    {
+                        "description": "Odd",
+                        "id": "70",
+                        "isActive": 1,
+                        "odds": "5.60",
+                        "probability": "0.0735"
+                    },
+                    {
+                        "description": "Even",
+                        "id": "72",
+                        "isActive": 1,
+                        "odds": "1.03",
+                        "probability": "0.9265"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - winning margin",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "what is winning margin at the 1st half",
+                "id": 470,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - winning margin",
+                "outcomes": [
+                    {
+                        "description": "Home by 15+",
+                        "id": "sr:winning_margin:15+:130",
+                        "isActive": 1,
+                        "odds": "26.00",
+                        "probability": "0.0319"
+                    },
+                    {
+                        "description": "Home by 8-14",
+                        "id": "sr:winning_margin:15+:131",
+                        "isActive": 1,
+                        "odds": "10.00",
+                        "probability": "0.0855"
+                    },
+                    {
+                        "description": "Home by 1-7",
+                        "id": "sr:winning_margin:15+:132",
+                        "isActive": 1,
+                        "odds": "6.20",
+                        "probability": "0.1411"
+                    },
+                    {
+                        "description": "Draw",
+                        "id": "sr:winning_margin:15+:133",
+                        "isActive": 1,
+                        "odds": "13.00",
+                        "probability": "0.0633"
+                    },
+                    {
+                        "description": "Away by 1-7",
+                        "id": "sr:winning_margin:15+:134",
+                        "isActive": 1,
+                        "odds": "4.20",
+                        "probability": "0.2096"
+                    },
+                    {
+                        "description": "Away by 8-14",
+                        "id": "sr:winning_margin:15+:135",
+                        "isActive": 1,
+                        "odds": "3.65",
+                        "probability": "0.2403"
+                    },
+                    {
+                        "description": "Away by 15+",
+                        "id": "sr:winning_margin:15+:136",
+                        "isActive": 1,
+                        "odds": "3.85",
+                        "probability": "0.2284"
+                    }
+                ],
+                "presentationType": 4,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "variant=sr:winning_margin:15+",
+                "status": 0,
+                "title": null,
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - point range",
+                "expand": 1,
+                "group": "Half",
+                "guidance": "What is point range at the 1st half",
+                "id": 471,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - point range",
+                "outcomes": [
+                    {
+                        "description": "0-6",
+                        "id": "sr:point_range:42+:1093",
+                        "isActive": 1,
+                        "odds": "50.00",
+                        "probability": "0.0170"
+                    },
+                    {
+                        "description": "7-13",
+                        "id": "sr:point_range:42+:1094",
+                        "isActive": 1,
+                        "odds": "12.00",
+                        "probability": "0.0704"
+                    },
+                    {
+                        "description": "14-20",
+                        "id": "sr:point_range:42+:1095",
+                        "isActive": 1,
+                        "odds": "3.95",
+                        "probability": "0.2217"
+                    },
+                    {
+                        "description": "21-27",
+                        "id": "sr:point_range:42+:1096",
+                        "isActive": 1,
+                        "odds": "3.35",
+                        "probability": "0.2620"
+                    },
+                    {
+                        "description": "28-34",
+                        "id": "sr:point_range:42+:1097",
+                        "isActive": 1,
+                        "odds": "3.20",
+                        "probability": "0.2755"
+                    },
+                    {
+                        "description": "35-41",
+                        "id": "sr:point_range:42+:1098",
+                        "isActive": 1,
+                        "odds": "8.20",
+                        "probability": "0.1034"
+                    },
+                    {
+                        "description": "42+",
+                        "id": "sr:point_range:42+:1099",
+                        "isActive": 1,
+                        "odds": "17.00",
+                        "probability": "0.0501"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 300,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "variant=sr:point_range:42+",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1x2 & O/U 53.5",
+                "expand": 1,
+                "group": "Specials",
+                "guidance": "Combo: 1X2 and Total at full time",
+                "id": 37,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1x2 & O/U",
+                "outcomes": [
+                    {
+                        "description": "Home & Under 53.5",
+                        "id": "794",
+                        "isActive": 1,
+                        "odds": "7.80",
+                        "probability": "0.1048"
+                    },
+                    {
+                        "description": "Home & Over 53.5",
+                        "id": "796",
+                        "isActive": 1,
+                        "odds": "9.80",
+                        "probability": "0.0844"
+                    },
+                    {
+                        "description": "Draw & Under 53.5",
+                        "id": "798",
+                        "isActive": 1,
+                        "odds": "50.00",
+                        "probability": "0.0170"
+                    },
+                    {
+                        "description": "Draw & Over 53.5",
+                        "id": "800",
+                        "isActive": 1,
+                        "odds": "70.00",
+                        "probability": "0.0113"
+                    },
+                    {
+                        "description": "Away & Under 53.5",
+                        "id": "802",
+                        "isActive": 1,
+                        "odds": "2.32",
+                        "probability": "0.3800"
+                    },
+                    {
+                        "description": "Away & Over 53.5",
+                        "id": "804",
+                        "isActive": 1,
+                        "odds": "2.20",
+                        "probability": "0.4025"
+                    }
+                ],
+                "presentationType": 6,
+                "priority": 400,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=53.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Try 1x2",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Which team will score the most tries during the match?",
+                "id": 473,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Try 1x2",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "1",
+                        "isActive": 1,
+                        "odds": "4.80",
+                        "probability": "0.1561"
+                    },
+                    {
+                        "description": "Draw",
+                        "id": "2",
+                        "isActive": 1,
+                        "odds": "7.60",
+                        "probability": "0.0960"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "3",
+                        "isActive": 1,
+                        "odds": "1.24",
+                        "probability": "0.7479"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Try Double Chance",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Most tries scored at the of Full time (FT) is either:Home Team or Equal Amount / Home Team or Away Team / Equal Amount or Away Team",
+                "id": 474,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Try double chance",
+                "outcomes": [
+                    {
+                        "description": "1 X",
+                        "id": "9",
+                        "isActive": 1,
+                        "odds": "3.05",
+                        "probability": "0.2517"
+                    },
+                    {
+                        "description": "1 2",
+                        "id": "10",
+                        "isActive": 1,
+                        "odds": "1.07",
+                        "probability": "0.9044"
+                    },
+                    {
+                        "description": "X 2",
+                        "id": "11",
+                        "isActive": 1,
+                        "odds": "1.13",
+                        "probability": "0.8439"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Try DNB",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Which team has the most tries after Full Time (FT)?In the event of a draw, bets in this market are void.",
+                "id": 475,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Try draw no bet",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "4",
+                        "isActive": 1,
+                        "odds": "3.85",
+                        "probability": "0.1727"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "5",
+                        "isActive": 1,
+                        "odds": "1.12",
+                        "probability": "0.8273"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Try Handicap 3:0",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Which team will score the most tries after the allotted Handicap is applied?",
+                "id": 476,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Try handicap {hcp}",
+                "outcomes": [
+                    {
+                        "description": "Home (3:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.5141"
+                    },
+                    {
+                        "description": "Draw (3:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "6.00",
+                        "probability": "0.1362"
+                    },
+                    {
+                        "description": "Away (3:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "2.45",
+                        "probability": "0.3497"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=3:0",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Tries O/U",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Will the game have more or less total tries than the allotted Total line?",
+                "id": 478,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Tries O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 9.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.75",
+                        "probability": "0.4956"
+                    },
+                    {
+                        "description": "Under 9.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.73",
+                        "probability": "0.5044"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=9.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Home  tries O/U",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Will the home team score more or less tries than the allotted Total line?",
+                "id": 479,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Home total tries",
+                "outcomes": [
+                    {
+                        "description": "Over 3.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.77",
+                        "probability": "0.4899"
+                    },
+                    {
+                        "description": "Under 3.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.71",
+                        "probability": "0.5101"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=3.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Away tries O/U",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Will the away team score more or less tries than the allotted Total Spread?",
+                "id": 480,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "Away total tries",
+                "outcomes": [
+                    {
+                        "description": "Over 5.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.55",
+                        "probability": "0.5722"
+                    },
+                    {
+                        "description": "Under 5.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.98",
+                        "probability": "0.4278"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=5.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "Odd/Even tries",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Odd or even total number of tries at Full time (FT).",
+                "id": 481,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "Odd/Even tries",
+                "outcomes": [
+                    {
+                        "description": "Odd",
+                        "id": "70",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.5009"
+                    },
+                    {
+                        "description": "Even",
+                        "id": "72",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.4991"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - try 1x2",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Which team will score the most tries during the first half?",
+                "id": 482,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - try 1x2",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "1",
+                        "isActive": 1,
+                        "odds": "3.85",
+                        "probability": "0.2103"
+                    },
+                    {
+                        "description": "Draw",
+                        "id": "2",
+                        "isActive": 1,
+                        "odds": "4.90",
+                        "probability": "0.1620"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "3",
+                        "isActive": 1,
+                        "odds": "1.45",
+                        "probability": "0.6277"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - try Double Chance",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Most tries scored at the of the first half (HT) is either:Home Team or Equal Amount / Home Team or Away Team / Equal Amount or Away Team.",
+                "id": 483,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - try double chance",
+                "outcomes": [
+                    {
+                        "description": "1 X",
+                        "id": "9",
+                        "isActive": 1,
+                        "odds": "2.26",
+                        "probability": "0.3721"
+                    },
+                    {
+                        "description": "1 2",
+                        "id": "10",
+                        "isActive": 1,
+                        "odds": "1.14",
+                        "probability": "0.8380"
+                    },
+                    {
+                        "description": "X 2",
+                        "id": "11",
+                        "isActive": 1,
+                        "odds": "1.20",
+                        "probability": "0.7899"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - try DNB",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Which team will score the most tries in the first half?",
+                "id": 484,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - try draw no bet",
+                "outcomes": [
+                    {
+                        "description": "Home",
+                        "id": "4",
+                        "isActive": 1,
+                        "odds": "3.00",
+                        "probability": "0.2509"
+                    },
+                    {
+                        "description": "Away",
+                        "id": "5",
+                        "isActive": 1,
+                        "odds": "1.22",
+                        "probability": "0.7491"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - try Handicap 2:0",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Which team will score the most tries in the first half after the allotted Handicap is applied?",
+                "id": 485,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - try handicap {hcp}",
+                "outcomes": [
+                    {
+                        "description": "Home (2:0)",
+                        "id": "1711",
+                        "isActive": 1,
+                        "odds": "1.60",
+                        "probability": "0.5662"
+                    },
+                    {
+                        "description": "Draw (2:0)",
+                        "id": "1712",
+                        "isActive": 1,
+                        "odds": "4.60",
+                        "probability": "0.1796"
+                    },
+                    {
+                        "description": "Away (2:0)",
+                        "id": "1713",
+                        "isActive": 1,
+                        "odds": "3.30",
+                        "probability": "0.2541"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "hcp=2:0",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Tries O/U",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Will the first half have more or less total tries than the allotted Total line?",
+                "id": 487,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - Tries O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 4.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.73",
+                        "probability": "0.5024"
+                    },
+                    {
+                        "description": "Under 4.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.75",
+                        "probability": "0.4976"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=4.5",
+                "status": 0,
+                "title": "Over,Under",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Home tries O/U",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Will the home team score more or less tries in the first half than the allotted Total Spread?",
+                "id": 488,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - Home tries O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 1.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.65",
+                        "probability": "0.5305"
+                    },
+                    {
+                        "description": "Under 1.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "1.83",
+                        "probability": "0.4695"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=1.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Away tries O/U",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Will the away team score more or less tries in the first half than the allotted Total Spread?",
+                "id": 489,
+                "isFavourite": 1,
+                "isShown": 1,
+                "name": "1st half - Away tries O/U",
+                "outcomes": [
+                    {
+                        "description": "Over 2.5",
+                        "id": "12",
+                        "isActive": 1,
+                        "odds": "1.54",
+                        "probability": "0.5762"
+                    },
+                    {
+                        "description": "Under 2.5",
+                        "id": "13",
+                        "isActive": 1,
+                        "odds": "2.00",
+                        "probability": "0.4238"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "total=2.5",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            },
+            {
+                "betAssistWidget": null,
+                "description": "1st half - Odd/Even tries",
+                "expand": 1,
+                "group": "Tries",
+                "guidance": "Odd or even total number of tries at half time (HT)?",
+                "id": 490,
+                "isFavourite": 0,
+                "isShown": 1,
+                "name": "1st half - Odd/Even tries",
+                "outcomes": [
+                    {
+                        "description": "Odd",
+                        "id": "70",
+                        "isActive": 1,
+                        "odds": "1.73",
+                        "probability": "0.5019"
+                    },
+                    {
+                        "description": "Even",
+                        "id": "72",
+                        "isActive": 1,
+                        "odds": "1.74",
+                        "probability": "0.4981"
+                    }
+                ],
+                "presentationType": 5,
+                "priority": 9999999,
+                "product": 3,
+                "relatedMarketId": null,
+                "relatedSpecifiers": null,
+                "specifiers": "",
+                "status": 0,
+                "title": "",
+                "userFavourite": 0
+            }
+        ],
+        "marketsCount": 56,
+        "playedTime": null,
+        "roundNumber": 27,
+        "roundType": "group",
+        "scoreInCurrentSection": null,
+        "scoreOfSection": null,
+        "scoreOfWholeMatch": null,
+        "seasonId": "sr:season:111482",
+        "seasonName": "NRL Premiership 2024",
+        "sectionRemainTime": null,
+        "soccerBookingsScore": null,
+        "soccerCornerScore": null,
+        "sport": "Rugby",
+        "sportId": "sr:sport:12",
+        "startTime": 1725616800000,
+        "status": 0,
+        "statusDescription": null,
+        "tournament": "NRL Premiership",
+        "tournamentId": "sr:tournament:294",
+        "videoInfo": null
+    },
+    "innerMsg": null,
+    "message": "success"
+}

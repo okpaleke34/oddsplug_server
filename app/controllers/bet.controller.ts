@@ -23,13 +23,14 @@ export const fetchArbitrages = async (req: Request, res: Response) => {
     else{
       organizedArbitrages = {[sport]:activeArbitrages}
     }
-
     let webReadyArbitrages:any[] = []
     // Loop through the matches to put the market definitions on the arbitrages
     // TODO: Make the market definition to be added while the arbitrage is being saved so that it will save time it will use to handle this part of code
     for(const sportName in organizedArbitrages){
       if (organizedArbitrages.hasOwnProperty(sportName)) {
-        const marketDefinitions = await utilityService.getUtilityByName(`market_definition_${sportName}`.toLowerCase());
+        const marketDefinitionName = `market_definition_${sportName}`.toLowerCase().replace(/ /g,"_")
+        // console.log(marketDefinitionName)
+        const marketDefinitions = await utilityService.getUtilityByName(marketDefinitionName);
         if (marketDefinitions) {          
           const sportWebReadyArbitrages = formatArbitragesForWebView(organizedArbitrages[sportName],marketDefinitions.data);
           webReadyArbitrages = [...webReadyArbitrages,...sportWebReadyArbitrages]

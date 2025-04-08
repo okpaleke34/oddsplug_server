@@ -5,7 +5,7 @@
 import CryptoJS from 'crypto-js';
 import ServiceContainer from './BookmakerMarketServiceContainer';
 
-interface IMarketObj {
+ interface IMarketObj {
     condition: [string, string][];
     name: string;
     outcomes_identifier: any[];

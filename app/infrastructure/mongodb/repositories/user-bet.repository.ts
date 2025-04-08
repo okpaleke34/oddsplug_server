@@ -35,7 +35,7 @@ export class UserBetRepository implements IUserBetRepository {
 
   public async updateMany(filter:IUserBetOptional, userBet: IUserBetOptional): Promise<number | null> {
     const filterQuery: FilterQuery<IUserBet> = filter as FilterQuery<IUserBet>; 
-    const updated = await UserBet.updateMany(filterQuery, userBet, { upsert: true }).exec();
+    const updated = await UserBet.updateMany(filterQuery, userBet).exec();
     return updated.modifiedCount;
   }
 

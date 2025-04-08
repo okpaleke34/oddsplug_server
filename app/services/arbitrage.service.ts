@@ -10,6 +10,11 @@ export default class ArbitrageService{
     return db.arbitrage.findById(id);
   }
 
+
+  public async getAggregate(aggregate: any): Promise<any> {
+    return db.arbitrage.findByAggregate(aggregate);
+  }
+
   public async getAllArbitrages(): Promise<IArbitrage[]> {
     return db.arbitrage.findAll();
   }

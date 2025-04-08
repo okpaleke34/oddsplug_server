@@ -19,7 +19,7 @@ export interface ISubscription extends Document {
 }
 
 const subscriptionSchema: Schema = new Schema({
-    authId: { type: mongoose.Types.ObjectId, ref: 'Auth', required: true },
+    authId: { type: mongoose.Types.ObjectId, ref: 'Authentication', required: true },
     planId: { type: mongoose.Types.ObjectId, ref: 'Plan', required: true },
     amount: { type: Number, required: true },
     currency: { type: String, required: true },

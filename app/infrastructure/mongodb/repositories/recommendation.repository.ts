@@ -36,7 +36,7 @@ export class RecommendationRepository implements IRecommendationRepository {
 
   public async updateMany(filter:IRecommendationOptional, recommendation: IRecommendationOptional): Promise<number | null> {
     const filterQuery: FilterQuery<IRecommendation> = filter as FilterQuery<IRecommendation>; 
-    const updated = await Recommendation.updateMany(filterQuery, recommendation, { upsert: true }).exec();
+    const updated = await Recommendation.updateMany(filterQuery, recommendation).exec();
     return updated.modifiedCount;
   }
 

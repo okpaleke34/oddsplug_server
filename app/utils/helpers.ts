@@ -14,8 +14,7 @@ import { bookmakersServiceContainer } from './BookmakerMarketFuncs';
 import countries from '../data/countries.json';
 import markets from '../data/markets.json';
 import { IUserToken } from "./types.d";
-
-import 'dotenv/config';
+import config from '../utils/config';
 
 
 
@@ -29,14 +28,14 @@ import 'dotenv/config';
 // const dotenv = require('dotenv');
 
 // dotenv.config();
-export const JWT_SECRET = process.env.JWT_SECRET;
+export const JWT_SECRET = config.jwt;
 // let folder = './app/public/uploads/'
 const timezone = 'Europe/Oslo'; // Replace with your desired timezone
 const now = moment().tz(timezone);
 // export const TIMESTAMP = Math.floor(moment().tz(timezone).valueOf()/1000)
 export const TIMESTAMP = momentTZ.tz(timezone).unix()
 export const maxAge = 30 * 24 * 60 *60;
-export const SMTP_SETTINGS_1 = {password:process.env.SMTP_PASSWORD_1,email:process.env.SMTP_EMAIL_1}
+export const SMTP_SETTINGS_1 = {password:config.stmp[1].password, email:config.stmp[1].email}
 
 
 // exports.maxAge = maxAge
@@ -50,7 +49,7 @@ export const SMTP_SETTINGS_1 = {password:process.env.SMTP_PASSWORD_1,email:proce
  * @returns {string} The generated JWT token.
  */
 export const createToken = (type:string,value:object|string,remember=true):string =>{
-  const JWTSecret = process.env.JWT_SECRET
+  const JWTSecret = config.jwt
   if(JWTSecret){
     return jwt.sign({[type]:value},JWTSecret,{
       expiresIn:remember?maxAge * 30:maxAge / 30
@@ -63,7 +62,7 @@ export const createToken = (type:string,value:object|string,remember=true):strin
 
 export const generateToken = (id: string) => {
   
-  return jwt.sign({ id }, process.env.JWT_SECRET!, {
+  return jwt.sign({ id }, config.jwt, {
     expiresIn: '30d',
   });
 };
@@ -71,18 +70,18 @@ export const generateToken = (id: string) => {
 export const generateAccessToken = (user:IUserToken ) => {
   /** expressed in seconds or a string describing a time span [zeit/ms](https://github.com/zeit/ms.js).  Eg: 60, "2 days", "10h", "7d" '15m'*/
   // The expiresIn will set the expiration to current 0.25 hrs because the current function will generate it in GMT while the server timezone is in GMT + 2
-  // return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET!, { expiresIn: "2.25 hrs"});
-  // return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET!, { expiresIn: 60 * 60});
+  // return jwt.sign(user, config.accessToken, { expiresIn: "2.25 hrs"});
+  // return jwt.sign(user, config.accessToken, { expiresIn: 60 * 60});
   // Set in 15 mins time
   return jwt.sign({
     exp: Math.floor(Date.now() / 1000) + (60 * 15),
     user
-  }, process.env.ACCESS_TOKEN_SECRET!);
+  }, config.accessToken);
 };
 
 // Set without expiration date
 export const generateRefreshToken = (user:IUserToken) => {
-  return jwt.sign(user, process.env.REFRESH_TOKEN_SECRET!);
+  return jwt.sign(user, config.refreshToken);
 };
 
 
@@ -510,10 +509,9 @@ export const isValidCoordinate = (latitude, longitude) => {
   );
 };
 
-
 export const sendMail = ({subject,html,to,callback}) => {
-    const email = process.env.STMP_EMAIL_0
-    const password = process.env.STMP_PASSWORD_0
+    const email = config.stmp[0].email
+    const password = config.stmp[0].password
     const from = `Oddsplug <${email}>`
     const smtp = nodemailer.createTransport({
         host: "premium78.web-hosting.com",
@@ -544,22 +542,38 @@ export const translateBookmakerMarket = (bookmaker, data) => {
   const container = bookmakersServiceContainer;
   const bookmakerFunction = container.resolve(bookmaker);
   if (bookmakerFunction) {
-      return bookmakerFunction(data);
+    return bookmakerFunction(data);
   }
   else {
-      console.error('No function found for bookmaker:', bookmaker);
-      return false
+    console.error('No function found for bookmaker:', bookmaker);
+    return false
   }
 }
 export const  marketKeys = {
   "first_half":"1st",
-  "second_half":"2nd"
+  "second_half":"2nd",
+  "first_period":"1st",
+  "second_period":"2nd",
+  "third_period":"3rd",
+  "first_quarter":"1st",
+  "second_quarter":"2nd",
+  "third_quarter":"3rd",
+  "fourth_quarter":"4th",
+  "first_set":"1st",
+  "second_set":"2nd",
+  "third_set":"3rd",
+  "fourth_set":"4th",
+  "fifth_set":"5th"
 }
 
 export const scannedBookmakers = {
   "bet9ja":{
     "icon":"https://oddsplug.com/bucket/bookmakers/bet9ja.png", 
     "link":"https://sports.bet9ja.com/"
+  },
+  "ilotbet":{
+    "icon":"https://oddsplug.com/bucket/bookmakers/ilot.png", 
+    "link":"https://www.ilotbet.com/"
   },
   "nairabet":{
     "icon":"https://oddsplug.com/bucket/bookmakers/nairabet.png",
@@ -633,6 +647,13 @@ export const ourBookmakers = [
     name:"Bet9ja",
     icon:"https://oddsplug.com/bucket/bookmakers/bet9ja.png",
     link:"https://sports.bet9ja.com/",
+    status:1
+  },
+  {
+    folder:"ilotbet",
+    name:"iLOTBet",
+    icon:"https://oddsplug.com/bucket/bookmakers/ilot.png",
+    link:"https://www.ilotbet.com/",
     status:1
   },
   {
@@ -765,9 +786,87 @@ export const cloneBookmakers = [
 ]
 export const ourSports = [
   {
+    idName:"american_football",
+    name:"American Football",
+    icon:"https://oddsplug.com/bucket/sports/american_football.png",
+    status:1
+  },
+  {
+    idName:"baseball",
+    name:"Baseball",
+    icon:"https://oddsplug.com/bucket/sports/baseball.png",
+    status:1
+  },
+  {
+    idName:"basketball",
+    name:"Basketball",
+    icon:"https://oddsplug.com/bucket/sports/basketball.png",
+    status:1
+  },
+  {
+    idName:"boxing",
+    name:"Boxing",
+    icon:"https://oddsplug.com/bucket/sports/boxing.png",
+    status:1
+  },
+  {
+    idName:"cricket",
+    name:"Cricket",
+    icon:"https://oddsplug.com/bucket/sports/cricket.png",
+    status:1
+  },
+  {
+    idName:"darts",
+    name:"Darts",
+    icon:"https://oddsplug.com/bucket/sports/darts.png",
+    status:1
+  },
+  {
+    idName:"esports",
+    name:"Esports",
+    icon:"https://oddsplug.com/bucket/sports/esports.png",
+    status:1
+  },
+  {
     idName:"football",
     name:"Football",
     icon:"https://oddsplug.com/bucket/sports/football.png",
+    status:1
+  },
+  {
+    idName:"futsal",
+    name:"Futsal",
+    icon:"https://oddsplug.com/bucket/sports/futsal.png",
+    status:1
+  },
+  {
+    idName:"handball",
+    name:"Handball",
+    icon:"https://oddsplug.com/bucket/sports/handball.png",
+    status:1
+  },
+  {
+    idName:"ice_hockey",
+    name:"Ice Hockey",
+    icon:"https://oddsplug.com/bucket/sports/ice_hockey.png",
+    status:1
+  },
+  {
+    idName:"mma",
+    name:"MMA",
+    icon:"https://oddsplug.com/bucket/sports/mma.png",
+    status:1
+  },
+  {
+    idName:"rugby",
+    name:"Rugby",
+    icon:"https://oddsplug.com/bucket/sports/rugby.png",
+    status:1
+  },
+  {
+    idName:"table_tennis",
+    name:"Table Tennis",
+    icon:"https://oddsplug.com/bucket/sports/table_tennis.png",
     status:1
   },
   {
@@ -776,101 +875,34 @@ export const ourSports = [
     icon:"https://oddsplug.com/bucket/sports/tennis.png",
     status:1
   },
-  // {
-  //   idName:"basketball",
-  //   name:"Basketball",
-  //   icon:"https://oddsplug.com/bucket/sports/basketball.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"volleyball",
-  //   name:"Volleyball",
-  //   icon:"https://oddsplug.com/bucket/sports/volleyball.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"rugby",
-  //   name:"Rugby",
-  //   icon:"https://oddsplug.com/bucket/sports/rugby.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"hockey",
-  //   name:"Hockey",
-  //   icon:"https://oddsplug.com/bucket/sports/hockey.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"handball",
-  //   name:"Handball",
-  //   icon:"https://oddsplug.com/bucket/sports/handball.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"cricket",
-  //   name:"Cricket",
-  //   icon:"https://oddsplug.com/bucket/sports/cricket.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"baseball",
-  //   name:"Baseball",
-  //   icon:"https://oddsplug.com/bucket/sports/baseball.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"american_football",
-  //   name:"American Football",
-  //   icon:"https://oddsplug.com/bucket/sports/american_football.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"table_tennis",
-  //   name:"Table Tennis",
-  //   icon:"https://oddsplug.com/bucket/sports/table_tennis.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"badminton",
-  //   name:"Badminton",
-  //   icon:"https://oddsplug.com/bucket/sports/badminton.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"esports",
-  //   name:"Esports",
-  //   icon:"https://oddsplug.com/bucket/sports/esports.png",
-  //   status:1
-  // },
-  // {
-  //   idName:"mma",
-  //   name:"MMA",
-  //   icon:"https://oddsplug.com/bucket/sports/mma.png",
-  //   status:1
-  // }
-
+  {
+    idName:"volleyball",
+    name:"Volleyball",
+    icon:"https://oddsplug.com/bucket/sports/volleyball.png",
+    status:1
+  }
 ]
 // export const marketKeys = marketKeys
 // export const scannedBookmakers = scannedBookmakers
 
 export const formatArbitragesForWebView = (arbitrages, marketsDefinition) => {
   const newArbitrages = arbitrages.map(arb => {
-      arb = arb.dataValues || arb
-      arb = JSON.parse(JSON.stringify(arb)) //clone object to avoid mutation
-      const userTimezone = 'Africa/Lagos'; //fetch from user settings
-      arb.arbPercentage = parseFloat(arb.arbPercentage).toFixed(2)
-      // Convert the timestamp to the specified timezone and format it
-      arb.startAtTimestamp = Number(arb.startAt);
-      arb.startAt = momentTZ.unix(arb.startAt).tz(userTimezone).format('D, MMM HH:mm');
-      arb.bookmakers =  typeof arb.bookmakers === "string"?JSON.parse(arb.bookmakers):arb.bookmakers
-      arb.market = marketsDefinition[arb.marketCode]
-      arb.bookmakers = arb.bookmakers.map(bookmaker => {
-          bookmaker.teams = bookmaker.home+" vs "+bookmaker.away
-          bookmaker.icon = scannedBookmakers[bookmaker.bookmaker.toLowerCase()]["icon"]
-          bookmaker.market = bookmaker.market in marketKeys?marketKeys[bookmaker.market]:bookmaker.market
-          return bookmaker
-      })
-      return arb
+    arb = arb.dataValues || arb
+    arb = JSON.parse(JSON.stringify(arb)) //clone object to avoid mutation
+    const userTimezone = 'Africa/Lagos'; //fetch from user settings
+    arb.arbPercentage = parseFloat(arb.arbPercentage).toFixed(2)
+    // Convert the timestamp to the specified timezone and format it
+    arb.startAtTimestamp = Number(arb.startAt);
+    arb.startAt = momentTZ.unix(arb.startAt).tz(userTimezone).format('D, MMM HH:mm');
+    arb.bookmakers =  typeof arb.bookmakers === "string"?JSON.parse(arb.bookmakers):arb.bookmakers
+    arb.market = marketsDefinition[arb.marketCode]
+    arb.bookmakers = arb.bookmakers.map(bookmaker => {
+      bookmaker.teams = bookmaker.home+" vs "+bookmaker.away
+      bookmaker.icon = scannedBookmakers[bookmaker.bookmaker.toLowerCase()]["icon"]
+      bookmaker.market = bookmaker.market in marketKeys?marketKeys[bookmaker.market]:bookmaker.market
+      return bookmaker
+    })
+    return arb
   })
   return newArbitrages
 }
@@ -885,6 +917,49 @@ export const groupBySport = (arr: any[]) => {
     return acc;
   }, {});
 };
+
+
+
+// Function that checks if an arbitrage matches a given exclusion rule.
+export const matchesRule = (arb: any, rule: any) => {
+  for (const key in rule) {
+    if (Object.hasOwnProperty.call(rule, key)) {
+      const ruleValue = rule[key];
+
+      // Skip the rule if the value is "any"
+      if (ruleValue === "any") continue;
+
+      // Special handling for "bookmaker" key: check if any bookmaker matches.
+      if (key === "bookmaker") {
+        if (!arb.bookmakers || !arb.bookmakers.some(b => b.bookmaker === ruleValue)) {
+          return false;
+        }
+      } else {
+        // For other keys, directly compare the arb's value.
+        if (arb[key] !== ruleValue) {
+          return false;
+        }
+      }
+    }
+  }
+  return true;
+}
+
+// Function that filters arbList: remove any arb that matches any exclusion rule.
+export const filterArbList = (arbList: any[], exclusionRules: any) => {
+  const rejectedArbitrages: any[] = [];
+  const rejectedArbitragesIds: any[] = [];
+  const validArbitrages = arbList.filter(arb => {
+    const isRejected = exclusionRules.some(rule => matchesRule(arb, rule));
+    if (isRejected) {
+      rejectedArbitrages.push(arb);
+      rejectedArbitragesIds.push(arb.id);
+    }
+    return !isRejected;
+  });
+  return { validArbitrages, rejectedArbitrages, rejectedArbitragesIds };
+}
+
 
 // export const translateBookmakerMarket = (bookmaker: string, data: any): any  => {
 //     const container: ServiceContainer = bookmakersServiceContainer;

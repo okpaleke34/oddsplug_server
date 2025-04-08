@@ -20,7 +20,7 @@ export interface IRecommendation extends Document {
 }
 
 const recommendationSchema: Schema = new Schema({
-    authId: { type: mongoose.Types.ObjectId, ref: 'Auth', required: true },
+    authId: { type: mongoose.Types.ObjectId, ref: 'Authentication', required: true },
     topic: { type: String, required: true },
     description: { type: String, required: true },
     status: { type: Number, required: true, default:1, comment:"-1: deleted, 0: new, 1:approved;"},

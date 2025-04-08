@@ -1,11 +1,68 @@
 import { Request, Response } from 'express';
 import logger from '../utils/logger';
-import { translateBookmakerMarket,formatArbitragesForWebView } from "../utils/helpers";
+import webpush from "web-push";
+import { translateBookmakerMarket,formatArbitragesForWebView, filterArbList } from "../utils/helpers";
 import ArbitrageService from '../services/arbitrage.service';
 import UtilityService from '../services/utility.service';
 import { IArbitrage } from '../infrastructure/mongodb/models/arbitrage.model';
+import AuthService from '../services/authentication.service';
+import config from '../utils/config';
+import TelegramBot from "node-telegram-bot-api";
+import ExclusionRuleService from '../services/exclusion-rule.service';
 
 
+export const sendNotificationService = async (title: string, body: string, minArbitrage:number)=>{
+    try{      
+      const authService = new AuthService();
+      const usersSubscriptions = await authService.getArbitrageUsersSubscriptions(minArbitrage);
+      if(usersSubscriptions.length == 0){
+        return {status:true, message: "No user found to send the notification"}
+      }
+
+      const notificationPayload = {
+          title,
+          body,
+          icon: "https://oddsplug.com/public/icon-192x192.png",
+          data: {
+            url: "https://oddsplug.com",
+          },
+      };
+  
+      try {
+
+        webpush.setVapidDetails(
+            "mailto:okpaleke34.pl@gmail.com",
+            config.vapid.public,
+            config.vapid.private
+        );
+        // Send notifications to all subscriptions in parallel
+        await Promise.all(
+            usersSubscriptions.map((subscription) =>
+                webpush.sendNotification(subscription, JSON.stringify(notificationPayload))
+            )
+        );
+    
+        // Return a success result
+        return { status: true, message: "Notification sent successfully." };
+      }
+      catch (error) {
+        // Log the error and return a failure result
+        logger.error(`Error sending notification: ${error}`);
+        return { status: false, message: `Failed to send notification: ${error}` };
+      }
+    }
+    catch(error){
+      logger.error(`Error sending notification : ${error}`)
+      return {status:false, message: `Failed to send notification: ${error}`};
+    }
+}
+
+export const sendNotification = async (req: Request, res: Response)=>{
+    const title = "Test Notification"
+    const body = "This is a test notification"
+    const result = await sendNotificationService(title,body, 1)
+    res.status(200).json(result)
+}
 
 // If post arbitrage, it will send the arbitrage to the client
 // If already there, delete the value of scanned_at from the req.body enter a value for updated_at
@@ -28,6 +85,18 @@ export const postArbitrage = async (req: Request, res: Response)=>{
          * 
          * 
         */
+       
+        // Check if arbitrage is in exclusion list
+        const exclusionRuleService = new ExclusionRuleService();
+        const exclusionRules = await exclusionRuleService.getExclusionRule({status:1});
+        const rules = exclusionRules.map((exclusionRule) => exclusionRule.rule);
+
+        const { validArbitrages, rejectedArbitrages, rejectedArbitragesIds } = filterArbList([data], rules);
+        if(rejectedArbitrages.length > 0){
+            // If the arbitrage is in the exclusion list, ignore it
+            res.send({status:true,message:`Arbitrage in exclusion list.`})
+            return
+        }
 
         /***
          * STEPS
@@ -44,8 +113,8 @@ export const postArbitrage = async (req: Request, res: Response)=>{
             const searchArbitrage = searchArbitrages[searchArbitrages.length - 1]
             if(searchArbitrage.status === 2){
                 // If the arbitrage is marked as 2(invalid by admin), ignore it
-                logger.info({status:false,message:`Arbitrage marked as invalid by admin. Arbitrage: ${data}\n`})
-                res.send({status:false,message:`Arbitrage marked as invalid by admin.`})
+                // logger.info({status:false,message:`Arbitrage marked as invalid by admin. Arbitrage: ${data}\n`})
+                res.send({status:true,message:`Arbitrage marked as invalid by admin.`})
                 return
             }
             else{
@@ -88,10 +157,16 @@ export const postArbitrage = async (req: Request, res: Response)=>{
             const postReadyArbitrage = formatArbitragesForWebView([postedArbitrage],marketDefinitions.data)[0]
             const io = res.locals.socket_io
             const emitTo = `${postReadyArbitrage.sport}-${postReadyArbitrage.gameType}`.toLowerCase()
+            
             const emitAll = `All-${postReadyArbitrage.gameType}`.toLowerCase()
             // console.log({emitTo})
             io.emit(emitTo, {status:emitStatus,data:postReadyArbitrage});
             io.emit(emitAll, {status:emitStatus,data:postReadyArbitrage}); // Emit to all sports
+            // const title = `Oddsplug: 2.01% Arbitrage`
+            const title = `Oddsplug: ${postReadyArbitrage.arbPercentage * 10}% Arbitrage`
+            const body = `${postReadyArbitrage.bookmakers[0].teams} ${postReadyArbitrage.market} ${postReadyArbitrage.market}`
+            // TODO: Make sure the gameType, bookmaker and sports is the one that the user subscribed to
+            const result = await sendNotificationService(title,body, 2)
             res.send({status:true,message})
         }
         else{
@@ -117,7 +192,6 @@ export const postArbitrage = async (req: Request, res: Response)=>{
         res.status(500).send({status:false,message:`Error Posting Arbitrage: ${err}`})
     }
 }
-
 export const updateArbitrage = async (req: Request, res: Response)=>{
     // try{
     //     req.body.bookmakers = JSON.parse(req.body.bookmakers)
@@ -192,6 +266,11 @@ export const removeArbitrage = async (req: Request, res: Response)=>{
 
                 const emitTo = key.toLowerCase();
                 io.emit(emitTo, { status: "remove", data: value });
+                // Emit to all sports
+                const keySplitArr = key.split("-")
+                const gameType = keySplitArr[keySplitArr.length - 1]
+                const emitAll = `All-${gameType}`.toLowerCase()
+                io.emit(emitAll, {status:"remove",data:value}); // Emit to all sports
             } catch (err) {
                 errors.push(err);
                 // Continue to the next iteration
@@ -210,4 +289,23 @@ export const removeArbitrage = async (req: Request, res: Response)=>{
         res.status(500).send({status:false,message:`Error Removing Arbitrage: ${err}`})
     }
 
+}
+
+export const sendTelegramMessage = async (req: Request, res: Response)=>{
+    try{
+        const data = JSON.parse(req.body.data)
+        const {chatId, message} = data
+        const bot = new TelegramBot(config.telegramBotToken);
+        const result = await bot.sendMessage(chatId, JSON.stringify(message));
+        if(result){
+            res.send({status:true,message:"Telegram message sent successfully"})
+        }
+        else{
+            res.send({status:false,message:"Error sending Telegram message"})
+        }
+    }
+    catch(err){
+        logger.error(`Error Sending Telegram Message: ${err}`)
+        res.status(500).send({status:false,message:`Error Sending Telegram Message: ${err}`})
+    }
 }

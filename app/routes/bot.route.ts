@@ -6,7 +6,9 @@ const router = Router();
 
 // router.get("/profile",courseList);
 // router.route('/').get(getUsers).post(createUser);
-router.use(botAuth)
+router.get("/send-notification",bot.sendNotification);
+router.post("/send-telegram-message",bot.sendTelegramMessage);
+// router.use(botAuth)
 
 // Authenticated for bots
 // router.post("/fetch-bot-arbitrages",bot.fetchBotArbitrages);

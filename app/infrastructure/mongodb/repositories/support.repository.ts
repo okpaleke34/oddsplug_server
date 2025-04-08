@@ -36,7 +36,7 @@ export class SupportRepository implements ISupportRepository {
 
   public async updateMany(filter:ISupportOptional, support: ISupportOptional): Promise<number | null> {
     const filterQuery: FilterQuery<ISupport> = filter as FilterQuery<ISupport>; 
-    const updated = await Support.updateMany(filterQuery, support, { upsert: true }).exec();
+    const updated = await Support.updateMany(filterQuery, support).exec();
     return updated.modifiedCount;
   }
 

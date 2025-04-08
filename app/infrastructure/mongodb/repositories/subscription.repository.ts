@@ -35,7 +35,7 @@ export class SubscriptionRepository implements ISubscriptionRepository {
 
   public async updateMany(filter:ISubscriptionOptional, subscription: ISubscriptionOptional): Promise<number | null> {
     const filterQuery: FilterQuery<ISubscription> = filter as FilterQuery<ISubscription>; 
-    const updated = await Subscription.updateMany(filterQuery, subscription, { upsert: true }).exec();
+    const updated = await Subscription.updateMany(filterQuery, subscription).exec();
     return updated.modifiedCount;
   }
 

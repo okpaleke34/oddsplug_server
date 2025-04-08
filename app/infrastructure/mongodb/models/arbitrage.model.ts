@@ -1,6 +1,8 @@
 import mongoose, { Schema, Document, ObjectId } from 'mongoose';
 import moment from 'moment-timezone';
 
+
+export type IArbitrageOptional = Partial<IArbitrage>;
 interface IBookmaker {
   bookmaker: string;
   teams: string;
@@ -16,7 +18,7 @@ interface IHistory {
 }
 
 export interface IArbitrage extends Document {
-  _id?: mongoose.Types.ObjectId;
+  // _id?: mongoose.Types.ObjectId;
   tournament: string;
   marketCode: string;
   arbPercentage: string;

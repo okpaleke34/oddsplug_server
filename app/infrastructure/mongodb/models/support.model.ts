@@ -24,4 +24,4 @@ const supportSchema: Schema = new Schema({
 { timestamps: true }
 );
 
-export default mongoose.model<ISupport>('Support', supportSchema);
+export default mongoose.model<ISupport>('support', supportSchema);

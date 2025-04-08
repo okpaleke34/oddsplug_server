@@ -19,7 +19,7 @@ export interface IUserSetting extends Document {
 }
 
 const userSettingSchema: Schema = new Schema({
-    authId: { type: mongoose.Types.ObjectId, ref: 'Auth', required: true },
+    authId: { type: mongoose.Types.ObjectId, ref: 'Authentication', required: true },
     // arbitrageAlert: { type: Schema.Types.Decimal128, required: false },
     arbitrageAlert: { type: Number, required: false },
     oddType: { type: String, required: false },
@@ -32,4 +32,4 @@ const userSettingSchema: Schema = new Schema({
 { timestamps: true }
 );
 
-export default mongoose.model<IUserSetting>('UserSetting', userSettingSchema);
+export default mongoose.model<IUserSetting>('user_setting', userSettingSchema);

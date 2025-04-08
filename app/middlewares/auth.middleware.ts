@@ -4,10 +4,9 @@ import jwt from 'jsonwebtoken';
 // import Auth from '../models/authModel';
 
 // dotenv.config();
-
-import 'dotenv/config';
-import AuthService from '../services/auth.service';
+import AuthService from '../services/authentication.service';
 import logger from '../utils/logger';
+import config from '../utils/config';
 
 export const protect = async (req: Request, res: Response, next: NextFunction) => {
 //   let token;
@@ -15,7 +14,7 @@ export const protect = async (req: Request, res: Response, next: NextFunction) =
 //   if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
 //     try {
 //       token = req.headers.authorization.split(' ')[1];
-//       const decoded: any = jwt.verify(token, process.env.JWT_SECRET!);
+//       const decoded: any = jwt.verify(token, config.jwt);
 
 //       req.user = await Auth.findById(decoded.id).select('-password');
 //       next();
@@ -47,7 +46,7 @@ export const authenticateUserToken = async (req, res, next) => {
     const token = authHeader && authHeader.split(' ')[1];
     if (token == null) return res.sendStatus(401);
     
-    jwt.verify(token, process.env.ACCESS_TOKEN_SECRET!, async (err, user) => {
+    jwt.verify(token, config.accessToken, async (err, user) => {
       if (err){
         // console.log({err})
         if(err.name == "TokenExpiredError")
@@ -58,7 +57,7 @@ export const authenticateUserToken = async (req, res, next) => {
       const { email, id } = user.user
         try {
             const authService = new AuthService();
-            const auths = await authService.getAuth({ _id:id });
+            const auths = await authService.getAuthentication({ _id:id });
             if(!auths || auths.length == 0){
                 res.status(400).json({status:false, message: "User does not exist" });
             }

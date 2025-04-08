@@ -1,5 +1,6 @@
 import express from 'express';
 import cors from 'cors';
+import path from 'path';
 import bodyParser from 'body-parser';
 import cookieParser from 'cookie-parser';
 import requestIp from 'request-ip';
@@ -50,7 +51,6 @@ const io = new SocketIOServer(server, {
       origin,
     },
   });
-  
 app.use((req,res,next)=>{
     app.locals.url = req.url;
     // Store the io object in res.locals
@@ -93,6 +93,10 @@ app.use('/v1/admin/', adminRoutes);
 app.use('/v1/bet/', betRoutes);
 app.use('/v1/auth/', authRoutes);
 app.use('/v1/bot/', botRoutes);
+
+// Serve static files from the /app/data directory
+// This allows the client to access the files in the /app/data directory eg http://localhost:4001/data/countries.json
+app.use('/data', express.static(path.join(__dirname, 'app/data')));
 
 // 404 Error Handler
 app.use((req, res, next) => {

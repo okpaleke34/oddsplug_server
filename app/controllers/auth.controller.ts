@@ -2,36 +2,18 @@ import { useragent } from 'express-useragent';
 import jwt from "jsonwebtoken";
 // import { auth } from '@/auth';
 import { Request, Response } from 'express';
-import AuthService from '../services/auth.service';
+import AuthService from '../services/authentication.service';
 import fs from "fs"
 import { createUserAgent, generateAccessToken, generateRefreshToken,genID,ourBookmakers,ourSports,randomInt, sendMail } from '../utils/helpers';
 import bcrypt from 'bcryptjs';
-import UserService from "../services/user.service";
-import webpush from "web-push";
+import UserDetailService from "../services/user-detail.service";
 import logger from '../utils/logger';
 import { INotificationSubscription } from "../utils/types.d";
 import { AuthRequest } from '../types/express.d';
-import { IAuth } from '../infrastructure/mongodb/models/auth.model';
+import { IAuthentication } from '../infrastructure/mongodb/models/authentication.model';
 import UserSettingService from '../services/user-setting.service';
 import mongoose from 'mongoose';
-
-const vapidKeys = {
-  publicKey: "BINnDbAF1fHoOnUet_W3jb9lULG-gsH0HkTI1MC2-cFaeSNjsyVSAnNWdgZpqGxoVSMXQAwVSikKjtTM1UVj41s",
-  privateKey: "LvmB0MUy0LwAWC6PtlheltaNde2s-T_OpRpRRfE7Aok",
-};
-
-// webpush.setVapidDetails()
-webpush.setVapidDetails(
-  "mailto:okpaleke34.pl@gmail.com",
-  vapidKeys.publicKey,
-  vapidKeys.privateKey
-)
-
-// webpush.setVapidDetails(
-//   "mailto:okpaleke34.pl@gmail.com",
-//   process.env.VAPID_PUBLIC_KEY,
-//   process.env.VAPID_PRIVATE_KEY
-// )
+import config from '../utils/config';
 
 export const register = async (req: Request, res: Response) => {
   const { email, password } = req.body;
@@ -40,7 +22,7 @@ export const register = async (req: Request, res: Response) => {
     const authService = new AuthService();
 
     // Check if the user already exists
-    const auths = await authService.getAuth({ email });
+    const auths = await authService.getAuthentication({ email });
     if(auths.length > 0){
       res.status(400).json({status:false, message: "User already exists" });
       return;
@@ -49,24 +31,24 @@ export const register = async (req: Request, res: Response) => {
     // Create a new user using the email and hashed password
     const username = email.split('@')[0]+Math.floor(Math.random()*100000);//Generate a random username
     const userAgent = createUserAgent(req)
-    const auth = await authService.createAuth({ email, password:hashedPassword,role:"user", username,devices:[userAgent] });
+    const auth = await authService.createAuthentication({ email, password:hashedPassword,role:"user", username,devices:[userAgent] });
     const user = {id: auth._id as string, email: auth.email as string, role: auth.role, username: auth.username, sec: auth.password as string }
     const accessToken = generateAccessToken(user);
     const refreshToken = generateRefreshToken(user);
     // console.log({auth})
     // console.log({user})
     // Update the JWT in the database
-    const updateAuth = await authService.updateAuth({email}, {JWT:refreshToken});
+    const updateAuth = await authService.updateAuthentication({email}, {JWT:refreshToken});
     if(!updateAuth){
       res.status(400).json({status:false, message: "Failed to update JWT" });
       return;
     }
 
     // Create a user account
-    const userService = new UserService();
+    const userDetailService = new UserDetailService();
 
     const authId = new mongoose.Types.ObjectId(auth._id as string);
-    const userAccount = await userService.createUser({authId});
+    const userAccount = await userDetailService.createUserDetail({authId});
     if(!userAccount){
       res.status(400).json({status:false, message: "Failed to create user account" });
       return;
@@ -75,7 +57,7 @@ export const register = async (req: Request, res: Response) => {
     const bookmakers = ourBookmakers.map(b => b.name)
     const sports = ourSports.map(s => s.name)
     const userSettingService = new UserSettingService()
-    const userSettingAccount = await userSettingService.createUserSetting({authId,arbitrageAlert:2,bookmakers,sports,timezone:"Africa/Lagos",oddType:"decimal",clonedBookmakers:[{parent:"_1xbet",bookmaker:"_1xbet",customURL:"https://ng.1x001.com"}]});
+    const userSettingAccount = await userSettingService.createUserSetting({authId,arbitrageAlert:100,bookmakers,sports,timezone:"Africa/Lagos",oddType:"decimal",clonedBookmakers:[{parent:"_1xbet",bookmaker:"_1xbet",customURL:"https://ng.1x001.com"}]});
     if(!userSettingAccount){
       res.status(400).json({status:false, message: "Failed to create user settings" });
       return;
@@ -86,7 +68,7 @@ export const register = async (req: Request, res: Response) => {
     delete newUser.id
     delete newUser.sec
     // Set the refresh token in the cookie
-    res.cookie('refreshToken', refreshToken, { httpOnly: true, secure: process.env.NODE_ENV !== "development" });
+    res.cookie('refreshToken', refreshToken, { httpOnly: true, secure: config.env !== "development" });
     res.json({ status:true, accessToken, refreshToken, user:newUser });
   }
   catch (error:any) {
@@ -99,7 +81,7 @@ export const login = async (req: Request, res: Response) => {
   try {
 
     const authService = new AuthService();
-    const auths = await authService.getAuth({ email });
+    const auths = await authService.getAuthentication({ email });
     if(!auths || auths.length == 0){
       res.status(400).json({status:false, message: "User does not exist" });
       return;
@@ -143,12 +125,12 @@ export const login = async (req: Request, res: Response) => {
         else{
           auth.devices = [userAgent]
         }
-        const updateAuth = await authService.updateAuth({email}, {devices:auth.devices});
+        const updateAuth = await authService.updateAuthentication({email}, {devices:auth.devices});
         const newUser = {...user} as any
         newUser.authId = newUser.id
         delete newUser.id
         delete newUser.sec
-        res.cookie('refreshToken', refreshToken, { httpOnly: true, secure: process.env.NODE_ENV !== "development" });
+        res.cookie('refreshToken', refreshToken, { httpOnly: true, secure: config.env !== "development" });
         res.json({ status:true, accessToken, refreshToken, user:newUser });
       }
       else {
@@ -166,7 +148,7 @@ export const login = async (req: Request, res: Response) => {
   }
 };
 
-const resetPasswordFunction = async (auth: IAuth, res: Response) => {
+const resetPasswordFunction = async (auth: IAuthentication, res: Response) => {
   if(auth.isOAuth){
     // Because users authenticated via third party OAuth can't reset password
     res.json({status:false, message: "User authenticated via third party OAuth" });
@@ -175,7 +157,7 @@ const resetPasswordFunction = async (auth: IAuth, res: Response) => {
     const newPassword = genID(10)
     const hashedPassword = await bcrypt.hash(newPassword, 10);
     const authService = new AuthService();
-    const updateAuth = await authService.updateAuth({_id:auth._id}, {password:hashedPassword});
+    const updateAuth = await authService.updateAuthentication({_id:auth._id}, {password:hashedPassword});
     if(updateAuth){
       const subject = "Oddsplug: Password Reset"
       const message = `Dear ${auth.username}, <br/><br/> Your password has been reset to: ${newPassword}<br/>Thanks`
@@ -205,9 +187,9 @@ export const resetPassword = async (req: Request, res: Response) => {
   try {
 
     const authService = new AuthService();
-    let auths = await authService.getAuth({ username:user });
+    let auths = await authService.getAuthentication({ username:user });
     if(!auths || auths.length == 0){
-      auths = await authService.getAuth({ email:user });
+      auths = await authService.getAuthentication({ email:user });
       if(!auths || auths.length == 0){
         res.status(400).json({status:false, message: "User does not exist" });
         return;
@@ -233,8 +215,8 @@ export const refreshAccessToken = async (req: Request, res: Response) => {
   // console.log("Access token refreshed",{refreshToken},req.cookies)
   if (!refreshToken) return res.status(200).json({status:false, message: "No refresh token" });
   // console.log({refreshToken})
-  // console.log(process.env.REFRESH_TOKEN_SECRET!)
-  jwt.verify(refreshToken, process.env.REFRESH_TOKEN_SECRET!, (err, user) => {
+  // console.log(config.refreshToken)
+  jwt.verify(refreshToken, config.refreshToken, (err, user) => {
     if (err) return res.status(200).json({status:false, message: "Invalid refresh token" });
     // TODO: Randomly check if the JWTtoken and password is the same in the database (check if the device is active, check if refreshToken is same)
     delete user.iat
@@ -245,75 +227,6 @@ export const refreshAccessToken = async (req: Request, res: Response) => {
     res.status(200).json({status:true, accessToken, user });
   });
 };
-
-export const sendNotification= async (req: Request, res: Response)=>{
-  try{
-
-    const aggregate = [
-      { $unwind: '$devices' }, // Deconstruct devices array to filter individual documents
-      { 
-        $match: {
-          'devices.status': 1, 
-          'devices.notificationSubscription': { $ne: null } 
-        } 
-      },
-      { 
-        $project: { 
-          _id: 1, 
-          'devices.notificationSubscription': 1 ,
-          // 'email': 1 
-        } 
-      }
-    ]
-    const authService = new AuthService()
-    const usersSubscription = await authService.getAggregate(aggregate);
-    if(usersSubscription.length == 0)
-    {
-      res.status(201).json({status:true, message: "No user found to send the notification"});
-      return 
-    }
-    // TODO: run query to search all the _id in the table and only return _id that has arbitrageAlert up to that level
-    // then use map to match all the that are available, then return the filtered users with the specific subscription
-
-
-    const subscriptions = usersSubscription.map(doc => {
-      if(doc.devices !== undefined){ 
-        const devices: any = doc.devices
-        return devices.notificationSubscription
-      }
-    });
-    // console.log(subscriptions)
-    
-    const notificationPayload = {
-        title: "New Notification",
-        body: "This is a new notification",
-        icon: "https://oddsplug.com/public/icon-192x192.png",
-        data: {
-          url: "https://oddsplug.com",
-        },
-    };
-    // res.status(200).json({ message: "Notification sent successfully."+randomInt(1,1000) })
-    // return
-
-    Promise.all(
-      subscriptions.map((subscription) =>
-        webpush.sendNotification(subscription, JSON.stringify(notificationPayload))
-      )
-
-    //   webpush.sendNotification(subscriptions[0], JSON.stringify(notificationPayload))
-    )
-    .then(() => res.status(200).json({ message: "Notification sent successfully." }))
-    .catch((error) => {
-      logger.error(`Error sending notification: ${error}`);
-      res.status(500).json({status:false, message: `Failed to send notification: ${error}`});
-    });
-
-  }
-  catch(error){
-    logger.error(`Error sending notification : ${error}`)
-    res.status(201).json({status:false, message: `Failed to send notification: ${error}`});
-  }
-}
 
 // ================= AUTHENTICATED ROUTES ================= 
 export const logout = async (req: AuthRequest, res: Response) => {
@@ -341,7 +254,7 @@ export const logout = async (req: AuthRequest, res: Response) => {
           auth.devices = [userAgent]
         }
         const authService = new AuthService();
-        const updateAuth = await authService.updateAuth({_id:auth.id}, {devices:auth.devices,JWT:""});
+        const updateAuth = await authService.updateAuthentication({_id:auth.id}, {devices:auth.devices,JWT:""});
         // console.log({updateAuth})
         res.json({ status:true, message:"logged out successfully" });      
     } 
@@ -382,7 +295,7 @@ export const subscribe2Notification = async (req: AuthRequest, res: Response)=>{
       auth.devices = [userAgent]
     }
 
-    const updateAuth = await authService.updateAuth({_id:auth.id}, {devices:auth.devices});
+    const updateAuth = await authService.updateAuthentication({_id:auth.id}, {devices:auth.devices});
 
     // Update the  user setting
     const userSettingService = new UserSettingService()

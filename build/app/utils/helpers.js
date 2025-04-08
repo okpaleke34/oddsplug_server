@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.groupBySport = exports.formatArbitragesForWebView = exports.ourSports = exports.cloneBookmakers = exports.ourBookmakers = exports.scannedBookmakers = exports.marketKeys = exports.translateBookmakerMarket = exports.sendMail = exports.isValidCoordinate = exports.isCoordinateInsidePolygon = exports.angle2D = exports.getNextDate = exports.daysDifference = exports.readCSV = exports.verifyDayToken = exports.genDayToken = exports.decodeCourseLink = exports.encodeCourseLink = exports.createSlug = exports.makeJSON = exports.validateFormData = exports.timeElasped = exports.formatUnix = exports.getTimestamps = exports.uploadFile = exports.updateObject = exports.createUserAgent = exports.sortPrivileges = exports.randomInt = exports.genGMID = exports.genID = exports.generateRefreshToken = exports.generateAccessToken = exports.generateToken = exports.createToken = exports.SMTP_SETTINGS_1 = exports.maxAge = exports.TIMESTAMP = exports.JWT_SECRET = void 0;
+exports.filterArbList = exports.matchesRule = exports.groupBySport = exports.formatArbitragesForWebView = exports.ourSports = exports.cloneBookmakers = exports.ourBookmakers = exports.scannedBookmakers = exports.marketKeys = exports.translateBookmakerMarket = exports.sendMail = exports.isValidCoordinate = exports.isCoordinateInsidePolygon = exports.angle2D = exports.getNextDate = exports.daysDifference = exports.readCSV = exports.verifyDayToken = exports.genDayToken = exports.decodeCourseLink = exports.encodeCourseLink = exports.createSlug = exports.makeJSON = exports.validateFormData = exports.timeElasped = exports.formatUnix = exports.getTimestamps = exports.uploadFile = exports.updateObject = exports.createUserAgent = exports.sortPrivileges = exports.randomInt = exports.genGMID = exports.genID = exports.generateRefreshToken = exports.generateAccessToken = exports.generateToken = exports.createToken = exports.SMTP_SETTINGS_1 = exports.maxAge = exports.TIMESTAMP = exports.JWT_SECRET = void 0;
 const fs_1 = __importDefault(require("fs"));
 const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 // import dotenv from "dotenv";
@@ -14,7 +14,7 @@ const stream_1 = require("stream");
 const csv_parser_1 = __importDefault(require("csv-parser"));
 const Identity_1 = __importDefault(require("./Identity"));
 const BookmakerMarketFuncs_1 = require("./BookmakerMarketFuncs");
-require("dotenv/config");
+const config_1 = __importDefault(require("../utils/config"));
 // const fs = require("fs");
 // const jwt = require("jsonwebtoken");
 // const moment = require("moment");
@@ -23,14 +23,14 @@ require("dotenv/config");
 // const { Op } = require("sequelize");
 // const dotenv = require('dotenv');
 // dotenv.config();
-exports.JWT_SECRET = process.env.JWT_SECRET;
+exports.JWT_SECRET = config_1.default.jwt;
 // let folder = './app/public/uploads/'
 const timezone = 'Europe/Oslo'; // Replace with your desired timezone
 const now = (0, moment_1.default)().tz(timezone);
 // export const TIMESTAMP = Math.floor(moment().tz(timezone).valueOf()/1000)
 exports.TIMESTAMP = moment_timezone_1.default.tz(timezone).unix();
 exports.maxAge = 30 * 24 * 60 * 60;
-exports.SMTP_SETTINGS_1 = { password: process.env.SMTP_PASSWORD_1, email: process.env.SMTP_EMAIL_1 };
+exports.SMTP_SETTINGS_1 = { password: config_1.default.stmp[1].password, email: config_1.default.stmp[1].email };
 // exports.maxAge = maxAge
 // export maxAge = maxAge
 /**
@@ -41,7 +41,7 @@ exports.SMTP_SETTINGS_1 = { password: process.env.SMTP_PASSWORD_1, email: proces
  * @returns {string} The generated JWT token.
  */
 const createToken = (type, value, remember = true) => {
-    const JWTSecret = process.env.JWT_SECRET;
+    const JWTSecret = config_1.default.jwt;
     if (JWTSecret) {
         return jsonwebtoken_1.default.sign({ [type]: value }, JWTSecret, {
             expiresIn: remember ? exports.maxAge * 30 : exports.maxAge / 30
@@ -53,7 +53,7 @@ const createToken = (type, value, remember = true) => {
 };
 exports.createToken = createToken;
 const generateToken = (id) => {
-    return jsonwebtoken_1.default.sign({ id }, process.env.JWT_SECRET, {
+    return jsonwebtoken_1.default.sign({ id }, config_1.default.jwt, {
         expiresIn: '30d',
     });
 };
@@ -61,18 +61,18 @@ exports.generateToken = generateToken;
 const generateAccessToken = (user) => {
     /** expressed in seconds or a string describing a time span [zeit/ms](https://github.com/zeit/ms.js).  Eg: 60, "2 days", "10h", "7d" '15m'*/
     // The expiresIn will set the expiration to current 0.25 hrs because the current function will generate it in GMT while the server timezone is in GMT + 2
-    // return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET!, { expiresIn: "2.25 hrs"});
-    // return jwt.sign(user, process.env.ACCESS_TOKEN_SECRET!, { expiresIn: 60 * 60});
+    // return jwt.sign(user, config.accessToken, { expiresIn: "2.25 hrs"});
+    // return jwt.sign(user, config.accessToken, { expiresIn: 60 * 60});
     // Set in 15 mins time
     return jsonwebtoken_1.default.sign({
         exp: Math.floor(Date.now() / 1000) + (60 * 15),
         user
-    }, process.env.ACCESS_TOKEN_SECRET);
+    }, config_1.default.accessToken);
 };
 exports.generateAccessToken = generateAccessToken;
 // Set without expiration date
 const generateRefreshToken = (user) => {
-    return jsonwebtoken_1.default.sign(user, process.env.REFRESH_TOKEN_SECRET);
+    return jsonwebtoken_1.default.sign(user, config_1.default.refreshToken);
 };
 exports.generateRefreshToken = generateRefreshToken;
 /**
@@ -477,8 +477,8 @@ const isValidCoordinate = (latitude, longitude) => {
 };
 exports.isValidCoordinate = isValidCoordinate;
 const sendMail = ({ subject, html, to, callback }) => {
-    const email = process.env.STMP_EMAIL_0;
-    const password = process.env.STMP_PASSWORD_0;
+    const email = config_1.default.stmp[0].email;
+    const password = config_1.default.stmp[0].password;
     const from = `Oddsplug <${email}>`;
     const smtp = nodemailer_1.default.createTransport({
         host: "premium78.web-hosting.com",
@@ -515,12 +515,28 @@ const translateBookmakerMarket = (bookmaker, data) => {
 exports.translateBookmakerMarket = translateBookmakerMarket;
 exports.marketKeys = {
     "first_half": "1st",
-    "second_half": "2nd"
+    "second_half": "2nd",
+    "first_period": "1st",
+    "second_period": "2nd",
+    "third_period": "3rd",
+    "first_quarter": "1st",
+    "second_quarter": "2nd",
+    "third_quarter": "3rd",
+    "fourth_quarter": "4th",
+    "first_set": "1st",
+    "second_set": "2nd",
+    "third_set": "3rd",
+    "fourth_set": "4th",
+    "fifth_set": "5th"
 };
 exports.scannedBookmakers = {
     "bet9ja": {
         "icon": "https://oddsplug.com/bucket/bookmakers/bet9ja.png",
         "link": "https://sports.bet9ja.com/"
+    },
+    "ilotbet": {
+        "icon": "https://oddsplug.com/bucket/bookmakers/ilot.png",
+        "link": "https://www.ilotbet.com/"
     },
     "nairabet": {
         "icon": "https://oddsplug.com/bucket/bookmakers/nairabet.png",
@@ -593,6 +609,13 @@ exports.ourBookmakers = [
         name: "Bet9ja",
         icon: "https://oddsplug.com/bucket/bookmakers/bet9ja.png",
         link: "https://sports.bet9ja.com/",
+        status: 1
+    },
+    {
+        folder: "ilotbet",
+        name: "iLOTBet",
+        icon: "https://oddsplug.com/bucket/bookmakers/ilot.png",
+        link: "https://www.ilotbet.com/",
         status: 1
     },
     {
@@ -724,9 +747,87 @@ exports.cloneBookmakers = [
 ];
 exports.ourSports = [
     {
+        idName: "american_football",
+        name: "American Football",
+        icon: "https://oddsplug.com/bucket/sports/american_football.png",
+        status: 1
+    },
+    {
+        idName: "baseball",
+        name: "Baseball",
+        icon: "https://oddsplug.com/bucket/sports/baseball.png",
+        status: 1
+    },
+    {
+        idName: "basketball",
+        name: "Basketball",
+        icon: "https://oddsplug.com/bucket/sports/basketball.png",
+        status: 1
+    },
+    {
+        idName: "boxing",
+        name: "Boxing",
+        icon: "https://oddsplug.com/bucket/sports/boxing.png",
+        status: 1
+    },
+    {
+        idName: "cricket",
+        name: "Cricket",
+        icon: "https://oddsplug.com/bucket/sports/cricket.png",
+        status: 1
+    },
+    {
+        idName: "darts",
+        name: "Darts",
+        icon: "https://oddsplug.com/bucket/sports/darts.png",
+        status: 1
+    },
+    {
+        idName: "esports",
+        name: "Esports",
+        icon: "https://oddsplug.com/bucket/sports/esports.png",
+        status: 1
+    },
+    {
         idName: "football",
         name: "Football",
         icon: "https://oddsplug.com/bucket/sports/football.png",
+        status: 1
+    },
+    {
+        idName: "futsal",
+        name: "Futsal",
+        icon: "https://oddsplug.com/bucket/sports/futsal.png",
+        status: 1
+    },
+    {
+        idName: "handball",
+        name: "Handball",
+        icon: "https://oddsplug.com/bucket/sports/handball.png",
+        status: 1
+    },
+    {
+        idName: "ice_hockey",
+        name: "Ice Hockey",
+        icon: "https://oddsplug.com/bucket/sports/ice_hockey.png",
+        status: 1
+    },
+    {
+        idName: "mma",
+        name: "MMA",
+        icon: "https://oddsplug.com/bucket/sports/mma.png",
+        status: 1
+    },
+    {
+        idName: "rugby",
+        name: "Rugby",
+        icon: "https://oddsplug.com/bucket/sports/rugby.png",
+        status: 1
+    },
+    {
+        idName: "table_tennis",
+        name: "Table Tennis",
+        icon: "https://oddsplug.com/bucket/sports/table_tennis.png",
         status: 1
     },
     {
@@ -735,78 +836,12 @@ exports.ourSports = [
         icon: "https://oddsplug.com/bucket/sports/tennis.png",
         status: 1
     },
-    // {
-    //   idName:"basketball",
-    //   name:"Basketball",
-    //   icon:"https://oddsplug.com/bucket/sports/basketball.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"volleyball",
-    //   name:"Volleyball",
-    //   icon:"https://oddsplug.com/bucket/sports/volleyball.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"rugby",
-    //   name:"Rugby",
-    //   icon:"https://oddsplug.com/bucket/sports/rugby.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"hockey",
-    //   name:"Hockey",
-    //   icon:"https://oddsplug.com/bucket/sports/hockey.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"handball",
-    //   name:"Handball",
-    //   icon:"https://oddsplug.com/bucket/sports/handball.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"cricket",
-    //   name:"Cricket",
-    //   icon:"https://oddsplug.com/bucket/sports/cricket.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"baseball",
-    //   name:"Baseball",
-    //   icon:"https://oddsplug.com/bucket/sports/baseball.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"american_football",
-    //   name:"American Football",
-    //   icon:"https://oddsplug.com/bucket/sports/american_football.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"table_tennis",
-    //   name:"Table Tennis",
-    //   icon:"https://oddsplug.com/bucket/sports/table_tennis.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"badminton",
-    //   name:"Badminton",
-    //   icon:"https://oddsplug.com/bucket/sports/badminton.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"esports",
-    //   name:"Esports",
-    //   icon:"https://oddsplug.com/bucket/sports/esports.png",
-    //   status:1
-    // },
-    // {
-    //   idName:"mma",
-    //   name:"MMA",
-    //   icon:"https://oddsplug.com/bucket/sports/mma.png",
-    //   status:1
-    // }
+    {
+        idName: "volleyball",
+        name: "Volleyball",
+        icon: "https://oddsplug.com/bucket/sports/volleyball.png",
+        status: 1
+    }
 ];
 // export const marketKeys = marketKeys
 // export const scannedBookmakers = scannedBookmakers
@@ -844,6 +879,46 @@ const groupBySport = (arr) => {
     }, {});
 };
 exports.groupBySport = groupBySport;
+// Function that checks if an arbitrage matches a given exclusion rule.
+const matchesRule = (arb, rule) => {
+    for (const key in rule) {
+        if (Object.hasOwnProperty.call(rule, key)) {
+            const ruleValue = rule[key];
+            // Skip the rule if the value is "any"
+            if (ruleValue === "any")
+                continue;
+            // Special handling for "bookmaker" key: check if any bookmaker matches.
+            if (key === "bookmaker") {
+                if (!arb.bookmakers || !arb.bookmakers.some(b => b.bookmaker === ruleValue)) {
+                    return false;
+                }
+            }
+            else {
+                // For other keys, directly compare the arb's value.
+                if (arb[key] !== ruleValue) {
+                    return false;
+                }
+            }
+        }
+    }
+    return true;
+};
+exports.matchesRule = matchesRule;
+// Function that filters arbList: remove any arb that matches any exclusion rule.
+const filterArbList = (arbList, exclusionRules) => {
+    const rejectedArbitrages = [];
+    const rejectedArbitragesIds = [];
+    const validArbitrages = arbList.filter(arb => {
+        const isRejected = exclusionRules.some(rule => (0, exports.matchesRule)(arb, rule));
+        if (isRejected) {
+            rejectedArbitrages.push(arb);
+            rejectedArbitragesIds.push(arb.id);
+        }
+        return !isRejected;
+    });
+    return { validArbitrages, rejectedArbitrages, rejectedArbitragesIds };
+};
+exports.filterArbList = filterArbList;
 // export const translateBookmakerMarket = (bookmaker: string, data: any): any  => {
 //     const container: ServiceContainer = bookmakersServiceContainer;
 //     const bookmakerFunction = container.resolve(bookmaker);

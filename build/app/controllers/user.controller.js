@@ -21,7 +21,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 const recommendation_comment_service_1 = __importDefault(require("../services/recommendation-comment.service"));
 const user_bet_service_1 = __importDefault(require("../services/user-bet.service"));
 const auth_service_1 = __importDefault(require("../services/auth.service"));
-const user_service_1 = __importDefault(require("../services/user.service"));
+const user_detail_service_1 = __importDefault(require("../services/user-detail.service"));
 const utility_service_1 = __importDefault(require("../services/utility.service"));
 const subscription_service_1 = __importDefault(require("../services/subscription.service"));
 const user_setting_service_1 = __importDefault(require("../services/user-setting.service"));
@@ -264,8 +264,8 @@ const dashboardInit = (req, res) => __awaiter(void 0, void 0, void 0, function* 
         if (subscriptions.length > 0) {
             subscription = subscriptions[0];
         }
-        const userService = new user_service_1.default();
-        const users = yield userService.getUser({ authId: authId });
+        const userService = new user_detail_service_1.default();
+        const users = yield userService.getUserDetail({ authId: authId });
         let profile = {};
         if (users.length == 1) {
             profile = users[0];
@@ -299,8 +299,8 @@ exports.betSettingsInit = betSettingsInit;
 const getProfile = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
         const auth = req.auth;
-        const userService = new user_service_1.default();
-        let user = yield userService.getUserProfile({ authId: auth._id });
+        const userService = new user_detail_service_1.default();
+        let user = yield userService.getUserDetailProfile({ authId: auth._id });
         user = Object.assign(Object.assign(Object.assign({}, user), user.auth), user.address);
         if (user.devices.length > 0) {
             for (let i = 0; i < user.devices.length; i++) {
@@ -381,8 +381,8 @@ const updateProfile = (req, res) => __awaiter(void 0, void 0, void 0, function* 
             country: user.country
         };
         // Update user
-        const userService = new user_service_1.default();
-        const updateUser = yield userService.updateUser({ authId: auth._id }, { firstName: user.firstName, lastName: user.lastName, address });
+        const userService = new user_detail_service_1.default();
+        const updateUser = yield userService.updateUserDetail({ authId: auth._id }, { firstName: user.firstName, lastName: user.lastName, address });
         if (!updateUser) {
             return res.status(500).json({ "status": false, message: "Error: Failed to update user" });
         }

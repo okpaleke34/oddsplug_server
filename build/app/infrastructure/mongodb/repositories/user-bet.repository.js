@@ -52,7 +52,7 @@ class UserBetRepository {
     updateMany(filter, userBet) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield user_bet_model_1.default.updateMany(filterQuery, userBet, { upsert: true }).exec();
+            const updated = yield user_bet_model_1.default.updateMany(filterQuery, userBet).exec();
             return updated.modifiedCount;
         });
     }

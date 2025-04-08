@@ -32,4 +32,4 @@ const recommendationCommentSchema = new mongoose_1.Schema({
     date: { type: Date, required: false, default: new Date() },
     status: { type: Number, required: true, default: 0, comment: "-1: deleted, 0: new, 1:read;" },
 }, { timestamps: true });
-exports.default = mongoose_1.default.model('RecommendationComment', recommendationCommentSchema);
+exports.default = mongoose_1.default.model('recommendation_comment', recommendationCommentSchema);

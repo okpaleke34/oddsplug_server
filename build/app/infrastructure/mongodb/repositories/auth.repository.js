@@ -52,7 +52,7 @@ class AuthRepository {
     updateMany(filter, auth) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield auth_model_1.default.updateMany(filterQuery, auth, { upsert: true }).exec();
+            const updated = yield auth_model_1.default.updateMany(filterQuery, auth).exec();
             return updated.modifiedCount;
         });
     }

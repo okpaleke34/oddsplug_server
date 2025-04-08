@@ -35,4 +35,4 @@ const userSettingSchema = new mongoose_1.Schema({
     timezone: { type: Object, required: false },
     country: { type: Object, required: false }
 }, { timestamps: true });
-exports.default = mongoose_1.default.model('UserSetting', userSettingSchema);
+exports.default = mongoose_1.default.model('user_setting', userSettingSchema);

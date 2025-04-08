@@ -52,7 +52,7 @@ class PlanRepository {
     updateMany(filter, plan) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield plan_model_1.default.updateMany(filterQuery, plan, { upsert: true }).exec();
+            const updated = yield plan_model_1.default.updateMany(filterQuery, plan).exec();
             return updated.modifiedCount;
         });
     }

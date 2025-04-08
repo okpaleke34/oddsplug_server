@@ -42,4 +42,4 @@ const userSchema = new mongoose_1.Schema({
     registeredIP: { type: String, required: false },
     registeredOn: { type: String, required: false },
 }, { timestamps: true });
-exports.default = mongoose_1.default.model('User', userSchema);
+exports.default = mongoose_1.default.model('UserDetail', userSchema);

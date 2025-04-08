@@ -26,6 +26,8 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const mongoose_1 = __importStar(require("mongoose"));
 const utilitySchema = new mongoose_1.Schema({
     name: { type: String, required: false },
+    type: { type: String, required: false },
+    sport: { type: String, required: false },
     data: { type: Object, required: false }
 });
-exports.default = mongoose_1.default.model('Utility', utilitySchema);
+exports.default = mongoose_1.default.model('utility', utilitySchema);

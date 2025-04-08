@@ -17,15 +17,15 @@ const jsonwebtoken_1 = __importDefault(require("jsonwebtoken"));
 // import dotenv from 'dotenv';
 // import Auth from '../models/authModel';
 // dotenv.config();
-require("dotenv/config");
 const auth_service_1 = __importDefault(require("../services/auth.service"));
 const logger_1 = __importDefault(require("../utils/logger"));
+const config_1 = __importDefault(require("../utils/config"));
 const protect = (req, res, next) => __awaiter(void 0, void 0, void 0, function* () {
     //   let token;
     //   if (req.headers.authorization && req.headers.authorization.startsWith('Bearer')) {
     //     try {
     //       token = req.headers.authorization.split(' ')[1];
-    //       const decoded: any = jwt.verify(token, process.env.JWT_SECRET!);
+    //       const decoded: any = jwt.verify(token, config.jwt);
     //       req.user = await Auth.findById(decoded.id).select('-password');
     //       next();
     //     } catch (error) {
@@ -54,7 +54,7 @@ const authenticateUserToken = (req, res, next) => __awaiter(void 0, void 0, void
     const token = authHeader && authHeader.split(' ')[1];
     if (token == null)
         return res.sendStatus(401);
-    jsonwebtoken_1.default.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => __awaiter(void 0, void 0, void 0, function* () {
+    jsonwebtoken_1.default.verify(token, config_1.default.accessToken, (err, user) => __awaiter(void 0, void 0, void 0, function* () {
         if (err) {
             // console.log({err})
             if (err.name == "TokenExpiredError")

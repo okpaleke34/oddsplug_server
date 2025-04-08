@@ -36,4 +36,4 @@ const authSchema = new mongoose_1.Schema({
     JWT: { type: String, required: false, comment: "JWT token stored in the browser, this makes it one device login at a time." },
     role: { type: String, required: true, enum: ['user', 'admin'] },
 }, { timestamps: true });
-exports.default = mongoose_1.default.model('Auth', authSchema);
+exports.default = mongoose_1.default.model('authentication', authSchema);

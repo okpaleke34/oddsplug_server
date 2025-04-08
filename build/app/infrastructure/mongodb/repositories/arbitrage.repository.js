@@ -45,7 +45,17 @@ class ArbitrageRepository {
                 //   // delete filter["sport"]
                 // }
                 // console.log({filter})
-                return arbitrage_model_1.default.find(filter).exec();
+                const filterQuery = filter;
+                // console.log({filterQuery})
+                // const results = await Arbitrage.find(filterQuery,{ history: 0 }).sort({ arbPercentage: -1 }).exec(); //The highest arb percentage first
+                // const results = await Arbitrage.find(filterQuery,{ history: 0 }).sort({ arbPercentage: -1 }).exec().limit(100); //The highest arb percentage first
+                const results = yield arbitrage_model_1.default.find(filterQuery, { history: 0 }).sort({ startAt: 1 }).exec(); //the  ones that will start early first
+                // const results = await Arbitrage.find(filterQuery,{ history: 0 }).sort({ lastScannedAt: -1 }).exec(); //The latest scanned ones first
+                // console.log(results.length)
+                return results;
+                // const filterQuery: FilterQuery<IArbitrage> = filter as FilterQuery<IArbitrage>;
+                // console.log({filterQuery})
+                // return Arbitrage.find(filterQuery).exec();
                 // return Arbitrage.find({sport,gameType}).exec();
                 // return Arbitrage.find({sport,gameType:new RegExp(`^${gameType}$`, 'i') }).exec();
             }
@@ -53,15 +63,18 @@ class ArbitrageRepository {
                 return arbitrage_model_1.default.find().exec();
         });
     }
-    update(filter, arbitrage) {
+    update(filter, plan) {
         return __awaiter(this, void 0, void 0, function* () {
-            const updated = yield arbitrage_model_1.default.findOneAndUpdate(filter, arbitrage, { new: true }).exec();
+            const filterQuery = filter;
+            const updated = yield arbitrage_model_1.default.findOneAndUpdate(filterQuery, plan, { new: true }).exec();
             return updated;
         });
     }
     updateMany(filter, arbitrage) {
         return __awaiter(this, void 0, void 0, function* () {
-            const updated = yield arbitrage_model_1.default.updateMany(filter, arbitrage, { upsert: true }).exec();
+            const filterQuery = filter;
+            // const updated = await Arbitrage.updateMany(filterQuery, arbitrage, { upsert: true }).exec(); //This will create a new document if no document matches the filter
+            const updated = yield arbitrage_model_1.default.updateMany(filterQuery, arbitrage).exec();
             return updated.modifiedCount;
         });
     }

@@ -52,7 +52,7 @@ class SupportRepository {
     updateMany(filter, support) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield support_model_1.default.updateMany(filterQuery, support, { upsert: true }).exec();
+            const updated = yield support_model_1.default.updateMany(filterQuery, support).exec();
             return updated.modifiedCount;
         });
     }

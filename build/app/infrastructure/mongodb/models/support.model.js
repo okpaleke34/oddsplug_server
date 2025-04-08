@@ -33,4 +33,4 @@ const supportSchema = new mongoose_1.Schema({
     repliedBy: { type: String, required: false, default: null, comment: "This is the authId of the admin that replied the email" },
     IPAddress: { type: String, required: false },
 }, { timestamps: true });
-exports.default = mongoose_1.default.model('Support', supportSchema);
+exports.default = mongoose_1.default.model('support', supportSchema);

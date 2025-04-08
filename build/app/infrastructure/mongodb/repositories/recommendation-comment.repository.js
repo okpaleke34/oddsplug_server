@@ -52,7 +52,7 @@ class RecommendationCommentRepository {
     updateMany(filter, recommendationComment) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield recommendation_comment_model_1.default.updateMany(filterQuery, recommendationComment, { upsert: true }).exec();
+            const updated = yield recommendation_comment_model_1.default.updateMany(filterQuery, recommendationComment).exec();
             return updated.modifiedCount;
         });
     }

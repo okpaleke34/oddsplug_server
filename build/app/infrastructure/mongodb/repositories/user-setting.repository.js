@@ -47,7 +47,7 @@ class UserSettingRepository {
     updateMany(filter, userSetting) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield user_setting_model_1.default.updateMany(filterQuery, userSetting, { upsert: true }).exec();
+            const updated = yield user_setting_model_1.default.updateMany(filterQuery, userSetting).exec();
             return updated.modifiedCount;
         });
     }

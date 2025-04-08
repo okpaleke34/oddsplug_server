@@ -13,52 +13,52 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.UserRepository = void 0;
-const user_model_1 = __importDefault(require("../models/user.model"));
+const user_detail_model_1 = __importDefault(require("../models/user-detail.model"));
 class UserRepository {
     create(user) {
         return __awaiter(this, void 0, void 0, function* () {
-            const newUser = yield user_model_1.default.create(user);
+            const newUser = yield user_detail_model_1.default.create(user);
             return newUser;
         });
     }
     findById(id) {
         return __awaiter(this, void 0, void 0, function* () {
-            return user_model_1.default.findById(id).exec();
+            return user_detail_model_1.default.findById(id).exec();
         });
     }
     findAll() {
         return __awaiter(this, void 0, void 0, function* () {
-            return user_model_1.default.find().exec();
+            return user_detail_model_1.default.find().exec();
         });
     }
     findByAggregate(aggregate) {
         return __awaiter(this, void 0, void 0, function* () {
-            return user_model_1.default.aggregate(aggregate).exec();
+            return user_detail_model_1.default.aggregate(aggregate).exec();
         });
     }
     findSelection(filter) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            return user_model_1.default.find(filterQuery).exec();
+            return user_detail_model_1.default.find(filterQuery).exec();
         });
     }
     update(filter, user) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield user_model_1.default.findOneAndUpdate(filterQuery, user, { new: true }).exec();
+            const updated = yield user_detail_model_1.default.findOneAndUpdate(filterQuery, user, { new: true }).exec();
             return updated;
         });
     }
     updateMany(filter, user) {
         return __awaiter(this, void 0, void 0, function* () {
             const filterQuery = filter;
-            const updated = yield user_model_1.default.updateMany(filterQuery, user, { upsert: true }).exec();
+            const updated = yield user_detail_model_1.default.updateMany(filterQuery, user, { upsert: true }).exec();
             return updated.modifiedCount;
         });
     }
     delete(id) {
         return __awaiter(this, void 0, void 0, function* () {
-            return user_model_1.default.findByIdAndDelete(id).exec();
+            return user_detail_model_1.default.findByIdAndDelete(id).exec();
         });
     }
 }

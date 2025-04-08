@@ -1,0 +1,1692 @@
+{
+  "_id": {
+    "$oid": "66742bd71914478b4a56389f"
+  },
+  "name": "market_definition_ice_hockey",
+  "data": {
+    "ft_1x2": {
+      "name": "Full time winner(1X2)",
+      "desc": ""
+    },
+    "ft_winner": {
+      "name": "Full Time Winner",
+      "desc": ""
+    },
+    "ft_first_goal": {
+      "name": "Full time first goal",
+      "desc": ""
+    },
+    "ft_last_goal": {
+      "name": "Full time last goal",
+      "desc": ""
+    },
+    "g_highest_score_period": {
+      "name": "Game Highest Scoring Period",
+      "desc": "Which period has the most goals"
+    },
+    "ft_dc": {
+      "name": "Full time double chance",
+      "desc": ""
+    },
+    "ft_overtime": {
+      "name": "Full time overtime",
+      "desc": ""
+    },
+    "ft_win_to_nil": {
+      "name": "Full time win to nil",
+      "desc": ""
+    },
+    "ft_home_win_to_nil": {
+      "name": "Full time home win to nil",
+      "desc": ""
+    },
+    "ft_away_win_to_nil": {
+      "name": "Full time away win to nil",
+      "desc": ""
+    },
+    "ft_dnb": {
+      "name": "Full time draw no bet(DNB)",
+      "desc": ""
+    },
+    "ft_at_025": {
+      "name": "Full Time Asian Total 0.25",
+      "desc": ""
+    },
+    "ft_at_075": {
+      "name": "Full Time Asian Total 0.75",
+      "desc": ""
+    },
+    "ft_at_125": {
+      "name": "Full Time Asian Total 1.25",
+      "desc": ""
+    },
+    "ft_at_175": {
+      "name": "Full Time Asian Total 1.75",
+      "desc": ""
+    },
+    "ft_at_225": {
+      "name": "Full Time Asian Total 2.25",
+      "desc": ""
+    },
+    "ft_at_275": {
+      "name": "Full Time Asian Total 2.75",
+      "desc": ""
+    },
+    "ft_at_325": {
+      "name": "Full Time Asian Total 3.25",
+      "desc": ""
+    },
+    "ft_at_375": {
+      "name": "Full Time Asian Total 3.75",
+      "desc": ""
+    },
+    "ft_at_425": {
+      "name": "Full Time Asian Total 4.25",
+      "desc": ""
+    },
+    "ft_at_475": {
+      "name": "Full Time Asian Total 4.75",
+      "desc": ""
+    },
+    "ft_at_525": {
+      "name": "Full Time Asian Total 5.25",
+      "desc": ""
+    },
+    "ft_at_575": {
+      "name": "Full Time Asian Total 5.75",
+      "desc": ""
+    },
+    "ft_at_625": {
+      "name": "Full Time Asian Total 6.25",
+      "desc": ""
+    },
+    "ft_at_675": {
+      "name": "Full Time Asian Total 6.75",
+      "desc": ""
+    },
+    "ft_ah_hm025": {
+      "name": "Full Time AH Home(-0.25)/Away(+0.25)",
+      "desc": ""
+    },
+    "ft_ah_hm05": {
+      "name": "Full Time AH Home(-0.5)/Away(+0.5)",
+      "desc": ""
+    },
+    "ft_ah_hm075": {
+      "name": "Full Time AH Home(-0.75)/Away(+0.75)",
+      "desc": ""
+    },
+    "ft_ah_hm125": {
+      "name": "Full Time AH Home(-1.25)/Away(+1.25)",
+      "desc": ""
+    },
+    "ft_ah_hm1": {
+      "name": "Full Time AH Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "ft_ah_hm15": {
+      "name": "Full Time AH Home(-1.5)/Away(+1.5)",
+      "desc": ""
+    },
+    "ft_ah_hm175": {
+      "name": "Full Time AH Home(-1.75)/Away(+1.75)",
+      "desc": ""
+    },
+    "ft_ah_hm225": {
+      "name": "Full Time AH Home(-2.25)/Away(+2.25)",
+      "desc": ""
+    },
+    "ft_ah_hm2": {
+      "name": "Full Time AH Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "ft_ah_hm25": {
+      "name": "Full Time AH Home(-2.5)/Away(+2.5)",
+      "desc": ""
+    },
+    "ft_ah_hm275": {
+      "name": "Full Time AH Home(-2.75)/Away(+2.75)",
+      "desc": ""
+    },
+    "ft_ah_hm325": {
+      "name": "Full Time AH Home(-3.25)/Away(+3.25)",
+      "desc": ""
+    },
+    "ft_ah_hm3": {
+      "name": "Full Time AH Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "ft_ah_hm35": {
+      "name": "Full Time AH Home(-3.5)/Away(+3.5)",
+      "desc": ""
+    },
+    "ft_ah_hm375": {
+      "name": "Full Time AH Home(-3.75)/Away(+3.75)",
+      "desc": ""
+    },
+    "ft_ah_hm425": {
+      "name": "Full Time AH Home(-4.25)/Away(+4.25)",
+      "desc": ""
+    },
+    "ft_ah_hm4": {
+      "name": "Full Time AH Home(-4)/Away(+4)",
+      "desc": ""
+    },
+    "ft_ah_hm45": {
+      "name": "Full Time AH Home(-4.5)/Away(+4.5)",
+      "desc": ""
+    },
+    "ft_ah_hm475": {
+      "name": "Full Time AH Home(-4.75)/Away(+4.75)",
+      "desc": ""
+    },
+    "ft_ah_hm525": {
+      "name": "Full Time AH Home(-5.25)/Away(+5.25)",
+      "desc": ""
+    },
+    "ft_ah_hm5": {
+      "name": "Full Time AH Home(-5)/Away(+5)",
+      "desc": ""
+    },
+    "ft_ah_hm55": {
+      "name": "Full Time AH Home(-5.5)/Away(+5.5)",
+      "desc": ""
+    },
+    "ft_ah_hm575": {
+      "name": "Full Time AH Home(-5.75)/Away(+5.75)",
+      "desc": ""
+    },
+    "ft_ah_hp025": {
+      "name": "Full Time AH Home(+0.25)/Away(-0.25)",
+      "desc": ""
+    },
+    "ft_ah_hp05": {
+      "name": "Full Time AH Home(+0.5)/Away(-0.5)",
+      "desc": ""
+    },
+    "ft_ah_hp075": {
+      "name": "Full Time AH Home(+0.75)/Away(-0.75)",
+      "desc": ""
+    },
+    "ft_ah_hp125": {
+      "name": "Full Time AH Home(+1.25)/Away(-1.25)",
+      "desc": ""
+    },
+    "ft_ah_hp1": {
+      "name": "Full Time AH Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "ft_ah_hp15": {
+      "name": "Full Time AH Home(+1.5)/Away(-1.5)",
+      "desc": ""
+    },
+    "ft_ah_hp175": {
+      "name": "Full Time AH Home(+1.75)/Away(-1.75)",
+      "desc": ""
+    },
+    "ft_ah_hp225": {
+      "name": "Full Time AH Home(+2.25)/Away(-2.25)",
+      "desc": ""
+    },
+    "ft_ah_hp2": {
+      "name": "Full Time AH Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "ft_ah_hp25": {
+      "name": "Full Time AH Home(+2.5)/Away(-2.5)",
+      "desc": ""
+    },
+    "ft_ah_hp275": {
+      "name": "Full Time AH Home(+2.75)/Away(-2.75)",
+      "desc": ""
+    },
+    "ft_ah_hp325": {
+      "name": "Full Time AH Home(+3.25)/Away(-3.25)",
+      "desc": ""
+    },
+    "ft_ah_hp3": {
+      "name": "Full Time AH Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "ft_ah_hp35": {
+      "name": "Full Time AH Home(+3.5)/Away(-3.5)",
+      "desc": ""
+    },
+    "ft_ah_hp375": {
+      "name": "Full Time AH Home(+3.75)/Away(-3.75)",
+      "desc": ""
+    },
+    "ft_ah_hp425": {
+      "name": "Full Time AH Home(+4.25)/Away(-4.25)",
+      "desc": ""
+    },
+    "ft_ah_hp4": {
+      "name": "Full Time AH Home(+4)/Away(-4)",
+      "desc": ""
+    },
+    "ft_ah_hp45": {
+      "name": "Full Time AH Home(+4.5)/Away(-4.5)",
+      "desc": ""
+    },
+    "ft_ah_hp475": {
+      "name": "Full Time AH Home(+4.75)/Away(-4.75)",
+      "desc": ""
+    },
+    "ft_ah_hp525": {
+      "name": "Full Time AH Home(+5.25)/Away(-5.25)",
+      "desc": ""
+    },
+    "ft_ah_hp5": {
+      "name": "Full Time AH Home(+5)/Away(-5)",
+      "desc": ""
+    },
+    "ft_ah_hp55": {
+      "name": "Full Time AH Home(+5.5)/Away(-5.5)",
+      "desc": ""
+    },
+    "ft_ah_hp575": {
+      "name": "Full Time AH Home(+5.75)/Away(-5.75)",
+      "desc": ""
+    },
+    "ft_euh_hm1": {
+      "name": "Full Time Eu Handicap Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "ft_euh_hm2": {
+      "name": "Full Time Eu Handicap Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "ft_euh_hm3": {
+      "name": "Full Time Eu Handicap Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "ft_euh_hm4": {
+      "name": "Full Time Eu Handicap Home(-4)/Away(+4)",
+      "desc": ""
+    },
+    "ft_euh_hm5": {
+      "name": "Full Time Eu Handicap Home(-5)/Away(+5)",
+      "desc": ""
+    },
+    "ft_euh_hm6": {
+      "name": "Full Time Eu Handicap Home(-6)/Away(+6)",
+      "desc": ""
+    },
+    "ft_euh_hp1": {
+      "name": "Full Time Eu Handicap Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "ft_euh_hp2": {
+      "name": "Full Time Eu Handicap Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "ft_euh_hp3": {
+      "name": "Full Time Eu Handicap Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "ft_euh_hp4": {
+      "name": "Full Time Eu Handicap Home(+4)/Away(-4)",
+      "desc": ""
+    },
+    "ft_euh_hp5": {
+      "name": "Full Time Eu Handicap Home(+5)/Away(-5)",
+      "desc": ""
+    },
+    "ft_euh_hp6": {
+      "name": "Full Time Eu Handicap Home(+6)/Away(-6)",
+      "desc": ""
+    },
+    "p_oe": {
+      "name": "Points odd or even",
+      "desc": ""
+    },
+    "p_h_oe": {
+      "name": "Home team points odd or even",
+      "desc": ""
+    },
+    "p_a_oe": {
+      "name": "Away team points odd or even",
+      "desc": ""
+    },
+    "p_gg": {
+      "name": "Both teams score points",
+      "desc": ""
+    },
+    "p_ou_05": {
+      "name": "Total points over/under 0.5",
+      "desc": ""
+    },
+    "p_ou_15": {
+      "name": "Total points over/under 1.5",
+      "desc": ""
+    },
+    "p_ou_25": {
+      "name": "Total points over/under 2.5",
+      "desc": ""
+    },
+    "p_ou_35": {
+      "name": "Total points over/under 3.5",
+      "desc": ""
+    },
+    "p_ou_45": {
+      "name": "Total points over/under 4.5",
+      "desc": ""
+    },
+    "p_ou_55": {
+      "name": "Total points over/under 5.5",
+      "desc": ""
+    },
+    "p_ou_65": {
+      "name": "Total points over/under 6.5",
+      "desc": ""
+    },
+    "p_ou_75": {
+      "name": "Total points over/under 7.5",
+      "desc": ""
+    },
+    "p_ou_85": {
+      "name": "Total points over/under 8.5",
+      "desc": ""
+    },
+    "p_ou_95": {
+      "name": "Total points over/under 9.5",
+      "desc": ""
+    },
+    "p_ou_105": {
+      "name": "Total points over/under 10.5",
+      "desc": ""
+    },
+    "p_ou_115": {
+      "name": "Total points over/under 11.5",
+      "desc": ""
+    },
+    "p_ou_125": {
+      "name": "Total points over/under 12.5",
+      "desc": ""
+    },
+    "p_ou_135": {
+      "name": "Total points over/under 13.5",
+      "desc": ""
+    },
+    "p_ou_145": {
+      "name": "Total points over/under 14.5",
+      "desc": ""
+    },
+    "p_ou_155": {
+      "name": "Total points over/under 15.5",
+      "desc": ""
+    },
+    "p_ou_h_05": {
+      "name": "Home team points over/under 0.5",
+      "desc": ""
+    },
+    "p_ou_h_15": {
+      "name": "Home team points over/under 1.5",
+      "desc": ""
+    },
+    "p_ou_h_25": {
+      "name": "Home team points over/under 2.5",
+      "desc": ""
+    },
+    "p_ou_h_35": {
+      "name": "Home team points over/under 3.5",
+      "desc": ""
+    },
+    "p_ou_h_45": {
+      "name": "Home team points over/under 4.5",
+      "desc": ""
+    },
+    "p_ou_h_55": {
+      "name": "Home team points over/under 5.5",
+      "desc": ""
+    },
+    "p_ou_h_65": {
+      "name": "Home team points over/under 6.5",
+      "desc": ""
+    },
+    "p_ou_h_75": {
+      "name": "Home team points over/under 7.5",
+      "desc": ""
+    },
+    "p_ou_h_85": {
+      "name": "Home team points over/under 8.5",
+      "desc": ""
+    },
+    "p_ou_h_95": {
+      "name": "Home team points over/under 9.5",
+      "desc": ""
+    },
+    "p_ou_h_105": {
+      "name": "Home team points over/under 10.5",
+      "desc": ""
+    },
+    "p_ou_a_05": {
+      "name": "Away team points over/under 0.5",
+      "desc": ""
+    },
+    "p_ou_a_15": {
+      "name": "Away team points over/under 1.5",
+      "desc": ""
+    },
+    "p_ou_a_25": {
+      "name": "Away team points over/under 2.5",
+      "desc": ""
+    },
+    "p_ou_a_35": {
+      "name": "Away team points over/under 3.5",
+      "desc": ""
+    },
+    "p_ou_a_45": {
+      "name": "Away team points over/under 4.5",
+      "desc": ""
+    },
+    "p_ou_a_55": {
+      "name": "Away team points over/under 5.5",
+      "desc": ""
+    },
+    "p_ou_a_65": {
+      "name": "Away team points over/under 6.5",
+      "desc": ""
+    },
+    "p_ou_a_75": {
+      "name": "Away team points over/under 7.5",
+      "desc": ""
+    },
+    "p_ou_a_85": {
+      "name": "Away team points over/under 8.5",
+      "desc": ""
+    },
+    "p_ou_a_95": {
+      "name": "Away team points over/under 9.5",
+      "desc": ""
+    },
+    "p_ou_a_105": {
+      "name": "Away team points over/under 10.5",
+      "desc": ""
+    },
+    "ot_oe": {
+      "name": "Overtime points odd/even",
+      "desc": ""
+    },
+    "ot_ou_05": {
+      "name": "Total overtime points over/under 0.5",
+      "desc": ""
+    },
+    "ot_ou_15": {
+      "name": "Total overtime points over/under 1.5",
+      "desc": ""
+    },
+    "ot_ou_25": {
+      "name": "Total overtime points over/under 2.5",
+      "desc": ""
+    },
+    "ot_ou_35": {
+      "name": "Total overtime points over/under 3.5",
+      "desc": ""
+    },
+    "ot_ou_45": {
+      "name": "Total overtime points over/under 4.5",
+      "desc": ""
+    },
+    "ot_ou_55": {
+      "name": "Total overtime points over/under 5.5",
+      "desc": ""
+    },
+    "ot_ou_65": {
+      "name": "Total overtime points over/under 6.5",
+      "desc": ""
+    },
+    "ot_ou_75": {
+      "name": "Total overtime points over/under 7.5",
+      "desc": ""
+    },
+    "ot_ou_85": {
+      "name": "Total overtime points over/under 8.5",
+      "desc": ""
+    },
+    "ot_ou_95": {
+      "name": "Total overtime points over/under 9.5",
+      "desc": ""
+    },
+    "ot_ou_105": {
+      "name": "Total overtime points over/under 10.5",
+      "desc": ""
+    },
+    "ot_ou_115": {
+      "name": "Total overtime points over/under 11.5",
+      "desc": ""
+    },
+    "ot_ou_125": {
+      "name": "Total overtime points over/under 12.5",
+      "desc": ""
+    },
+    "ot_ou_135": {
+      "name": "Total overtime points over/under 13.5",
+      "desc": ""
+    },
+    "ot_ou_145": {
+      "name": "Total overtime points over/under 14.5",
+      "desc": ""
+    },
+    "ot_ou_155": {
+      "name": "Total overtime points over/under 15.5",
+      "desc": ""
+    },
+    "ot_ou_h_05": {
+      "name": "Home team overtime points over/under 0.5",
+      "desc": ""
+    },
+    "ot_ou_h_15": {
+      "name": "Home team overtime points over/under 1.5",
+      "desc": ""
+    },
+    "ot_ou_h_25": {
+      "name": "Home team overtime points over/under 2.5",
+      "desc": ""
+    },
+    "ot_ou_h_35": {
+      "name": "Home team overtime points over/under 3.5",
+      "desc": ""
+    },
+    "ot_ou_h_45": {
+      "name": "Home team overtime points over/under 4.5",
+      "desc": ""
+    },
+    "ot_ou_h_55": {
+      "name": "Home team overtime points over/under 5.5",
+      "desc": ""
+    },
+    "ot_ou_h_65": {
+      "name": "Home team overtime points over/under 6.5",
+      "desc": ""
+    },
+    "ot_ou_h_75": {
+      "name": "Home team overtime points over/under 7.5",
+      "desc": ""
+    },
+    "ot_ou_h_85": {
+      "name": "Home team overtime points over/under 8.5",
+      "desc": ""
+    },
+    "ot_ou_h_95": {
+      "name": "Home team overtime points over/under 9.5",
+      "desc": ""
+    },
+    "ot_ou_h_105": {
+      "name": "Home team overtime points over/under 10.5",
+      "desc": ""
+    },
+    "ot_ou_a_05": {
+      "name": "Away team overtime points over/under 0.5",
+      "desc": ""
+    },
+    "ot_ou_a_15": {
+      "name": "Away team overtime points over/under 1.5",
+      "desc": ""
+    },
+    "ot_ou_a_25": {
+      "name": "Away team overtime points over/under 2.5",
+      "desc": ""
+    },
+    "ot_ou_a_35": {
+      "name": "Away team overtime points over/under 3.5",
+      "desc": ""
+    },
+    "ot_ou_a_45": {
+      "name": "Away team overtime points over/under 4.5",
+      "desc": ""
+    },
+    "ot_ou_a_55": {
+      "name": "Away team overtime points over/under 5.5",
+      "desc": ""
+    },
+    "ot_ou_a_65": {
+      "name": "Away team overtime points over/under 6.5",
+      "desc": ""
+    },
+    "ot_ou_a_75": {
+      "name": "Away team overtime points over/under 7.5",
+      "desc": ""
+    },
+    "ot_ou_a_85": {
+      "name": "Away team overtime points over/under 8.5",
+      "desc": ""
+    },
+    "ot_ou_a_95": {
+      "name": "Away team overtime points over/under 9.5",
+      "desc": ""
+    },
+    "ot_ou_a_105": {
+      "name": "Away team overtime points over/under 10.5",
+      "desc": ""
+    },
+    "ot_ah_hm025": {
+      "name": "Overtime AH Home(-0.25)/Away(+0.25)",
+      "desc": ""
+    },
+    "ot_ah_hm05": {
+      "name": "Overtime AH Home(-0.5)/Away(+0.5)",
+      "desc": ""
+    },
+    "ot_ah_hm075": {
+      "name": "Overtime AH Home(-0.75)/Away(+0.75)",
+      "desc": ""
+    },
+    "ot_ah_hm125": {
+      "name": "Overtime AH Home(-1.25)/Away(+1.25)",
+      "desc": ""
+    },
+    "ot_ah_hm1": {
+      "name": "Overtime AH Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "ot_ah_hm15": {
+      "name": "Overtime AH Home(-1.5)/Away(+1.5)",
+      "desc": ""
+    },
+    "ot_ah_hm175": {
+      "name": "Overtime AH Home(-1.75)/Away(+1.75)",
+      "desc": ""
+    },
+    "ot_ah_hm225": {
+      "name": "Overtime AH Home(-2.25)/Away(+2.25)",
+      "desc": ""
+    },
+    "ot_ah_hm2": {
+      "name": "Overtime AH Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "ot_ah_hm25": {
+      "name": "Overtime AH Home(-2.5)/Away(+2.5)",
+      "desc": ""
+    },
+    "ot_ah_hm275": {
+      "name": "Overtime AH Home(-2.75)/Away(+2.75)",
+      "desc": ""
+    },
+    "ot_ah_hm325": {
+      "name": "Overtime AH Home(-3.25)/Away(+3.25)",
+      "desc": ""
+    },
+    "ot_ah_hm3": {
+      "name": "Overtime AH Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "ot_ah_hm35": {
+      "name": "Overtime AH Home(-3.5)/Away(+3.5)",
+      "desc": ""
+    },
+    "ot_ah_hm375": {
+      "name": "Overtime AH Home(-3.75)/Away(+3.75)",
+      "desc": ""
+    },
+    "ot_ah_hm425": {
+      "name": "Overtime AH Home(-4.25)/Away(+4.25)",
+      "desc": ""
+    },
+    "ot_ah_hm4": {
+      "name": "Overtime AH Home(-4)/Away(+4)",
+      "desc": ""
+    },
+    "ot_ah_hm45": {
+      "name": "Overtime AH Home(-4.5)/Away(+4.5)",
+      "desc": ""
+    },
+    "ot_ah_hm475": {
+      "name": "Overtime AH Home(-4.75)/Away(+4.75)",
+      "desc": ""
+    },
+    "ot_ah_hm525": {
+      "name": "Overtime AH Home(-5.25)/Away(+5.25)",
+      "desc": ""
+    },
+    "ot_ah_hm5": {
+      "name": "Overtime AH Home(-5)/Away(+5)",
+      "desc": ""
+    },
+    "ot_ah_hm55": {
+      "name": "Overtime AH Home(-5.5)/Away(+5.5)",
+      "desc": ""
+    },
+    "ot_ah_hm575": {
+      "name": "Overtime AH Home(-5.75)/Away(+5.75)",
+      "desc": ""
+    },
+    "ot_ah_hp025": {
+      "name": "Overtime AH Home(+0.25)/Away(-0.25)",
+      "desc": ""
+    },
+    "ot_ah_hp05": {
+      "name": "Overtime AH Home(+0.5)/Away(-0.5)",
+      "desc": ""
+    },
+    "ot_ah_hp075": {
+      "name": "Overtime AH Home(+0.75)/Away(-0.75)",
+      "desc": ""
+    },
+    "ot_ah_hp125": {
+      "name": "Overtime AH Home(+1.25)/Away(-1.25)",
+      "desc": ""
+    },
+    "ot_ah_hp1": {
+      "name": "Overtime AH Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "ot_ah_hp15": {
+      "name": "Overtime AH Home(+1.5)/Away(-1.5)",
+      "desc": ""
+    },
+    "ot_ah_hp175": {
+      "name": "Overtime AH Home(+1.75)/Away(-1.75)",
+      "desc": ""
+    },
+    "ot_ah_hp225": {
+      "name": "Overtime AH Home(+2.25)/Away(-2.25)",
+      "desc": ""
+    },
+    "ot_ah_hp2": {
+      "name": "Overtime AH Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "ot_ah_hp25": {
+      "name": "Overtime AH Home(+2.5)/Away(-2.5)",
+      "desc": ""
+    },
+    "ot_ah_hp275": {
+      "name": "Overtime AH Home(+2.75)/Away(-2.75)",
+      "desc": ""
+    },
+    "ot_ah_hp325": {
+      "name": "Overtime AH Home(+3.25)/Away(-3.25)",
+      "desc": ""
+    },
+    "ot_ah_hp3": {
+      "name": "Overtime AH Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "ot_ah_hp35": {
+      "name": "Overtime AH Home(+3.5)/Away(-3.5)",
+      "desc": ""
+    },
+    "ot_ah_hp375": {
+      "name": "Overtime AH Home(+3.75)/Away(-3.75)",
+      "desc": ""
+    },
+    "ot_ah_hp425": {
+      "name": "Overtime AH Home(+4.25)/Away(-4.25)",
+      "desc": ""
+    },
+    "ot_ah_hp4": {
+      "name": "Overtime AH Home(+4)/Away(-4)",
+      "desc": ""
+    },
+    "ot_ah_hp45": {
+      "name": "Overtime AH Home(+4.5)/Away(-4.5)",
+      "desc": ""
+    },
+    "ot_ah_hp475": {
+      "name": "Overtime AH Home(+4.75)/Away(-4.75)",
+      "desc": ""
+    },
+    "ot_ah_hp525": {
+      "name": "Overtime AH Home(+5.25)/Away(-5.25)",
+      "desc": ""
+    },
+    "ot_ah_hp5": {
+      "name": "Overtime AH Home(+5)/Away(-5)",
+      "desc": ""
+    },
+    "ot_ah_hp55": {
+      "name": "Overtime AH Home(+5.5)/Away(-5.5)",
+      "desc": ""
+    },
+    "ot_ah_hp575": {
+      "name": "Overtime AH Home(+5.75)/Away(-5.75)",
+      "desc": ""
+    },
+    "fp_1x2": {
+      "name": "First period 1X2",
+      "desc": ""
+    },
+    "fp_winner": {
+      "name": "First period winner",
+      "desc": ""
+    },
+    "fp_dc": {
+      "name": "First period double chance",
+      "desc": ""
+    },
+    "fp_win_to_nil": {
+      "name": "First period win to nil",
+      "desc": ""
+    },
+    "fp_oe": {
+      "name": "First period goals odd or even",
+      "desc": ""
+    },
+    "fp_gg": {
+      "name": "First period both teams to score",
+      "desc": ""
+    },
+    "fp_dnb": {
+      "name": "First period draw no bet",
+      "desc": ""
+    },
+    "fp_first_goal": {
+      "name": "First period first goal",
+      "desc": ""
+    },
+    "fp_last_goal": {
+      "name": "First period last goal",
+      "desc": ""
+    },
+    "fp_at_025": {
+      "name": "First period Asian total over/under 0.25",
+      "desc": ""
+    },
+    "fp_at_075": {
+      "name": "First period Asian total over/under 0.75",
+      "desc": ""
+    },
+    "fp_at_125": {
+      "name": "First period Asian total over/under 1.25",
+      "desc": ""
+    },
+    "fp_at_175": {
+      "name": "First period Asian total over/under 1.75",
+      "desc": ""
+    },
+    "fp_at_225": {
+      "name": "First period Asian total over/under 2.25",
+      "desc": ""
+    },
+    "fp_at_275": {
+      "name": "First period Asian total over/under 2.75",
+      "desc": ""
+    },
+    "fp_at_325": {
+      "name": "First period Asian total over/under 3.25",
+      "desc": ""
+    },
+    "fp_at_375": {
+      "name": "First period Asian total over/under 3.75",
+      "desc": ""
+    },
+    "fp_ah_hm025": {
+      "name": "First period AH Home(-0.25)/Away(+0.25)",
+      "desc": ""
+    },
+    "fp_ah_hm05": {
+      "name": "First period AH Home(-0.5)/Away(+0.5)",
+      "desc": ""
+    },
+    "fp_ah_hm075": {
+      "name": "First period AH Home(-0.75)/Away(+0.75)",
+      "desc": ""
+    },
+    "fp_ah_hm125": {
+      "name": "First period AH Home(-1.25)/Away(+1.25)",
+      "desc": ""
+    },
+    "fp_ah_hm1": {
+      "name": "First period AH Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "fp_ah_hm15": {
+      "name": "First period AH Home(-1.5)/Away(+1.5)",
+      "desc": ""
+    },
+    "fp_ah_hm175": {
+      "name": "First period AH Home(-1.75)/Away(+1.75)",
+      "desc": ""
+    },
+    "fp_ah_hm225": {
+      "name": "First period AH Home(-2.25)/Away(+2.25)",
+      "desc": ""
+    },
+    "fp_ah_hm2": {
+      "name": "First period AH Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "fp_ah_hm25": {
+      "name": "First period AH Home(-2.5)/Away(+2.5)",
+      "desc": ""
+    },
+    "fp_ah_hm275": {
+      "name": "First period AH Home(-2.75)/Away(+2.75)",
+      "desc": ""
+    },
+    "fp_ah_hm325": {
+      "name": "First period AH Home(-3.25)/Away(+3.25)",
+      "desc": ""
+    },
+    "fp_ah_hm3": {
+      "name": "First period AH Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "fp_ah_hm35": {
+      "name": "First period AH Home(-3.5)/Away(+3.5)",
+      "desc": ""
+    },
+    "fp_ah_hm375": {
+      "name": "First period AH Home(-3.75)/Away(+3.75)",
+      "desc": ""
+    },
+    "fp_ah_hp025": {
+      "name": "First period AH Home(+0.25)/Away(-0.25)",
+      "desc": ""
+    },
+    "fp_ah_hp05": {
+      "name": "First period AH Home(+0.5)/Away(-0.5)",
+      "desc": ""
+    },
+    "fp_ah_hp075": {
+      "name": "First period AH Home(+0.75)/Away(-0.75)",
+      "desc": ""
+    },
+    "fp_ah_hp125": {
+      "name": "First period AH Home(+1.25)/Away(-1.25)",
+      "desc": ""
+    },
+    "fp_ah_hp1": {
+      "name": "First period AH Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "fp_ah_hp15": {
+      "name": "First period AH Home(+1.5)/Away(-1.5)",
+      "desc": ""
+    },
+    "fp_ah_hp175": {
+      "name": "First period AH Home(+1.75)/Away(-1.75)",
+      "desc": ""
+    },
+    "fp_ah_hp225": {
+      "name": "First period AH Home(+2.25)/Away(-2.25)",
+      "desc": ""
+    },
+    "fp_ah_hp2": {
+      "name": "First period AH Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "fp_ah_hp25": {
+      "name": "First period AH Home(+2.5)/Away(-2.5)",
+      "desc": ""
+    },
+    "fp_ah_hp275": {
+      "name": "First period AH Home(+2.75)/Away(-2.75)",
+      "desc": ""
+    },
+    "fp_ah_hp325": {
+      "name": "First period AH Home(+3.25)/Away(-3.25)",
+      "desc": ""
+    },
+    "fp_ah_hp3": {
+      "name": "First period AH Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "fp_ah_hp35": {
+      "name": "First period AH Home(+3.5)/Away(-3.5)",
+      "desc": ""
+    },
+    "fp_ah_hp375": {
+      "name": "First period AH Home(+3.75)/Away(-3.75)",
+      "desc": ""
+    },
+    "fp_euh_hm1": {
+      "name": "First period Eu Handicap Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "fp_euh_hm2": {
+      "name": "First period Eu Handicap Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "fp_euh_hm3": {
+      "name": "First period Eu Handicap Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "fp_euh_hm4": {
+      "name": "First period Eu Handicap Home(-4)/Away(+4)",
+      "desc": ""
+    },
+    "fp_euh_hp1": {
+      "name": "First period Eu Handicap Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "fp_euh_hp2": {
+      "name": "First period Eu Handicap Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "fp_euh_hp3": {
+      "name": "First period Eu Handicap Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "fp_euh_hp4": {
+      "name": "First period Eu Handicap Home(+4)/Away(-4)",
+      "desc": ""
+    },
+    "fp_ou_05": {
+      "name": "First period total goals over/under 0.5",
+      "desc": ""
+    },
+    "fp_ou_15": {
+      "name": "First period total goals over/under 1.5",
+      "desc": ""
+    },
+    "fp_ou_25": {
+      "name": "First period total goals over/under 2.5",
+      "desc": ""
+    },
+    "fp_ou_35": {
+      "name": "First period total goals over/under 3.5",
+      "desc": ""
+    },
+    "fp_ou_45": {
+      "name": "First period total goals over/under 4.5",
+      "desc": ""
+    },
+    "fp_ou_55": {
+      "name": "First period total goals over/under 5.5",
+      "desc": ""
+    },
+    "fp_ou_h_05": {
+      "name": "First period home team goals over/under 0.5",
+      "desc": ""
+    },
+    "fp_ou_h_15": {
+      "name": "First period home team goals over/under 1.5",
+      "desc": ""
+    },
+    "fp_ou_h_25": {
+      "name": "First period home team goals over/under 2.5",
+      "desc": ""
+    },
+    "fp_ou_h_35": {
+      "name": "First period home team goals over/under 3.5",
+      "desc": ""
+    },
+    "fp_ou_a_05": {
+      "name": "First period away team goals over/under 0.5",
+      "desc": ""
+    },
+    "fp_ou_a_15": {
+      "name": "First period away team goals over/under 1.5",
+      "desc": ""
+    },
+    "fp_ou_a_25": {
+      "name": "First period away team goals over/under 2.5",
+      "desc": ""
+    },
+    "fp_ou_a_35": {
+      "name": "First period away team goals over/under 3.5",
+      "desc": ""
+    },
+    "sp_1x2": {
+      "name": "Second period 1X2",
+      "desc": ""
+    },
+    "sp_winner": {
+      "name": "Second period winner",
+      "desc": ""
+    },
+    "sp_dc": {
+      "name": "Second period double chance",
+      "desc": ""
+    },
+    "sp_win_to_nil": {
+      "name": "Second period win to nil",
+      "desc": ""
+    },
+    "sp_oe": {
+      "name": "Second period goals odd or even",
+      "desc": ""
+    },
+    "sp_gg": {
+      "name": "Second period both teams to score",
+      "desc": ""
+    },
+    "sp_dnb": {
+      "name": "Second period draw no bet",
+      "desc": ""
+    },
+    "sp_first_goal": {
+      "name": "Second period first goal",
+      "desc": ""
+    },
+    "sp_last_goal": {
+      "name": "Second period last goal",
+      "desc": ""
+    },
+    "sp_at_025": {
+      "name": "Second period Asian total over/under 0.25",
+      "desc": ""
+    },
+    "sp_at_075": {
+      "name": "Second period Asian total over/under 0.75",
+      "desc": ""
+    },
+    "sp_at_125": {
+      "name": "Second period Asian total over/under 1.25",
+      "desc": ""
+    },
+    "sp_at_175": {
+      "name": "Second period Asian total over/under 1.75",
+      "desc": ""
+    },
+    "sp_at_225": {
+      "name": "Second period Asian total over/under 2.25",
+      "desc": ""
+    },
+    "sp_at_275": {
+      "name": "Second period Asian total over/under 2.75",
+      "desc": ""
+    },
+    "sp_at_325": {
+      "name": "Second period Asian total over/under 3.25",
+      "desc": ""
+    },
+    "sp_at_375": {
+      "name": "Second period Asian total over/under 3.75",
+      "desc": ""
+    },
+    "sp_ah_hm025": {
+      "name": "Second period AH Home(-0.25)/Away(+0.25)",
+      "desc": ""
+    }, 
+    "sp_ah_hm05": {
+      "name": "Second period AH Home(-0.5)/Away(+0.5)",
+      "desc": ""
+    },
+    "sp_ah_hm075": {
+      "name": "Second period AH Home(-0.75)/Away(+0.75)",
+      "desc": ""
+    },
+    "sp_ah_hm125": {
+      "name": "Second period AH Home(-1.25)/Away(+1.25)",
+      "desc": ""
+    },
+    "sp_ah_hm1": {
+      "name": "Second period AH Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "sp_ah_hm15": {
+      "name": "Second period AH Home(-1.5)/Away(+1.5)",
+      "desc": ""
+    },
+    "sp_ah_hm175": {
+      "name": "Second period AH Home(-1.75)/Away(+1.75)",
+      "desc": ""
+    },
+    "sp_ah_hm225": {
+      "name": "Second period AH Home(-2.25)/Away(+2.25)",
+      "desc": ""
+    },
+    "sp_ah_hm2": {
+      "name": "Second period AH Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "sp_ah_hm25": {
+      "name": "Second period AH Home(-2.5)/Away(+2.5)",
+      "desc": ""
+    },
+    "sp_ah_hm275": {
+      "name": "Second period AH Home(-2.75)/Away(+2.75)",
+      "desc": ""
+    },
+    "sp_ah_hm325": {
+      "name": "Second period AH Home(-3.25)/Away(+3.25)",
+      "desc": ""
+    },
+    "sp_ah_hm3": {
+      "name": "Second period AH Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "sp_ah_hm35": {
+      "name": "Second period AH Home(-3.5)/Away(+3.5)",
+      "desc": ""
+    },
+    "sp_ah_hm375": {
+      "name": "Second period AH Home(-3.75)/Away(+3.75)",
+      "desc": ""
+    },
+    "sp_ah_hp025": {
+      "name": "Second period AH Home(+0.25)/Away(-0.25)",
+      "desc": ""
+    },
+    "sp_ah_hp05": {
+      "name": "Second period AH Home(+0.5)/Away(-0.5)",
+      "desc": ""
+    },
+    "sp_ah_hp075": {
+      "name": "Second period AH Home(+0.75)/Away(-0.75)",
+      "desc": ""
+    },
+    "sp_ah_hp125": {
+      "name": "Second period AH Home(+1.25)/Away(-1.25)",
+      "desc": ""
+    },
+    "sp_ah_hp1": {
+      "name": "Second period AH Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "sp_ah_hp15": {
+      "name": "Second period AH Home(+1.5)/Away(-1.5)",
+      "desc": ""
+    },
+    "sp_ah_hp175": {
+      "name": "Second period AH Home(+1.75)/Away(-1.75)",
+      "desc": ""
+    },
+    "sp_ah_hp225": {
+      "name": "Second period AH Home(+2.25)/Away(-2.25)",
+      "desc": ""
+    },
+    "sp_ah_hp2": {
+      "name": "Second period AH Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "sp_ah_hp25": {
+      "name": "Second period AH Home(+2.5)/Away(-2.5)",
+      "desc": ""
+    },
+    "sp_ah_hp275": {
+      "name": "Second period AH Home(+2.75)/Away(-2.75)",
+      "desc": ""
+    },
+    "sp_ah_hp325": {
+      "name": "Second period AH Home(+3.25)/Away(-3.25)",
+      "desc": ""
+    },
+    "sp_ah_hp3": {
+      "name": "Second period AH Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "sp_ah_hp35": {
+      "name": "Second period AH Home(+3.5)/Away(-3.5)",
+      "desc": ""
+    },
+    "sp_ah_hp375": {
+      "name": "Second period AH Home(+3.75)/Away(-3.75)",
+      "desc": ""
+    },
+    "sp_euh_hm1": {
+      "name": "Second period Eu Handicap Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "sp_euh_hm2": {
+      "name": "Second period Eu Handicap Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "sp_euh_hm3": {
+      "name": "Second period Eu Handicap Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "sp_euh_hm4": {
+      "name": "Second period Eu Handicap Home(-4)/Away(+4)",
+      "desc": ""
+    },
+    "sp_euh_hp1": {
+      "name": "Second period Eu Handicap Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "sp_euh_hp2": {
+      "name": "Second period Eu Handicap Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "sp_euh_hp3": {
+      "name": "Second period Eu Handicap Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "sp_euh_hp4": {
+      "name": "Second period Eu Handicap Home(+4)/Away(-4)",
+      "desc": ""
+    },
+    "sp_ou_05": {
+      "name": "Second period total goals over/under 0.5",
+      "desc": ""
+    },
+    "sp_ou_15": {
+      "name": "Second period total goals over/under 1.5",
+      "desc": ""
+    },
+    "sp_ou_25": {
+      "name": "Second period total goals over/under 2.5",
+      "desc": ""
+    },
+    "sp_ou_35": {
+      "name": "Second period total goals over/under 3.5",
+      "desc": ""
+    },
+    "sp_ou_45": {
+      "name": "Second period total goals over/under 4.5",
+      "desc": ""
+    },
+    "sp_ou_55": {
+      "name": "Second period total goals over/under 5.5",
+      "desc": ""
+    },
+    "sp_ou_h_05": {
+      "name": "Second period home team goals over/under 0.5",
+      "desc": ""
+    },
+    "sp_ou_h_15": {
+      "name": "Second period home team goals over/under 1.5",
+      "desc": ""
+    },
+    "sp_ou_h_25": {
+      "name": "Second period home team goals over/under 2.5",
+      "desc": ""
+    },
+    "sp_ou_h_35": {
+      "name": "Second period home team goals over/under 3.5",
+      "desc": ""
+    },
+    "sp_ou_a_05": {
+      "name": "Second period away team goals over/under 0.5",
+      "desc": ""
+    },
+    "sp_ou_a_15": {
+      "name": "Second period away team goals over/under 1.5",
+      "desc": ""
+    },
+    "sp_ou_a_25": {
+      "name": "Second period away team goals over/under 2.5",
+      "desc": ""
+    },
+    "sp_ou_a_35": {
+      "name": "Second period away team goals over/under 3.5",
+      "desc": ""
+    },
+    "tp_1x2": {
+      "name": "Third period 1X2",
+      "desc": ""
+    },
+    "tp_winner": {
+      "name": "Third period winner",
+      "desc": ""
+    },
+    "tp_dc": {
+      "name": "Third period double chance",
+      "desc": ""
+    },
+    "tp_win_to_nil": {
+      "name": "Third period win to nil",
+      "desc": ""
+    },
+    "tp_oe": {
+      "name": "Third period goals odd or even",
+      "desc": ""
+    },
+    "tp_gg": {
+      "name": "Third period both teams to score",
+      "desc": ""
+    },
+    "tp_dnb": {
+      "name": "Third period draw no bet",
+      "desc": ""
+    },
+    "tp_first_goal": {
+      "name": "Third period first goal",
+      "desc": ""
+    },
+    "tp_last_goal": {
+      "name": "Third period last goal",
+      "desc": ""
+    },
+    "tp_at_025": {
+      "name": "Third period Asian total over/under 0.25",
+      "desc": ""
+    },
+    "tp_at_075": {
+      "name": "Third period Asian total over/under 0.75",
+      "desc": ""
+    },
+    "tp_at_125": {
+      "name": "Third period Asian total over/under 1.25",
+      "desc": ""
+    },
+    "tp_at_175": {
+      "name": "Third period Asian total over/under 1.75",
+      "desc": ""
+    },
+    "tp_at_225": {
+      "name": "Third period Asian total over/under 2.25",
+      "desc": ""
+    },
+    "tp_at_275": {
+      "name": "Third period Asian total over/under 2.75",
+      "desc": ""
+    },
+    "tp_at_325": {
+      "name": "Third period Asian total over/under 3.25",
+      "desc": ""
+    },
+    "tp_at_375": {
+      "name": "Third period Asian total over/under 3.75",
+      "desc": ""
+    },
+    "tp_ah_hm025": {
+      "name": "Third period AH Home(-0.25)/Away(+0.25)",
+      "desc": ""
+    },
+    "tp_ah_hm05": {
+      "name": "Third period AH Home(-0.5)/Away(+0.5)",
+      "desc": ""
+    },
+    "tp_ah_hm075": {
+      "name": "Third period AH Home(-0.75)/Away(+0.75)",
+      "desc": ""
+    },
+    "tp_ah_hm125": {
+      "name": "Third period AH Home(-1.25)/Away(+1.25)",
+      "desc": ""
+    },
+    "tp_ah_hm1": {
+      "name": "Third period AH Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "tp_ah_hm15": {
+      "name": "Third period AH Home(-1.5)/Away(+1.5)",
+      "desc": ""
+    },
+    "tp_ah_hm175": {
+      "name": "Third period AH Home(-1.75)/Away(+1.75)",
+      "desc": ""
+    },
+    "tp_ah_hm225": {
+      "name": "Third period AH Home(-2.25)/Away(+2.25)",
+      "desc": ""
+    },
+    "tp_ah_hm2": {
+      "name": "Third period AH Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "tp_ah_hm25": {
+      "name": "Third period AH Home(-2.5)/Away(+2.5)",
+      "desc": ""
+    },
+    "tp_ah_hm275": {
+      "name": "Third period AH Home(-2.75)/Away(+2.75)",
+      "desc": ""
+    },
+    "tp_ah_hm325": {
+      "name": "Third period AH Home(-3.25)/Away(+3.25)",
+      "desc": ""
+    },
+    "tp_ah_hm3": {
+      "name": "Third period AH Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "tp_ah_hm35": {
+      "name": "Third period AH Home(-3.5)/Away(+3.5)",
+      "desc": ""
+    },
+    "tp_ah_hm375": {
+      "name": "Third period AH Home(-3.75)/Away(+3.75)",
+      "desc": ""
+    },
+    "tp_ah_hp025": {
+      "name": "Third period AH Home(+0.25)/Away(-0.25)",
+      "desc": ""
+    },
+    "tp_ah_hp05": {
+      "name": "Third period AH Home(+0.5)/Away(-0.5)",
+      "desc": ""
+    },
+    "tp_ah_hp075": {
+      "name": "Third period AH Home(+0.75)/Away(-0.75)",
+      "desc": ""
+    },
+    "tp_ah_hp125": {
+      "name": "Third period AH Home(+1.25)/Away(-1.25)",
+      "desc": ""
+    },
+    "tp_ah_hp1": {
+      "name": "Third period AH Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "tp_ah_hp15": {
+      "name": "Third period AH Home(+1.5)/Away(-1.5)",
+      "desc": ""
+    },
+    "tp_ah_hp175": {
+      "name": "Third period AH Home(+1.75)/Away(-1.75)",
+      "desc": ""
+    },
+    "tp_ah_hp225": {
+      "name": "Third period AH Home(+2.25)/Away(-2.25)",
+      "desc": ""
+    },
+    "tp_ah_hp2": {
+      "name": "Third period AH Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "tp_ah_hp25": {
+      "name": "Third period AH Home(+2.5)/Away(-2.5)",
+      "desc": ""
+    },
+    "tp_ah_hp275": {
+      "name": "Third period AH Home(+2.75)/Away(-2.75)",
+      "desc": ""
+    },
+    "tp_ah_hp325": {
+      "name": "Third period AH Home(+3.25)/Away(-3.25)",
+      "desc": ""
+    },
+    "tp_ah_hp3": {
+      "name": "Third period AH Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "tp_ah_hp35": {
+      "name": "Third period AH Home(+3.5)/Away(-3.5)",
+      "desc": ""
+    },
+    "tp_ah_hp375": {
+      "name": "Third period AH Home(+3.75)/Away(-3.75)",
+      "desc": ""
+    },
+    "tp_euh_hm1": {
+      "name": "Third period Eu Handicap Home(-1)/Away(+1)",
+      "desc": ""
+    },
+    "tp_euh_hm2": {
+      "name": "Third period Eu Handicap Home(-2)/Away(+2)",
+      "desc": ""
+    },
+    "tp_euh_hm3": {
+      "name": "Third period Eu Handicap Home(-3)/Away(+3)",
+      "desc": ""
+    },
+    "tp_euh_hm4": {
+      "name": "Third period Eu Handicap Home(-4)/Away(+4)",
+      "desc": ""
+    },
+    "tp_euh_hp1": {
+      "name": "Third period Eu Handicap Home(+1)/Away(-1)",
+      "desc": ""
+    },
+    "tp_euh_hp2": {
+      "name": "Third period Eu Handicap Home(+2)/Away(-2)",
+      "desc": ""
+    },
+    "tp_euh_hp3": {
+      "name": "Third period Eu Handicap Home(+3)/Away(-3)",
+      "desc": ""
+    },
+    "tp_euh_hp4": {
+      "name": "Third period Eu Handicap Home(+4)/Away(-4)",
+      "desc": ""
+    },
+    "tp_ou_05": {
+      "name": "Third period total goals over/under 0.5",
+      "desc": ""
+    },
+    "tp_ou_15": {
+      "name": "Third period total goals over/under 1.5",
+      "desc": ""
+    },
+    "tp_ou_25": {
+      "name": "Third period total goals over/under 2.5",
+      "desc": ""
+    },
+    "tp_ou_35": {
+      "name": "Third period total goals over/under 3.5",
+      "desc": ""
+    },
+    "tp_ou_45": {
+      "name": "Third period total goals over/under 4.5",
+      "desc": ""
+    },
+    "tp_ou_55": {
+      "name": "Third period total goals over/under 5.5",
+      "desc": ""
+    },
+    "tp_ou_h_05": {
+      "name": "Third period home team goals over/under 0.5",
+      "desc": ""
+    },
+    "tp_ou_h_15": {
+      "name": "Third period home team goals over/under 1.5",
+      "desc": ""
+    },
+    "tp_ou_h_25": {
+      "name": "Third period home team goals over/under 2.5",
+      "desc": ""
+    },
+    "tp_ou_h_35": {
+      "name": "Third period home team goals over/under 3.5",
+      "desc": ""
+    },
+    "tp_ou_a_05": {
+      "name": "Third period away team goals over/under 0.5",
+      "desc": ""
+    },
+    "tp_ou_a_15": {
+      "name": "Third period away team goals over/under 1.5",
+      "desc": ""
+    },
+    "tp_ou_a_25": {
+      "name": "Third period away team goals over/under 2.5",
+      "desc": ""
+    },
+    "tp_ou_a_35": {
+      "name": "Third period away team goals over/under 3.5",
+      "desc": ""
+    },    
+    "p_points": {
+      "name": "Player total points",
+      "desc": ""
+    },
+    "p_assists": {
+      "name": "Player total assists",
+      "desc": ""
+    },
+    "p_goals": {
+      "name": "Player total goals",
+      "desc": ""
+    },
+    "p_shots_on_goal": {
+      "name": "Player shot on target",
+      "desc": ""
+    }
+  }
+}
